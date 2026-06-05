@@ -1,0 +1,45 @@
+name: Sync OpenAI plugins
+
+on:
+  schedule:
+    - cron: "20 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sync plugin data
+        run: npm run sync:plugins
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_TRANSLATION_MODEL: ${{ vars.DEEPSEEK_TRANSLATION_MODEL || 'deepseek-chat' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL || 'gpt-5-mini' }}
+
+      - name: Run tests
+        run: npm test
+
+      - name: Commit generated updates
+        run: |
+          if git diff --quiet -- data/plugins.json data/translations.zh.json; then
+            echo "No plugin data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json data/translations.zh.json
+          git commit -m "chore: sync OpenAI plugin translations"
+          git push

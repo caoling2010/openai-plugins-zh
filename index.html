@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="OpenAI Codex 插件中文索引，支持关键词搜索、分类筛选和自动同步。"
+    />
+    <title>OpenAI Plugins 中文索引</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Codex Plugin Directory</p>
+          <h1>OpenAI Plugins 中文索引</h1>
+          <p class="lede">
+            浏览 OpenAI Codex 插件的中文介绍，通过关键词搜索和分类筛选快速找到适合当前任务的插件。
+          </p>
+        </div>
+        <div class="meta-panel" aria-live="polite">
+          <span class="meta-label">当前插件</span>
+          <strong id="totalCount">--</strong>
+          <span id="updatedAt">正在载入数据</span>
+        </div>
+      </header>
+
+      <section class="toolbar" aria-label="插件筛选">
+        <label class="search-box" for="searchInput">
+          <span>搜索</span>
+          <input
+            id="searchInput"
+            type="search"
+            autocomplete="off"
+            placeholder="输入插件名、中文用途、CLI、Figma、财报..."
+          />
+        </label>
+        <div class="result-summary" id="resultSummary">准备筛选插件</div>
+      </section>
+
+      <nav class="category-tabs" id="categoryTabs" aria-label="插件分类"></nav>
+
+      <section class="plugin-grid" id="pluginGrid" aria-live="polite"></section>
+
+      <section class="empty-state" id="emptyState" hidden>
+        <h2>没有匹配的插件</h2>
+        <p>换一个关键词，或者切回“全部”分类再试。</p>
+      </section>
+    </main>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>
