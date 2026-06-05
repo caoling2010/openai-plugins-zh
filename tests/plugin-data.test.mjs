@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  buildPluginSearchText,
   filterPlugins,
   getCategoryLabel,
   normalizeManifest,
@@ -32,15 +33,24 @@ test("normalizes plugin manifest into Chinese directory record", () => {
     zhDescription:
       "让 Codex 控制内置浏览器，适合测试 localhost 页面、点击、输入和截图。",
     sourcePath: "plugins/browser/.codex-plugin/plugin.json",
+    firstSeenAt: "2026-06-05T00:00:00.000Z",
+    isNew: true,
   });
 
   assert.equal(plugin.id, "browser");
   assert.equal(plugin.name, "Browser");
   assert.equal(plugin.category, "Engineering");
   assert.equal(plugin.categoryZh, "工程开发");
-  assert.deepEqual(plugin.capabilities, ["Interactive", "Read", "Write"]);
-  assert.match(plugin.searchText, /localhost/);
-  assert.match(plugin.searchText, /内置浏览器/);
+  assert.equal(plugin.englishDescription, undefined);
+  assert.equal(plugin.shortDescription, undefined);
+  assert.equal(plugin.capabilities, undefined);
+  assert.equal(plugin.prompts, undefined);
+  assert.equal(plugin.searchText, undefined);
+  assert.match(buildPluginSearchText(plugin), /localhost/);
+  assert.match(buildPluginSearchText(plugin), /内置浏览器/);
+  assert.equal(plugin.firstSeenAt, "2026-06-05T00:00:00.000Z");
+  assert.equal(plugin.isNew, true);
+  assert.match(buildPluginSearchText(plugin), /最近新增/);
 });
 
 test("maps unknown category to original category", () => {

@@ -34,12 +34,12 @@ jobs:
 
       - name: Commit generated updates
         run: |
-          if git diff --quiet -- data/plugins.json data/translations.zh.json; then
+          if [ -z "$(git status --porcelain -- data/plugins.json data/translations.zh.json data/plugin-history.json)" ]; then
             echo "No plugin data changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/plugins.json data/translations.zh.json
+          git add data/plugins.json data/translations.zh.json data/plugin-history.json
           git commit -m "chore: sync OpenAI plugin translations"
           git push

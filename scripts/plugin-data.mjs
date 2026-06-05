@@ -75,6 +75,21 @@ export function extractTerms(...values) {
   );
 }
 
+export function buildPluginSearchText(plugin) {
+  return normalizeText(
+    [
+      plugin.id,
+      plugin.name,
+      plugin.category,
+      plugin.categoryZh,
+      plugin.description,
+      (plugin.keywords ?? []).join(" "),
+      (plugin.terms ?? []).join(" "),
+      plugin.isNew ? "new recently added 最近新增" : "",
+    ].join(" "),
+  );
+}
+
 export function normalizeManifest(manifest, options = {}) {
   const iface = manifest.interface ?? {};
   const id = manifest.name;
@@ -84,8 +99,6 @@ export function normalizeManifest(manifest, options = {}) {
   const shortDescription = iface.shortDescription ?? manifest.description ?? "";
   const category = iface.category ?? "Uncategorized";
   const keywords = Array.isArray(manifest.keywords) ? manifest.keywords : [];
-  const capabilities = Array.isArray(iface.capabilities) ? iface.capabilities : [];
-  const prompts = Array.isArray(iface.defaultPrompt) ? iface.defaultPrompt : [];
   const zhDescription = options.zhDescription ?? englishDescription;
   const terms = extractTerms(
     name,
@@ -93,20 +106,6 @@ export function normalizeManifest(manifest, options = {}) {
     shortDescription,
     keywords.join(" "),
     zhDescription,
-  );
-  const searchText = normalizeText(
-    [
-      id,
-      name,
-      category,
-      getCategoryLabel(category),
-      englishDescription,
-      shortDescription,
-      zhDescription,
-      keywords.join(" "),
-      capabilities.join(" "),
-      terms.join(" "),
-    ].join(" "),
   );
 
   return {
@@ -117,11 +116,7 @@ export function normalizeManifest(manifest, options = {}) {
     categoryZh: getCategoryLabel(category),
     developer: iface.developerName ?? manifest.author?.name ?? "",
     description: zhDescription,
-    englishDescription,
-    shortDescription,
     keywords,
-    capabilities,
-    prompts,
     terms,
     homepage: iface.websiteURL ?? manifest.homepage ?? "",
     repository: manifest.repository ?? "",
@@ -129,7 +124,8 @@ export function normalizeManifest(manifest, options = {}) {
     logo: iface.logo ?? "",
     sourcePath: options.sourcePath ?? "",
     translationStatus: options.translationStatus ?? "ready",
-    searchText,
+    firstSeenAt: options.firstSeenAt ?? "",
+    isNew: Boolean(options.isNew),
   };
 }
 
@@ -138,7 +134,8 @@ export function filterPlugins(plugins, { query = "", category = "all" } = {}) {
   return plugins.filter((plugin) => {
     const matchesCategory = category === "all" || plugin.category === category;
     const matchesQuery =
-      normalizedQuery.length === 0 || plugin.searchText.includes(normalizedQuery);
+      normalizedQuery.length === 0 ||
+      buildPluginSearchText(plugin).includes(normalizedQuery);
     return matchesCategory && matchesQuery;
   });
 }

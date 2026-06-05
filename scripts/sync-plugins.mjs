@@ -15,14 +15,23 @@ import {
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, "..");
 const translationsPath = resolve(rootDir, "data/translations.zh.json");
+const historyPath = resolve(rootDir, "data/plugin-history.json");
 const pluginsPath = resolve(rootDir, "data/plugins.json");
 const githubTreeUrl =
   "https://api.github.com/repos/openai/plugins/git/trees/main?recursive=1";
 const execFileAsync = promisify(execFile);
-const fallbackVersion = 2;
+const fallbackVersion = 4;
+const newPluginWindowDays = 7;
+const dayMs = 24 * 60 * 60 * 1000;
 
 function hashText(text) {
   return createHash("sha256").update(text).digest("hex").slice(0, 16);
+}
+
+function isWithinRecentWindow(value, now = new Date()) {
+  const firstSeenAt = new Date(value).getTime();
+  if (!Number.isFinite(firstSeenAt)) return false;
+  return now.getTime() - firstSeenAt <= newPluginWindowDays * dayMs;
 }
 
 async function readJson(path, fallback) {
@@ -201,14 +210,23 @@ function fallbackTranslate(manifest) {
       ? useCases.join("、")
       : categoryUse[category] ?? "开发者工作流和任务自动化";
   const keywordText = keywords ? `，覆盖 ${keywords} 等关键词` : "";
-  return `在 Codex 中使用 ${name}，帮助处理${useCase}${keywordText}。插件名称和核心技术术语保留英文，便于继续搜索官方资料。`;
+  const separator = /^[a-z0-9]/i.test(useCase) ? " " : "";
+  return `在 Codex 中使用 ${name}，帮助处理${separator}${useCase}${keywordText}。`;
 }
 
 async function buildPlugins() {
   const translations = await readJson(translationsPath, {});
+  const history = await readJson(historyPath, {});
+  const isBootstrapRun = Object.keys(history).length === 0;
+  const now = new Date();
+  const nowIso = now.toISOString();
+  const bootstrapFirstSeenAt = new Date(
+    now.getTime() - (newPluginWindowDays + 1) * dayMs,
+  ).toISOString();
   const manifestSource = await listManifestItems();
   const manifestPaths = manifestSource.items;
   const nextTranslations = {};
+  const nextHistory = {};
   const plugins = [];
 
   try {
@@ -223,6 +241,10 @@ async function buildPlugins() {
         "";
       const sourceHash = hashText(englishDescription);
       const cached = translations[manifest.name];
+      const firstSeenAt =
+        history[manifest.name]?.firstSeenAt ??
+        (isBootstrapRun ? bootstrapFirstSeenAt : nowIso);
+      const isNew = !isBootstrapRun && isWithinRecentWindow(firstSeenAt, now);
       let zhDescription = cached?.zhDescription;
       let translationStatus = cached?.status ?? "cached";
 
@@ -249,11 +271,17 @@ async function buildPlugins() {
           translationStatus === "fallback" ? fallbackVersion : undefined,
         updatedAt: new Date().toISOString(),
       };
+      nextHistory[manifest.name] = {
+        firstSeenAt,
+        lastSeenAt: nowIso,
+      };
       plugins.push(
         normalizeManifest(manifest, {
           zhDescription,
           sourcePath,
           translationStatus,
+          firstSeenAt,
+          isNew,
         }),
       );
     }
@@ -270,8 +298,12 @@ async function buildPlugins() {
       count: plugins.length,
       translationProvider: selectTranslationProvider()?.id ?? "fallback",
       translationModel: selectTranslationProvider()?.model ?? "fallback",
+      newPluginWindowDays,
     },
     plugins,
+    history: Object.fromEntries(
+      Object.entries(nextHistory).sort(([a], [b]) => a.localeCompare(b)),
+    ),
     translations: Object.fromEntries(
       Object.entries(nextTranslations).sort(([a], [b]) => a.localeCompare(b)),
     ),
@@ -284,5 +316,6 @@ await writeJson(pluginsPath, {
   plugins: result.plugins,
 });
 await writeJson(translationsPath, result.translations);
+await writeJson(historyPath, result.history);
 
 console.log(`Synced ${result.meta.count} plugins to ${pluginsPath}`);
