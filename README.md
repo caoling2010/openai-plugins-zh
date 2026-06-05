@@ -1,6 +1,6 @@
 # OpenAI Plugins 中文索引
 
-在线访问：[网页链接](https://caoling2010.github.io/openai-plugins-zh/)
+在线访问：[https://caoling2010.github.io/openai-plugins-zh/](https://caoling2010.github.io/openai-plugins-zh/)
 
 这是一个面向中文开发者的 Codex 插件索引页。插件名称保留英文，介绍翻译成中文；MCP (Model Context Protocol)、CLI、Worktrees、Schema、SwiftUI 等核心技术名词保持英文，方便继续搜索官方资料。
 
