@@ -7,6 +7,7 @@
   "scripts": {
     "test": "node --test",
     "sync:plugins": "node scripts/sync-plugins.mjs",
+    "promotion:posts": "node promotion/generate-posts.mjs",
     "serve": "python3 -m http.server 4173"
   }
 }
