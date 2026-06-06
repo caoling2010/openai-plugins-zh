@@ -25,6 +25,8 @@ const browserManifest = {
     category: "Engineering",
     capabilities: ["Interactive", "Read", "Write"],
     defaultPrompt: ["Test my checkout flow on localhost"],
+    officialInfoURL:
+      "https://openai.com/index/codex-for-every-role-tool-workflow/",
     brandColor: "#013B7B",
   },
 };
@@ -51,6 +53,10 @@ test("normalizes plugin manifest into Chinese directory record", () => {
   assert.match(buildPluginSearchText(plugin), /内置浏览器/);
   assert.equal(plugin.firstSeenAt, "2026-06-05T00:00:00.000Z");
   assert.equal(plugin.isNew, true);
+  assert.equal(
+    plugin.officialInfo,
+    "https://openai.com/index/codex-for-every-role-tool-workflow/",
+  );
   assert.match(buildPluginSearchText(plugin), /最近新增/);
 });
 

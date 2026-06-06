@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-06T14:00:15.837Z",
+    "generatedAt": "2026-06-06T14:13:54.397Z",
     "count": 184,
     "translationProvider": "fallback",
     "translationModel": "fallback",
@@ -22,6 +22,7 @@
         "Codex"
       ],
       "homepage": "https://www.actively.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
@@ -43,6 +44,7 @@
         "Codex"
       ],
       "homepage": "https://www.aiera.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#180830",
       "logo": "./assets/logo.png",
@@ -96,6 +98,7 @@
         "Codex"
       ],
       "homepage": "https://www.airtable.com",
+      "officialInfo": "",
       "repository": "https://github.com/airtable/skills",
       "brandColor": "#18BFFF",
       "logo": "./assets/logo.png",
@@ -117,6 +120,7 @@
         "Codex"
       ],
       "homepage": "https://www.alation.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FF7A1A",
       "logo": "./assets/logo.webp",
@@ -138,6 +142,7 @@
         "Codex"
       ],
       "homepage": "https://alpaca.markets/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -159,6 +164,7 @@
         "Codex"
       ],
       "homepage": "",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -180,6 +186,7 @@
         "Codex"
       ],
       "homepage": "https://www.apollo.io",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#E8F028",
       "logo": "./assets/logo.png",
@@ -208,6 +215,7 @@
         "Codex"
       ],
       "homepage": "https://asana.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FF584A",
       "logo": "./assets/app-icon.png",
@@ -231,6 +239,7 @@
         "Codex"
       ],
       "homepage": "https://www.atlassian.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0052CC",
       "logo": "./assets/app-icon.png",
@@ -252,6 +261,7 @@
         "Codex"
       ],
       "homepage": "https://attio.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -286,6 +296,7 @@
         "Codex"
       ],
       "homepage": "https://base44.com",
+      "officialInfo": "",
       "repository": "https://github.com/base44/skills",
       "brandColor": "#111827",
       "logo": "./assets/base44-logo.png",
@@ -307,6 +318,7 @@
         "Codex"
       ],
       "homepage": "https://www.binance.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -328,6 +340,7 @@
         "Codex"
       ],
       "homepage": "https://biorender.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -349,6 +362,7 @@
         "Codex"
       ],
       "homepage": "https://www.box.com/home",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0061D5",
       "logo": "./assets/app-icon.png",
@@ -370,6 +384,7 @@
         "Codex"
       ],
       "homepage": "https://brand24.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -391,6 +406,7 @@
         "Codex"
       ],
       "homepage": "https://brex.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -419,6 +435,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#013B7B",
       "logo": "",
@@ -456,6 +473,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0A84FF",
       "logo": "./assets/app-icon.png",
@@ -491,6 +509,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1F6FEB",
       "logo": "./assets/app-icon.png",
@@ -525,6 +544,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111111",
       "logo": "./assets/app-icon.png",
@@ -591,6 +611,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#0B7285",
       "logo": "./assets/app-icon.svg",
@@ -619,6 +640,7 @@
         "Codex"
       ],
       "homepage": "https://calendly.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#006BFF",
       "logo": "./assets/app-icon.png",
@@ -641,6 +663,7 @@
         "Codex"
       ],
       "homepage": "https://www.canva.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#00C4CC",
       "logo": "./assets/app-icon.png",
@@ -662,6 +685,7 @@
         "Codex"
       ],
       "homepage": "https://carta.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -683,6 +707,7 @@
         "Codex"
       ],
       "homepage": "https://cbinsights.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -704,6 +729,7 @@
         "Codex"
       ],
       "homepage": "https://www.channel99.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -730,6 +756,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#10A37F",
       "logo": "",
@@ -751,6 +778,7 @@
         "Codex"
       ],
       "homepage": "https://www.chronograph.pe",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#414B4B",
       "logo": "./assets/logo.png",
@@ -773,6 +801,7 @@
         "Codex"
       ],
       "homepage": "https://circleback.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -798,6 +827,7 @@
         "Codex"
       ],
       "homepage": "https://circleci.com",
+      "officialInfo": "",
       "repository": "https://github.com/circleci-public/skills",
       "brandColor": "#049B4A",
       "logo": "./assets/logo.svg",
@@ -827,6 +857,7 @@
         "Codex"
       ],
       "homepage": "https://www.clay.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#38D8F8",
       "logo": "./assets/app-icon.png",
@@ -849,6 +880,7 @@
         "Codex"
       ],
       "homepage": "",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -870,6 +902,7 @@
         "Codex"
       ],
       "homepage": "https://www.close.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#50C078",
       "logo": "./assets/logo.png",
@@ -905,6 +938,7 @@
         "Codex"
       ],
       "homepage": "https://workers.cloudflare.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F48120",
       "logo": "./assets/cloudflare.png",
@@ -926,6 +960,7 @@
         "Codex"
       ],
       "homepage": "https://cloudinary.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -952,6 +987,7 @@
         "Codex"
       ],
       "homepage": "https://coderabbit.ai",
+      "officialInfo": "",
       "repository": "https://github.com/coderabbitai/codex-plugin",
       "brandColor": "#FF570A",
       "logo": "./assets/coderabbit.png",
@@ -979,6 +1015,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111111",
       "logo": "./assets/logo.png",
@@ -1000,6 +1037,7 @@
         "Codex"
       ],
       "homepage": "https://www.cogedim.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1023,6 +1061,7 @@
         "Codex"
       ],
       "homepage": "https://commonroom.io",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1050,6 +1089,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#0F172A",
       "logo": "",
@@ -1073,6 +1113,7 @@
         "Codex"
       ],
       "homepage": "https://www.conductor.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1121,6 +1162,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e",
+      "officialInfo": "",
       "repository": "https://github.com/get-convex/convex-codex-plugin",
       "brandColor": "#EE342F",
       "logo": "./assets/logo.png",
@@ -1142,6 +1184,7 @@
         "Codex"
       ],
       "homepage": "https://www.coupler.io/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1163,6 +1206,7 @@
         "Codex"
       ],
       "homepage": "https://www.coveo.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1197,6 +1241,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#A855F7",
       "logo": "assets/logos/creative-production.png",
@@ -1220,6 +1265,7 @@
         "Codex"
       ],
       "homepage": "https://www.cubesoftware.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1252,6 +1298,7 @@
         "Codex"
       ],
       "homepage": "https://www.dnb.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#004B8D",
       "logo": "./assets/app-icon.png",
@@ -1281,6 +1328,7 @@
         "Codex"
       ],
       "homepage": "https://daloopa.com",
+      "officialInfo": "",
       "repository": "https://github.com/daloopa/daloopa-plugin-codex",
       "brandColor": "#1B2A4A",
       "logo": "./assets/app-icon.png",
@@ -1312,6 +1360,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#60A5FA",
       "logo": "assets/logos/data-analytics.png",
@@ -1333,6 +1382,7 @@
         "Codex"
       ],
       "homepage": "https://www.datadoghq.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#632CA6",
       "logo": "./assets/app-icon.png",
@@ -1354,6 +1404,7 @@
         "Codex"
       ],
       "homepage": "https://www.datasite.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F89820",
       "logo": "./assets/logo.png",
@@ -1383,6 +1434,7 @@
         "OpenAI"
       ],
       "homepage": "https://deepnote.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins/tree/main/plugins/deepnote",
       "brandColor": "#3793EF",
       "logo": "./assets/logo.png",
@@ -1406,6 +1458,7 @@
         "Codex"
       ],
       "homepage": "https://www.demandbase.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1427,6 +1480,7 @@
         "Codex"
       ],
       "homepage": "https://www.docket.io/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1456,6 +1510,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#2563EB",
       "logo": "",
@@ -1477,6 +1532,7 @@
         "Codex"
       ],
       "homepage": "https://www.docusign.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FFCC00",
       "logo": "./assets/logo.png",
@@ -1500,6 +1556,7 @@
         "Codex"
       ],
       "homepage": "https://www.domotz.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1521,6 +1578,7 @@
         "Codex"
       ],
       "homepage": "https://dovetail.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1542,6 +1600,7 @@
         "Codex"
       ],
       "homepage": "https://www.dowjones.com/business-intelligence/factiva/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1563,6 +1622,7 @@
         "Codex"
       ],
       "homepage": "https://www.egnyte.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1601,6 +1661,7 @@
         "Codex"
       ],
       "homepage": "https://expo.dev/",
+      "officialInfo": "",
       "repository": "https://github.com/expo/skills/tree/main/plugins/expo",
       "brandColor": "#000020",
       "logo": "./assets/expo.png",
@@ -1622,6 +1683,7 @@
         "Codex"
       ],
       "homepage": "https://www.factset.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#182850",
       "logo": "./assets/logo.png",
@@ -1643,6 +1705,7 @@
         "Codex"
       ],
       "homepage": "https://fal.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#D60045",
       "logo": "./assets/logo.png",
@@ -1671,6 +1734,7 @@
         "Codex"
       ],
       "homepage": "https://www.figma.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1ABCFE",
       "logo": "./assets/figma.png",
@@ -1692,6 +1756,7 @@
         "Codex"
       ],
       "homepage": "https://www.finn.com/de-DE",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1713,6 +1778,7 @@
         "Codex"
       ],
       "homepage": "https://fireflies.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1734,6 +1800,7 @@
         "Codex"
       ],
       "homepage": "https://fiscal.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1A1B26",
       "logo": "./assets/logo.png",
@@ -1755,6 +1822,7 @@
         "Codex"
       ],
       "homepage": "https://www.fyxer.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1787,6 +1855,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0F766E",
       "logo": "./assets/app-icon.png",
@@ -1817,6 +1886,7 @@
         "Codex"
       ],
       "homepage": "https://github.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#24292F",
       "logo": "./assets/github.png",
@@ -1842,6 +1912,7 @@
         "Codex"
       ],
       "homepage": "https://workspace.google.com/products/gmail/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#EA4335",
       "logo": "./assets/gmail.png",
@@ -1870,6 +1941,7 @@
         "Codex"
       ],
       "homepage": "https://workspace.google.com/products/calendar/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#4285F4",
       "logo": "./assets/logo.png",
@@ -1900,6 +1972,7 @@
         "Codex"
       ],
       "homepage": "https://workspace.google.com/products/drive/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0F9D58",
       "logo": "./assets/app-icon.png",
@@ -1921,6 +1994,7 @@
         "Codex"
       ],
       "homepage": "https://govtribe.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1944,6 +2018,7 @@
         "Codex"
       ],
       "homepage": "https://www.granola.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1965,6 +2040,7 @@
         "Codex"
       ],
       "homepage": "https://happenstance.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -1986,6 +2062,7 @@
         "Codex"
       ],
       "homepage": "https://www.hebbia.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#4657F5",
       "logo": "./assets/logo.png",
@@ -2007,6 +2084,7 @@
         "Codex"
       ],
       "homepage": "https://www.helpscout.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2039,6 +2117,7 @@
         "Codex"
       ],
       "homepage": "https://heygen.com",
+      "officialInfo": "",
       "repository": "https://github.com/heygen-com/skills",
       "brandColor": "#0a0a0a",
       "logo": "./assets/logo.png",
@@ -2067,6 +2146,7 @@
         "Codex"
       ],
       "homepage": "https://hginsights.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#015AA0",
       "logo": "./assets/app-icon.png",
@@ -2090,6 +2170,7 @@
         "Codex"
       ],
       "homepage": "https://www.gohighlevel.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2112,6 +2193,7 @@
         "Codex"
       ],
       "homepage": "https://hostinger.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2139,6 +2221,7 @@
         "Codex"
       ],
       "homepage": "https://www.hubspot.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2166,6 +2249,7 @@
         "Codex"
       ],
       "homepage": "https://huggingface.co",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FFD21E",
       "logo": "./assets/app-icon.png",
@@ -2202,6 +2286,7 @@
         "Codex"
       ],
       "homepage": "https://hyperframes.heygen.com",
+      "officialInfo": "",
       "repository": "https://github.com/heygen-com/hyperframes",
       "brandColor": "#0a0a0a",
       "logo": "./assets/logo.png",
@@ -2223,6 +2308,7 @@
         "Codex"
       ],
       "homepage": "https://www.intercom.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1F8DED",
       "logo": "./assets/logo.png",
@@ -2252,6 +2338,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#22C55E",
       "logo": "assets/logos/investment-banking.png",
@@ -2274,6 +2361,7 @@
         "Codex"
       ],
       "homepage": "https://jam.dev",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#7C3AED",
       "logo": "./assets/app-icon.png",
@@ -2295,6 +2383,7 @@
         "Codex"
       ],
       "homepage": "https://keybid.eu",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2335,6 +2424,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/openai/tree/master/plugins/life-science-research",
       "brandColor": "#166534",
       "logo": "./assets/app-icon.png",
@@ -2372,6 +2462,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/openai",
       "brandColor": "#0F766E",
       "logo": "./assets/app-icon.png",
@@ -2393,6 +2484,7 @@
         "Codex"
       ],
       "homepage": "https://linear.app/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#5E6AD2",
       "logo": "./assets/app-icon.png",
@@ -2414,6 +2506,7 @@
         "Codex"
       ],
       "homepage": "https://lovable.dev",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FC5A28",
       "logo": "./assets/logo.png",
@@ -2435,6 +2528,7 @@
         "Codex"
       ],
       "homepage": "https://www.lseg.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0018F8",
       "logo": "./assets/logo.png",
@@ -2466,6 +2560,7 @@
         "Codex"
       ],
       "homepage": "https://www.magicpath.ai/",
+      "officialInfo": "",
       "repository": "https://github.com/MagicPathAI/agent-skills",
       "brandColor": "#111827",
       "logo": "./assets/magicpath.png",
@@ -2488,6 +2583,7 @@
         "Codex"
       ],
       "homepage": "https://marcopolo.dev",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2509,6 +2605,7 @@
         "Codex"
       ],
       "homepage": "https://mem.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2537,6 +2634,7 @@
         "Codex"
       ],
       "homepage": "https://www.metabase.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#509EE3",
       "logo": "./assets/logo.png",
@@ -2558,6 +2656,7 @@
         "Codex"
       ],
       "homepage": "",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#7000D8",
       "logo": "./assets/logo.png",
@@ -2579,6 +2678,7 @@
         "Codex"
       ],
       "homepage": "https://www.midpage.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
@@ -2609,6 +2709,7 @@
         "Codex"
       ],
       "homepage": "https://mixpanel.com/home",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/logo.png",
@@ -2642,6 +2743,7 @@
         "Codex"
       ],
       "homepage": "https://mixpanel.com/home",
+      "officialInfo": "",
       "repository": "https://github.com/mixpanel/mixpanel-headless",
       "brandColor": "#7856FF",
       "logo": "./assets/logo.png",
@@ -2665,6 +2767,7 @@
         "Codex"
       ],
       "homepage": "https://monday.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2709,6 +2812,7 @@
         "Codex"
       ],
       "homepage": "https://www.moodys.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#003366",
       "logo": "./assets/app-icon.png",
@@ -2736,6 +2840,7 @@
         "Codex"
       ],
       "homepage": "https://www.morningstar.com",
+      "officialInfo": "",
       "repository": "https://github.com/Morningstar/morningstar-plugins",
       "brandColor": "#E4572E",
       "logo": "./assets/app-icon.png",
@@ -2757,6 +2862,7 @@
         "Codex"
       ],
       "homepage": "https://motherduck.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2778,6 +2884,7 @@
         "Codex"
       ],
       "homepage": "https://www.mtnewswires.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2799,6 +2906,7 @@
         "Codex"
       ],
       "homepage": "https://www.myregistry.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2830,6 +2938,7 @@
         "Codex"
       ],
       "homepage": "https://neon.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#37C38F",
       "logo": "./assets/neon.jpg",
@@ -2857,6 +2966,7 @@
         "Codex"
       ],
       "homepage": "https://www.netlify.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#00AD9F",
       "logo": "./assets/app-icon.png",
@@ -2878,6 +2988,7 @@
         "Codex"
       ],
       "homepage": "https://www.networksolutions.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -2906,6 +3017,7 @@
         "Codex"
       ],
       "homepage": "https://www.notion.so/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111111",
       "logo": "./assets/notion.png",
@@ -2941,6 +3053,7 @@
         "Codex"
       ],
       "homepage": "https://www.nvidia.com/",
+      "officialInfo": "",
       "repository": "https://github.com/NVIDIA/skills",
       "brandColor": "#76b900",
       "logo": "./assets/nvidia.png",
@@ -2962,6 +3075,7 @@
         "Codex"
       ],
       "homepage": "https://www.omni.co",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F686AC",
       "logo": "./assets/logo.png",
@@ -2995,6 +3109,7 @@
         "OpenAI"
       ],
       "homepage": "https://platform.openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins/tree/main/plugins/openai-developers",
       "brandColor": "#10A37F",
       "logo": "./assets/openai-platform.png",
@@ -3025,6 +3140,7 @@
         "Codex"
       ],
       "homepage": "https://otter.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3054,6 +3170,7 @@
         "Codex"
       ],
       "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0078D4",
       "logo": "./assets/app-icon.png",
@@ -3079,6 +3196,7 @@
         "Codex"
       ],
       "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0078D4",
       "logo": "./assets/app-icon.png",
@@ -3100,6 +3218,7 @@
         "Codex"
       ],
       "homepage": "https://www.outreach.io",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#5951FF",
       "logo": "./assets/logo.png",
@@ -3121,6 +3240,7 @@
         "Codex"
       ],
       "homepage": "https://www.particl.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3142,6 +3262,7 @@
         "Codex"
       ],
       "homepage": "https://picsart.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#C209C8",
       "logo": "./assets/logo.png",
@@ -3163,6 +3284,7 @@
         "Codex"
       ],
       "homepage": "https://www.pipedrive.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3186,6 +3308,7 @@
         "Codex"
       ],
       "homepage": "https://www.pitchbook.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3214,6 +3337,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0F766E",
       "logo": "./assets/plugin-eval.svg",
@@ -3235,6 +3359,7 @@
         "Codex"
       ],
       "homepage": "https://fiscalnote.com/products/policynote-api",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3268,6 +3393,7 @@
         "Codex"
       ],
       "homepage": "https://posthog.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1D4AFF",
       "logo": "./assets/logo.png",
@@ -3298,6 +3424,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#C43E1C",
       "logo": "",
@@ -3328,6 +3455,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#FF66AD",
       "logo": "assets/logos/product-design.png",
@@ -3360,6 +3488,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#16A34A",
       "logo": "assets/logos/public-equity-investing.png",
@@ -3381,6 +3510,7 @@
         "Codex"
       ],
       "homepage": "https://www.usepylon.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3402,6 +3532,7 @@
         "Codex"
       ],
       "homepage": "https://quartr.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
@@ -3423,6 +3554,7 @@
         "Codex"
       ],
       "homepage": "https://quickbooks.intuit.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#2CA01C",
       "logo": "./assets/logo.png",
@@ -3445,6 +3577,7 @@
         "OpenAI"
       ],
       "homepage": "https://www.quicknode.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3466,6 +3599,7 @@
         "Codex"
       ],
       "homepage": "https://www.ranked.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3487,6 +3621,7 @@
         "Codex"
       ],
       "homepage": "https://razorpay.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3510,6 +3645,7 @@
         "Codex"
       ],
       "homepage": "https://read.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3531,6 +3667,7 @@
         "Codex"
       ],
       "homepage": "https://readwise.io",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3563,6 +3700,7 @@
         "Codex"
       ],
       "homepage": "https://remotion.dev",
+      "officialInfo": "",
       "repository": "https://github.com/remotion-dev/remotion",
       "brandColor": "#0B84F3",
       "logo": "./assets/logo.png",
@@ -3591,6 +3729,7 @@
         "Codex"
       ],
       "homepage": "https://render.com/",
+      "officialInfo": "",
       "repository": "https://github.com/renderinc/render-codex-plugin",
       "brandColor": "#8A05FF",
       "logo": "./assets/logo.svg",
@@ -3612,6 +3751,7 @@
         "Codex"
       ],
       "homepage": "https://replit.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FD5402",
       "logo": "./assets/logo.png",
@@ -3633,6 +3773,7 @@
         "Codex"
       ],
       "homepage": "https://www.responsive.io",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3662,6 +3803,7 @@
         "Codex"
       ],
       "homepage": "https://www.rox.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#101010",
       "logo": "./assets/app-icon.png",
@@ -3683,6 +3825,7 @@
         "Codex"
       ],
       "homepage": "https://www.spglobal.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#D80028",
       "logo": "./assets/logo.png",
@@ -3716,6 +3859,7 @@
         "Codex"
       ],
       "homepage": "https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c",
+      "officialInfo": "https://openai.com/index/codex-for-every-role-tool-workflow/",
       "repository": "",
       "brandColor": "#FB7185",
       "logo": "assets/logos/sales.png",
@@ -3737,6 +3881,7 @@
         "Codex"
       ],
       "homepage": "https://www.scite.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3760,6 +3905,7 @@
         "Codex"
       ],
       "homepage": "https://www.semrush.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3781,6 +3927,7 @@
         "Codex"
       ],
       "homepage": "https://sendgrid.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3806,6 +3953,7 @@
         "Codex"
       ],
       "homepage": "https://sentry.io/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#362D59",
       "logo": "./assets/sentry.png",
@@ -3827,6 +3975,7 @@
         "Codex"
       ],
       "homepage": "https://setu.co/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3852,6 +4001,7 @@
         "Codex"
       ],
       "homepage": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#038387",
       "logo": "./assets/app-icon.png",
@@ -3882,6 +4032,7 @@
         "Codex"
       ],
       "homepage": "https://shopify.dev/",
+      "officialInfo": "",
       "repository": "https://github.com/Shopify/Shopify-AI-Toolkit",
       "brandColor": "#008060",
       "logo": "./assets/shopify_glyph.svg",
@@ -3903,6 +4054,7 @@
         "Codex"
       ],
       "homepage": "https://www.shutterstock.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FF6F4A",
       "logo": "./assets/logo.png",
@@ -3927,6 +4079,7 @@
         "Codex"
       ],
       "homepage": "https://www.signnow.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3948,6 +4101,7 @@
         "Codex"
       ],
       "homepage": "https://www.similarweb.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F07028",
       "logo": "./assets/logo.png",
@@ -3969,6 +4123,7 @@
         "Codex"
       ],
       "homepage": "https://skywatch.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -3994,6 +4149,7 @@
         "Codex"
       ],
       "homepage": "https://slack.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#611F69",
       "logo": "./assets/app-icon.png",
@@ -4026,6 +4182,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "",
       "brandColor": "#107C41",
       "logo": "",
@@ -4049,6 +4206,7 @@
         "Codex"
       ],
       "homepage": "https://statsig.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4070,6 +4228,7 @@
         "Codex"
       ],
       "homepage": "https://www.streak.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4091,6 +4250,7 @@
         "Codex"
       ],
       "homepage": "https://stripe.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#635BFF",
       "logo": "./assets/app-icon.png",
@@ -4120,6 +4280,7 @@
         "Codex"
       ],
       "homepage": "https://supabase.com",
+      "officialInfo": "",
       "repository": "https://github.com/supabase-community/codex-plugin",
       "brandColor": "#3ECF8E",
       "logo": "./assets/logo.svg",
@@ -4149,6 +4310,7 @@
         "Codex"
       ],
       "homepage": "https://superhuman.com/",
+      "officialInfo": "",
       "repository": "https://github.com/superhuman/mcp-mail",
       "brandColor": "#CE9EC6",
       "logo": "./assets/superhuman-mail.svg",
@@ -4179,6 +4341,7 @@
         "Codex"
       ],
       "homepage": "https://github.com/obra/superpowers",
+      "officialInfo": "",
       "repository": "https://github.com/obra/superpowers",
       "brandColor": "#F59E0B",
       "logo": "./assets/app-icon.png",
@@ -4200,6 +4363,7 @@
         "Codex"
       ],
       "homepage": "https://taxdown.es/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4225,6 +4389,7 @@
         "Codex"
       ],
       "homepage": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#5B5FC7",
       "logo": "./assets/app-icon.png",
@@ -4246,6 +4411,7 @@
         "Codex"
       ],
       "homepage": "https://www.teamwork.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4280,6 +4446,7 @@
         "Codex"
       ],
       "homepage": "https://temporal.io/",
+      "officialInfo": "",
       "repository": "https://github.com/temporalio/codex-temporal-plugin",
       "brandColor": "#141414",
       "logo": "./assets/temporal-logo.svg",
@@ -4314,6 +4481,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#3DDC84",
       "logo": "./assets/app-icon.png",
@@ -4338,6 +4506,7 @@
         "Codex"
       ],
       "homepage": "https://www.thirdbridge.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4359,6 +4528,7 @@
         "Codex"
       ],
       "homepage": "https://www.thoughtspot.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
@@ -4382,6 +4552,7 @@
         "Codex"
       ],
       "homepage": "https://better.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4422,6 +4593,7 @@
         "Codex"
       ],
       "homepage": "https://www.twilio.com",
+      "officialInfo": "",
       "repository": "https://github.com/twilio/ai",
       "brandColor": "#F22F46",
       "logo": "./assets/logo.svg",
@@ -4443,6 +4615,7 @@
         "Codex"
       ],
       "homepage": "https://www.unitedrentals.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4464,6 +4637,7 @@
         "Codex"
       ],
       "homepage": "https://www.vantage.sh",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4500,6 +4674,7 @@
         "Codex"
       ],
       "homepage": "https://vercel.com/",
+      "officialInfo": "",
       "repository": "https://github.com/vercel/vercel-plugin",
       "brandColor": "#000000",
       "logo": "./assets/app-icon.png",
@@ -4521,6 +4696,7 @@
         "Codex"
       ],
       "homepage": "https://www.waldo.fyi",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4542,6 +4718,7 @@
         "Codex"
       ],
       "homepage": "https://www.weatherpromise.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4563,6 +4740,7 @@
         "Codex"
       ],
       "homepage": "https://windsor.ai",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4595,6 +4773,7 @@
         "Codex"
       ],
       "homepage": "https://dev.wix.com/",
+      "officialInfo": "",
       "repository": "https://github.com/wix/skills",
       "brandColor": "#116DFF",
       "logo": "./assets/logo.svg",
@@ -4619,6 +4798,7 @@
         "Codex"
       ],
       "homepage": "https://yepcode.io/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
       "logo": "./assets/app-icon.png",
@@ -4641,6 +4821,7 @@
         "Codex"
       ],
       "homepage": "https://www.zoho.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0068B8",
       "logo": "./assets/logo.png",
@@ -4676,6 +4857,7 @@
         "Codex"
       ],
       "homepage": "https://developers.zoom.us/",
+      "officialInfo": "",
       "repository": "https://github.com/zoom/zoom-plugin-codex",
       "brandColor": "#0B5CFF",
       "logo": "./assets/app-icon.svg",
@@ -4697,6 +4879,7 @@
         "Codex"
       ],
       "homepage": "https://www.zoominfo.com",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#E81818",
       "logo": "./assets/logo.png",
@@ -4728,6 +4911,7 @@
         "Codex"
       ],
       "homepage": "https://openai.com/",
+      "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#EF4444",
       "logo": "./assets/icon.png",

@@ -123,6 +123,7 @@ export function normalizeManifest(manifest, options = {}) {
     keywords,
     terms,
     homepage: iface.websiteURL ?? manifest.homepage ?? "",
+    officialInfo: iface.officialInfoURL ?? "",
     repository: manifest.repository ?? "",
     brandColor: iface.brandColor ?? "#111827",
     logo: iface.logo ?? "",

@@ -178,6 +178,9 @@ function renderPlugin(plugin) {
         .slice(0, -2)
         .join("/")}`
     : plugin.repository;
+  const isPluginShareLink = /^https:\/\/chatgpt\.com\/plugins\/share\//i.test(
+    plugin.homepage ?? "",
+  );
 
   return `
     <article class="plugin-card">
@@ -210,7 +213,12 @@ function renderPlugin(plugin) {
         }
         ${
           plugin.homepage
-            ? `<a href="${escapeHtml(plugin.homepage)}" target="_blank" rel="noreferrer">官网</a>`
+            ? `<a href="${escapeHtml(plugin.homepage)}" target="_blank" rel="noreferrer">${isPluginShareLink ? "安装插件" : "官网"}</a>`
+            : ""
+        }
+        ${
+          plugin.officialInfo
+            ? `<a href="${escapeHtml(plugin.officialInfo)}" target="_blank" rel="noreferrer">官方介绍</a>`
             : ""
         }
       </div>
