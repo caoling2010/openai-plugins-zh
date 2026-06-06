@@ -232,6 +232,7 @@ h1 {
   width: 42px;
   height: 42px;
   place-items: center;
+  overflow: hidden;
   border-radius: 8px;
   background: var(--surface-soft);
   color: #ffffff;
