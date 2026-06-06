@@ -30,32 +30,6 @@ npm run promotion:posts
 
 生成结果会输出到终端，可以复制到对应社区后再人工调整。
 
-## 抖音竖屏页面
-
-竖屏推广页位于：
-
-```text
-douyin.html
-```
-
-本地预览：
-
-```bash
-npm run serve
-```
-
-然后打开：
-
-```text
-http://localhost:4173/douyin.html
-```
-
-发布后可访问：
-
-```text
-https://caoling2010.github.io/openai-plugins-zh/douyin.html
-```
-
 ## 发布原则
 
 - 不冒充 OpenAI 官方项目。
