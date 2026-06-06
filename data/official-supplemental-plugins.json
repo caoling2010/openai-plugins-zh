@@ -1,5 +1,14 @@
 {
   "sourceNote": "Official Codex system plugins not available in the public openai/plugins repository. Display metadata snapshot only.",
+  "rolePluginAnnouncement": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+  "rolePluginIds": [
+    "data-analytics",
+    "creative-production",
+    "sales",
+    "product-design",
+    "public-equity-investing",
+    "investment-banking"
+  ],
   "plugins": [
     {
       "name": "browser",

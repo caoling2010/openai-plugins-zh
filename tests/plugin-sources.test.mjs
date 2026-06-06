@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 
 import {
+  assertPluginCountNotDropped,
   mergeManifestItems,
   resolveFirstSeenAt,
   toSupplementalManifestItems,
@@ -16,20 +17,16 @@ test("official supplemental plugins include all six role-specific plugins", asyn
     ),
   );
 
-  const expectedPlugins = new Map([
-    ["data-analytics", "Data Analytics"],
-    ["creative-production", "Creative Production"],
-    ["sales", "Sales"],
-    ["product-design", "Product Design"],
-    ["public-equity-investing", "Public Equity Investing"],
-    ["investment-banking", "Investment Banking"],
-  ]);
-
-  for (const [id, displayName] of expectedPlugins) {
+  assert.equal(supplemental.rolePluginIds.length, 6);
+  for (const id of supplemental.rolePluginIds) {
     const plugin = supplemental.plugins.find((manifest) => manifest.name === id);
-    assert.equal(plugin?.interface.displayName, displayName);
+    assert.ok(plugin?.interface.displayName);
     assert.match(plugin?.homepage ?? "", /^https:\/\/chatgpt\.com\/plugins\/share\//);
     assert.match(plugin?.interface.logo ?? "", /^assets\/logos\/.+\.png$/);
+    assert.equal(
+      plugin?.interface.officialInfoURL,
+      supplemental.rolePluginAnnouncement,
+    );
     assert.equal(plugin?.releasedAt, "2026-06-02T00:00:00.000Z");
   }
 });
@@ -80,4 +77,15 @@ test("official release date takes precedence for newly launched plugins", () => 
   });
 
   assert.equal(firstSeenAt, "2026-06-02T00:00:00.000Z");
+});
+
+test("rejects an unexpected plugin count drop", () => {
+  assert.throws(
+    () => assertPluginCountNotDropped(184, 150),
+    /插件数量异常下降/,
+  );
+  assert.doesNotThrow(() => assertPluginCountNotDropped(184, 180));
+  assert.doesNotThrow(() =>
+    assertPluginCountNotDropped(184, 100, { allowDrop: true }),
+  );
 });

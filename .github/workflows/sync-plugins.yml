@@ -32,6 +32,9 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Audit generated plugin data
+        run: npm run validate:data
+
       - name: Commit generated updates
         run: |
           if [ -z "$(git status --porcelain -- data/plugins.json data/translations.zh.json data/plugin-history.json)" ]; then

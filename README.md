@@ -26,6 +26,8 @@ Codex 插件越来越多，但官方列表里的说明主要是英文。对英�
 
 如果仓库配置了 `DEEPSEEK_API_KEY`，新增或变更的插件说明会自动生成中文翻译；没有 API key 时，也会生成基础中文概述。
 
+自动同步在提交前会检查插件完整性、重复 id、Logo、安装与介绍链接、发布日期、`New` 状态和插件数量异常下降。维护流程见 [`docs/maintenance.md`](docs/maintenance.md)。
+
 本地预览：
 
 ```bash

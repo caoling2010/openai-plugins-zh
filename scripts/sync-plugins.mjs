@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 
 import { normalizeManifest } from "./plugin-data.mjs";
 import {
+  assertPluginCountNotDropped,
   mergeManifestItems,
   resolveFirstSeenAt,
   toSupplementalManifestItems,
@@ -345,6 +346,12 @@ async function buildPlugins() {
 }
 
 const result = await buildPlugins();
+const previousPluginData = await readJson(pluginsPath, { plugins: [] });
+assertPluginCountNotDropped(
+  previousPluginData.plugins?.length ?? 0,
+  result.plugins.length,
+  { allowDrop: process.env.ALLOW_PLUGIN_COUNT_DROP === "1" },
+);
 await writeJson(pluginsPath, {
   meta: result.meta,
   plugins: result.plugins,
