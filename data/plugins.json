@@ -1,10 +1,10 @@
 {
   "meta": {
     "source": "https://github.com/openai/plugins",
-    "generatedAt": "2026-06-05T14:03:15.952Z",
+    "generatedAt": "2026-06-06T06:05:18.844Z",
     "count": 172,
-    "translationProvider": "fallback",
-    "translationModel": "fallback",
+    "translationProvider": "deepseek",
+    "translationModel": "deepseek-chat",
     "newPluginWindowDays": 7
   },
   "plugins": [
