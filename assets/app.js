@@ -89,8 +89,9 @@ function safeColor(value) {
 }
 
 function getLogoUrls(plugin) {
-  if (!plugin.logo || !plugin.sourcePath) return [];
+  if (!plugin.logo) return [];
   if (/^https?:\/\//i.test(plugin.logo)) return [plugin.logo];
+  if (!plugin.sourcePath) return [plugin.logo.replace(/^\.?\//, "")];
   const pluginRoot = plugin.sourcePath.split("/").slice(0, -2).join("/");
   const manifestDir = plugin.sourcePath.split("/").slice(0, -1).join("/");
   const logoPath = plugin.logo.replace(/^\.?\//, "");

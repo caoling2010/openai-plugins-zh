@@ -244,6 +244,14 @@ h1 {
   object-fit: contain;
 }
 
+.plugin-icon img[src^="assets/logos/"] {
+  width: 42px;
+  height: 42px;
+  max-width: none;
+  max-height: none;
+  border-radius: 8px;
+}
+
 .plugin-title {
   min-width: 0;
 }

@@ -29,6 +29,7 @@ test("official supplemental plugins include all six role-specific plugins", asyn
     const plugin = supplemental.plugins.find((manifest) => manifest.name === id);
     assert.equal(plugin?.interface.displayName, displayName);
     assert.match(plugin?.homepage ?? "", /^https:\/\/chatgpt\.com\/plugins\/share\//);
+    assert.match(plugin?.interface.logo ?? "", /^assets\/logos\/.+\.png$/);
     assert.equal(plugin?.releasedAt, "2026-06-02T00:00:00.000Z");
   }
 });
