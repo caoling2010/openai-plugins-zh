@@ -70,9 +70,12 @@ export function normalizeText(value) {
 
 export function extractTerms(...values) {
   const haystack = values.filter(Boolean).join(" ");
-  return PROTECTED_TERMS.filter((term) =>
-    haystack.toLowerCase().includes(term.toLowerCase()),
-  );
+  return PROTECTED_TERMS.filter((term) => {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, "i").test(
+      haystack,
+    );
+  });
 }
 
 export function buildPluginSearchText(plugin) {

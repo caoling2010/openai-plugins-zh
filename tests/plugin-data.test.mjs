@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   buildPluginSearchText,
+  extractTerms,
   filterPlugins,
   getCategoryLabel,
   normalizeManifest,
@@ -55,6 +56,11 @@ test("normalizes plugin manifest into Chinese directory record", () => {
 
 test("maps unknown category to original category", () => {
   assert.equal(getCategoryLabel("Experimental"), "Experimental");
+});
+
+test("extracts complete technical terms without substring false positives", () => {
+  assert.deepEqual(extractTerms("Explore ideas and export documents"), []);
+  assert.deepEqual(extractTerms("Build with EAS and Expo").sort(), ["EAS", "Expo"].sort());
 });
 
 test("filters plugins by category and Chinese or English keywords", () => {

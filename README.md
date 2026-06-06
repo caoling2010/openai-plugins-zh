@@ -22,7 +22,7 @@ Codex 插件越来越多，但官方列表里的说明主要是英文。对英�
 
 ## 维护说明
 
-插件数据来自公开的 [`openai/plugins`](https://github.com/openai/plugins) 仓库，并通过 GitHub Actions 自动同步。
+插件数据主要来自公开的 [`openai/plugins`](https://github.com/openai/plugins) 仓库，并通过 GitHub Actions 自动同步。对于不在该公共仓库中的 Codex 官方系统插件，项目使用最小展示元数据快照补充，避免遗漏 Product Design、Computer Use、Documents 等插件。
 
 如果仓库配置了 `DEEPSEEK_API_KEY`，新增或变更的插件说明会自动生成中文翻译；没有 API key 时，也会生成基础中文概述。
 

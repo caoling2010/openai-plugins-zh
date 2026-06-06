@@ -1,10 +1,11 @@
 {
   "meta": {
     "source": "https://github.com/openai/plugins",
-    "generatedAt": "2026-06-06T06:05:18.844Z",
-    "count": 172,
-    "translationProvider": "deepseek",
-    "translationModel": "deepseek-chat",
+    "supplementalSource": "Official Codex system plugin metadata snapshots",
+    "generatedAt": "2026-06-06T13:34:55.517Z",
+    "count": 179,
+    "translationProvider": "fallback",
+    "translationModel": "fallback",
     "newPluginWindowDays": 7
   },
   "plugins": [
@@ -399,6 +400,34 @@
       "isNew": false
     },
     {
+      "id": "browser",
+      "name": "Browser",
+      "version": "26.602.40724",
+      "category": "Engineering",
+      "categoryZh": "工程开发",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Browser，帮助处理 CLI 工作流、文档、文件、合同和报告、CI、测试和部署、Cloudflare、Workers、Pages、存储和网络服务，覆盖 browser、automation、localhost、testing 等关键词。",
+      "keywords": [
+        "browser",
+        "automation",
+        "localhost",
+        "testing"
+      ],
+      "terms": [
+        "CLI",
+        "localhost",
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#013B7B",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
+      "isNew": false
+    },
+    {
       "id": "build-ios-apps",
       "name": "Build iOS Apps",
       "version": "0.1.1",
@@ -558,9 +587,7 @@
       ],
       "terms": [
         "React",
-        "Expo",
         "TypeScript",
-        "Canva",
         "Codex"
       ],
       "homepage": "https://openai.com/",
@@ -589,7 +616,6 @@
         "events"
       ],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://calendly.com",
@@ -654,7 +680,6 @@
       "description": "在 Codex 中使用 CB Insights，帮助处理文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、交易流、投资备忘录和私募市场研究、搜索、检索和查询、分析、洞察和报表。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://cbinsights.com",
@@ -685,6 +710,32 @@
       "sourcePath": "plugins/channel99/.codex-plugin/plugin.json",
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
+      "isNew": false
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome",
+      "version": "26.602.40724",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Chrome，帮助处理任务、子任务和项目详情、CLI 工作流，覆盖 browser、chrome、automation 等关键词。",
+      "keywords": [
+        "browser",
+        "chrome",
+        "automation"
+      ],
+      "terms": [
+        "CLI",
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#10A37F",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
       "isNew": false
     },
     {
@@ -981,6 +1032,33 @@
       "isNew": false
     },
     {
+      "id": "computer-use",
+      "name": "Computer Use",
+      "version": "1.0.809",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Computer Use，帮助处理文档、文件、合同和报告，覆盖 computer-use、desktop-control、macos、automation、accessibility 等关键词。",
+      "keywords": [
+        "computer-use",
+        "desktop-control",
+        "macos",
+        "automation",
+        "accessibility"
+      ],
+      "terms": [
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#0F172A",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
+      "isNew": false
+    },
+    {
       "id": "conductor",
       "name": "Conductor",
       "version": "1.0.1",
@@ -1260,7 +1338,6 @@
       "terms": [
         "MCP",
         "Model Context Protocol",
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.demandbase.com",
@@ -1291,6 +1368,35 @@
       "sourcePath": "plugins/docket/.codex-plugin/plugin.json",
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
+      "isNew": false
+    },
+    {
+      "id": "documents",
+      "name": "Documents",
+      "version": "26.601.10930",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Documents，帮助处理文档、文件、合同和报告、创建、更新、管理和整理、分析、洞察和报表，覆盖 documents、word、google docs、docx、writing 等关键词。",
+      "keywords": [
+        "documents",
+        "word",
+        "google docs",
+        "docx",
+        "writing"
+      ],
+      "terms": [
+        "Google Docs",
+        "DOCX",
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#2563EB",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
       "isNew": false
     },
     {
@@ -1518,7 +1624,6 @@
       "description": "在 Codex 中使用 FINN，帮助处理开发者工作流和任务自动化。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.finn.com/de-DE",
@@ -1939,7 +2044,6 @@
       "keywords": [],
       "terms": [
         "CLI",
-        "EAS",
         "Codex"
       ],
       "homepage": "https://hostinger.com",
@@ -2027,7 +2131,6 @@
       ],
       "terms": [
         "CLI",
-        "React",
         "GSAP",
         "HTML",
         "CSS",
@@ -2266,7 +2369,6 @@
         "CLI",
         "React",
         "TypeScript",
-        "Canva",
         "Codex"
       ],
       "homepage": "https://www.magicpath.ai/",
@@ -2288,7 +2390,6 @@
       "description": "在 Codex 中使用 MarcoPolo，帮助处理 Jira 和 Confluence 工作流、CRM 和客户关系管理、文档、文件、合同和报告、搜索、检索和查询、分析、洞察和报表。",
       "keywords": [],
       "terms": [
-        "Expo",
         "Python",
         "Codex"
       ],
@@ -2311,7 +2412,6 @@
       "description": "在 Codex 中使用 Mem，帮助处理任务、子任务和项目详情、日程、会议和参会人跟进、搜索、检索和查询、创建、更新、管理和整理、notebook、SQL 和数据工作流。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://mem.ai",
@@ -2412,7 +2512,6 @@
       "terms": [
         "MCP",
         "Model Context Protocol",
-        "EAS",
         "Codex"
       ],
       "homepage": "https://mixpanel.com/home",
@@ -2603,7 +2702,6 @@
       "description": "在 Codex 中使用 MyRegistry.com，帮助处理创建、更新、管理和整理。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.myregistry.com/",
@@ -2662,7 +2760,6 @@
         "static-sites"
       ],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.netlify.com",
@@ -2684,7 +2781,6 @@
       "description": "在 Codex 中使用 Network Solutions，帮助处理日程、会议和参会人跟进、代码审查、diff 和问题修复、搜索、检索和查询。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.networksolutions.com/",
@@ -3021,7 +3117,6 @@
         "budget"
       ],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://openai.com/",
@@ -3076,7 +3171,6 @@
         "developer-tools"
       ],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://posthog.com",
@@ -3086,6 +3180,66 @@
       "sourcePath": "plugins/posthog/.codex-plugin/plugin.json",
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
+      "isNew": false
+    },
+    {
+      "id": "presentations",
+      "name": "Presentations",
+      "version": "26.601.10930",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Presentations，帮助处理创建、更新、管理和整理，覆盖 slides、presentation、google slides、powerpoint、pptx 等关键词。",
+      "keywords": [
+        "slides",
+        "presentation",
+        "google slides",
+        "powerpoint",
+        "pptx"
+      ],
+      "terms": [
+        "Google Slides",
+        "PowerPoint",
+        "PPTX",
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#C43E1C",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
+      "isNew": false
+    },
+    {
+      "id": "product-design",
+      "name": "Product Design",
+      "version": "0.1.43",
+      "category": "Design",
+      "categoryZh": "设计创作",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Product Design，帮助处理产品原型和方案探索、UX、用户流程和可访问性审查、搜索、检索和查询，覆盖 prototype、frontend、ux-research、ux-audit、accessibility-audit 等关键词。",
+      "keywords": [
+        "prototype",
+        "frontend",
+        "ux-research",
+        "ux-audit",
+        "accessibility-audit",
+        "research",
+        "ideation",
+        "image-generation"
+      ],
+      "terms": [
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#FF66AD",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
       "isNew": false
     },
     {
@@ -3119,7 +3273,6 @@
       "description": "在 Codex 中使用 Quartr，帮助处理财报电话会、文字记录、科研图表、模板和图标、文档、文件、合同和报告、搜索、检索和查询。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://quartr.com",
@@ -3351,7 +3504,6 @@
       "description": "在 Codex 中使用 Responsive，帮助处理搜索、检索和查询。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.responsive.io",
@@ -3689,6 +3841,38 @@
       "sourcePath": "plugins/slack/.codex-plugin/plugin.json",
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
+      "isNew": false
+    },
+    {
+      "id": "spreadsheets",
+      "name": "Spreadsheets",
+      "version": "26.601.10930",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Spreadsheets，帮助处理创建、更新、管理和整理，覆盖 spreadsheet、google sheets、excel、csv、xlsx 等关键词。",
+      "keywords": [
+        "spreadsheet",
+        "google sheets",
+        "excel",
+        "csv",
+        "xlsx",
+        "workbook"
+      ],
+      "terms": [
+        "Google Sheets",
+        "XLSX",
+        "CSV",
+        "TSV",
+        "Codex"
+      ],
+      "homepage": "https://openai.com/",
+      "repository": "",
+      "brandColor": "#107C41",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-05-29T13:28:45.447Z",
       "isNew": false
     },
     {
@@ -4196,7 +4380,6 @@
       "description": "在 Codex 中使用 WeatherPromise，帮助处理企业支出、报销、差旅和财务分析、图表、仪表盘、地图和 WebGL/Three.js 可视化、日历和 email 上下文。",
       "keywords": [],
       "terms": [
-        "EAS",
         "Codex"
       ],
       "homepage": "https://www.weatherpromise.com/",
@@ -4272,7 +4455,6 @@
       "keywords": [],
       "terms": [
         "Schema",
-        "Expo",
         "Python",
         "Node.js",
         "Codex"
@@ -4384,7 +4566,6 @@
       ],
       "terms": [
         "Schema",
-        "Expo",
         "Codex"
       ],
       "homepage": "https://openai.com/",

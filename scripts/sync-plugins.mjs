@@ -8,6 +8,11 @@ import { fileURLToPath } from "node:url";
 
 import { normalizeManifest } from "./plugin-data.mjs";
 import {
+  mergeManifestItems,
+  resolveFirstSeenAt,
+  toSupplementalManifestItems,
+} from "./plugin-sources.mjs";
+import {
   selectTranslationProvider,
   translateWithProvider,
 } from "./translation-provider.mjs";
@@ -17,6 +22,10 @@ const rootDir = resolve(__dirname, "..");
 const translationsPath = resolve(rootDir, "data/translations.zh.json");
 const historyPath = resolve(rootDir, "data/plugin-history.json");
 const pluginsPath = resolve(rootDir, "data/plugins.json");
+const supplementalPluginsPath = resolve(
+  rootDir,
+  "data/official-supplemental-plugins.json",
+);
 const githubTreeUrl =
   "https://api.github.com/repos/openai/plugins/git/trees/main?recursive=1";
 const execFileAsync = promisify(execFile);
@@ -71,11 +80,17 @@ async function listManifestItemsFromApi() {
     .filter((path) => path.endsWith("/.codex-plugin/plugin.json"))
     .filter((path) => path.startsWith("plugins/"))
     .filter((path) => !path.includes("/fixtures/"))
-    .map((path) => tree.tree.find((item) => item.path === path))
+    .map((path) => ({
+      ...tree.tree.find((item) => item.path === path),
+      name: path.split("/")[1],
+    }))
     .sort((a, b) => a.path.localeCompare(b.path));
 }
 
 async function fetchManifest(item) {
+  if (item.manifest) {
+    return item.manifest;
+  }
   if (item.localPath) {
     return JSON.parse(await readFile(item.localPath, "utf8"));
   }
@@ -110,7 +125,11 @@ async function findManifestItemsFromClone() {
         } else if (fullPath.endsWith("/.codex-plugin/plugin.json")) {
           const sourcePath = fullPath.slice(cloneDir.length + 1);
           if (!sourcePath.includes("/fixtures/")) {
-            paths.push({ path: sourcePath, localPath: fullPath });
+            paths.push({
+              name: sourcePath.split("/")[1],
+              path: sourcePath,
+              localPath: fullPath,
+            });
           }
         }
       }
@@ -161,6 +180,8 @@ function fallbackTranslate(manifest) {
     [/jira|confluence/i, "Jira 和 Confluence 工作流"],
     [/crm|customer relationships?/i, "CRM 和客户关系管理"],
     [/full-stack apps?|frontend|backend/i, "全栈、前端或后端应用开发"],
+    [/prototypes?|prototype from|product directions?/i, "产品原型和方案探索"],
+    [/ux|user flows?|user friction|accessibility audit/i, "UX、用户流程和可访问性审查"],
     [/cli/i, "CLI 工作流"],
     [/sdk/i, "SDK 开发"],
     [/market data|quotes?|option chain|crypto/i, "市场数据、报价、期权链和 crypto 信息"],
@@ -224,7 +245,13 @@ async function buildPlugins() {
     now.getTime() - (newPluginWindowDays + 1) * dayMs,
   ).toISOString();
   const manifestSource = await listManifestItems();
-  const manifestPaths = manifestSource.items;
+  const supplementalData = await readJson(supplementalPluginsPath, {
+    plugins: [],
+  });
+  const manifestPaths = mergeManifestItems(
+    manifestSource.items,
+    toSupplementalManifestItems(supplementalData),
+  );
   const nextTranslations = {};
   const nextHistory = {};
   const plugins = [];
@@ -241,9 +268,14 @@ async function buildPlugins() {
         "";
       const sourceHash = hashText(englishDescription);
       const cached = translations[manifest.name];
-      const firstSeenAt =
-        history[manifest.name]?.firstSeenAt ??
-        (isBootstrapRun ? bootstrapFirstSeenAt : nowIso);
+      const firstSeenAt = resolveFirstSeenAt({
+        recordedFirstSeenAt: history[manifest.name]?.firstSeenAt,
+        bootstrapFirstSeenAt,
+        nowIso,
+        isBootstrapRun,
+        isSupplemental: manifestItem.isSupplemental,
+        recentWindowMs: newPluginWindowDays * dayMs,
+      });
       const isNew = !isBootstrapRun && isWithinRecentWindow(firstSeenAt, now);
       let zhDescription = cached?.zhDescription;
       let translationStatus = cached?.status ?? "cached";
@@ -294,6 +326,7 @@ async function buildPlugins() {
   return {
     meta: {
       source: "https://github.com/openai/plugins",
+      supplementalSource: "Official Codex system plugin metadata snapshots",
       generatedAt: new Date().toISOString(),
       count: plugins.length,
       translationProvider: selectTranslationProvider()?.id ?? "fallback",

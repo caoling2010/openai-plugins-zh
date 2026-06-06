@@ -1,0 +1,188 @@
+{
+  "sourceNote": "Official Codex system plugins not available in the public openai/plugins repository. Display metadata snapshot only.",
+  "plugins": [
+    {
+      "name": "browser",
+      "version": "26.602.40724",
+      "description": "Control the Codex in-app browser for local pages and files.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "Proprietary",
+      "keywords": [
+        "browser",
+        "automation",
+        "localhost",
+        "testing"
+      ],
+      "interface": {
+        "displayName": "Browser",
+        "shortDescription": "Control the in-app browser with Codex",
+        "longDescription": "Browser lets Codex open and control the in-app browser, mainly for local development pages and files. Use it to navigate, inspect, click, type, and take screenshots while testing pages inside Codex.",
+        "developerName": "OpenAI",
+        "category": "Engineering",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#013B7B"
+      }
+    },
+    {
+      "name": "chrome",
+      "version": "26.602.40724",
+      "description": "Control Chrome with Codex using your existing browser state.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "Proprietary",
+      "keywords": [
+        "browser",
+        "chrome",
+        "automation"
+      ],
+      "interface": {
+        "displayName": "Chrome",
+        "shortDescription": "Control Chrome with Codex",
+        "longDescription": "Chrome lets Codex use your Chrome browser for tasks that need your existing browser state, including open tabs, page content, and websites you're already signed into. It can navigate, view, click, type, and take screenshots while working.",
+        "developerName": "OpenAI",
+        "category": "Productivity",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#10A37F"
+      }
+    },
+    {
+      "name": "computer-use",
+      "version": "1.0.809",
+      "description": "Control desktop apps on macOS from Codex through Computer Use.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "Proprietary",
+      "keywords": [
+        "computer-use",
+        "desktop-control",
+        "macos",
+        "automation",
+        "accessibility"
+      ],
+      "interface": {
+        "displayName": "Computer Use",
+        "shortDescription": "Control Mac apps from Codex",
+        "longDescription": "Mac Computer Use lets Codex use apps on your computer, including web browsers and files you allow it to access. You choose which apps Codex can access and can stop actions at any time.",
+        "developerName": "OpenAI",
+        "category": "Productivity",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#0F172A"
+      }
+    },
+    {
+      "name": "documents",
+      "version": "26.601.10930",
+      "description": "Create and edit document artifacts in Codex.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "MIT",
+      "keywords": [
+        "documents",
+        "word",
+        "google docs",
+        "docx",
+        "writing"
+      ],
+      "interface": {
+        "displayName": "Documents",
+        "shortDescription": "Create and edit document artifacts",
+        "longDescription": "Create, edit, inspect, render, verify, and export DOCX document artifacts locally. Use Documents when the durable output or target is a document, Word file, Google Docs document, memo, report, or writing artifact.",
+        "developerName": "OpenAI",
+        "category": "Productivity",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#2563EB"
+      }
+    },
+    {
+      "name": "presentations",
+      "version": "26.601.10930",
+      "description": "Create and edit presentation slide decks in Codex.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "MIT",
+      "keywords": [
+        "slides",
+        "presentation",
+        "google slides",
+        "powerpoint",
+        "pptx"
+      ],
+      "interface": {
+        "displayName": "Presentations",
+        "shortDescription": "Create and edit presentations",
+        "longDescription": "Create, edit, inspect, render, verify, and export presentation slide decks locally, including PPTX authoring and Google Slides handoff guidance.",
+        "developerName": "OpenAI",
+        "category": "Productivity",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#C43E1C"
+      }
+    },
+    {
+      "name": "product-design",
+      "version": "0.1.43",
+      "description": "Turn early ideas into prototypes teams can review.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "Proprietary",
+      "keywords": [
+        "prototype",
+        "frontend",
+        "ux-research",
+        "ux-audit",
+        "accessibility-audit",
+        "research",
+        "ideation",
+        "image-generation"
+      ],
+      "interface": {
+        "displayName": "Product Design",
+        "shortDescription": "Explore and prototype ideas",
+        "longDescription": "Turn early ideas into prototypes teams can review. Explore product directions, audit user flows, research user friction, prototype from a live URL, and make static screenshots interactive. Start with a written brief, URL, screenshot, or existing design, then compare visual directions before building.",
+        "developerName": "OpenAI",
+        "category": "Design",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#FF66AD"
+      }
+    },
+    {
+      "name": "spreadsheets",
+      "version": "26.601.10930",
+      "description": "Create and edit spreadsheet files in Codex.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://openai.com/",
+      "license": "MIT",
+      "keywords": [
+        "spreadsheet",
+        "google sheets",
+        "excel",
+        "csv",
+        "xlsx",
+        "workbook"
+      ],
+      "interface": {
+        "displayName": "Spreadsheets",
+        "shortDescription": "Create and edit spreadsheet files",
+        "longDescription": "Create, edit, inspect, render, verify, and export XLSX, CSV, and TSV spreadsheets locally, including local XLSX authoring for Google Sheets handoff.",
+        "developerName": "OpenAI",
+        "category": "Productivity",
+        "websiteURL": "https://openai.com/",
+        "brandColor": "#107C41"
+      }
+    }
+  ]
+}
