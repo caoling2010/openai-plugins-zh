@@ -2,8 +2,8 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-06T13:34:55.517Z",
-    "count": 179,
+    "generatedAt": "2026-06-06T13:52:16.835Z",
+    "count": 184,
     "translationProvider": "fallback",
     "translationModel": "fallback",
     "newPluginWindowDays": 7
@@ -1172,6 +1172,40 @@
       "isNew": false
     },
     {
+      "id": "creative-production",
+      "name": "Creative Production",
+      "version": "2026.06.02",
+      "category": "Featured",
+      "categoryZh": "精选",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Creative Production，帮助处理媒体库、图片、视频和素材管理、创建、更新、管理和整理、营销活动、归因和渠道分析，覆盖 creative-production、campaign-board、display-ads、lifestyle-shots、ecommerce 等关键词。",
+      "keywords": [
+        "creative-production",
+        "campaign-board",
+        "display-ads",
+        "lifestyle-shots",
+        "ecommerce",
+        "Figma",
+        "Canva",
+        "Shutterstock",
+        "Picsart",
+        "Fal"
+      ],
+      "terms": [
+        "Figma",
+        "Canva",
+        "Codex"
+      ],
+      "homepage": "https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49",
+      "repository": "",
+      "brandColor": "#A855F7",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
+    },
+    {
       "id": "cube",
       "name": "Cube",
       "version": "1.0.1",
@@ -1254,6 +1288,37 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "data-analytics",
+      "name": "Data Analytics",
+      "version": "2026.06.02",
+      "category": "Featured",
+      "categoryZh": "精选",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Data Analytics，帮助处理文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、创建、更新、管理和整理、分析、洞察和报表，覆盖 data-analytics、business-data、metrics、reports、dashboards 等关键词。",
+      "keywords": [
+        "data-analytics",
+        "business-data",
+        "metrics",
+        "reports",
+        "dashboards",
+        "Snowflake",
+        "Databricks",
+        "Hex",
+        "Tableau"
+      ],
+      "terms": [
+        "Codex"
+      ],
+      "homepage": "https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1",
+      "repository": "",
+      "brandColor": "#60A5FA",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
     },
     {
       "id": "datadog",
@@ -2165,6 +2230,35 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "investment-banking",
+      "name": "Investment Banking",
+      "version": "2026.06.02",
+      "category": "Featured",
+      "categoryZh": "精选",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Investment Banking，帮助处理文档、文件、合同和报告、交易流、投资备忘录和私募市场研究、搜索、检索和查询、分析、洞察和报表，覆盖 investment-banking、research、due-diligence、pitch-materials、comparable-companies 等关键词。",
+      "keywords": [
+        "investment-banking",
+        "research",
+        "due-diligence",
+        "pitch-materials",
+        "comparable-companies",
+        "transactions",
+        "recommendations"
+      ],
+      "terms": [
+        "Codex"
+      ],
+      "homepage": "https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5",
+      "repository": "",
+      "brandColor": "#22C55E",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
     },
     {
       "id": "jam",
@@ -3216,8 +3310,8 @@
       "id": "product-design",
       "name": "Product Design",
       "version": "0.1.43",
-      "category": "Design",
-      "categoryZh": "设计创作",
+      "category": "Featured",
+      "categoryZh": "精选",
       "developer": "OpenAI",
       "description": "在 Codex 中使用 Product Design，帮助处理产品原型和方案探索、UX、用户流程和可访问性审查、搜索、检索和查询，覆盖 prototype、frontend、ux-research、ux-audit、accessibility-audit 等关键词。",
       "keywords": [
@@ -3233,14 +3327,46 @@
       "terms": [
         "Codex"
       ],
-      "homepage": "https://openai.com/",
+      "homepage": "https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527",
       "repository": "",
       "brandColor": "#FF66AD",
       "logo": "",
       "sourcePath": "",
       "translationStatus": "fallback",
-      "firstSeenAt": "2026-05-29T13:28:45.447Z",
-      "isNew": false
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
+    },
+    {
+      "id": "public-equity-investing",
+      "name": "Public Equity Investing",
+      "version": "2026.06.02",
+      "category": "Featured",
+      "categoryZh": "精选",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Public Equity Investing，帮助处理财报电话会、市场数据、报价、期权链和 crypto 信息、投资组合、基金指标和公司动态、创建、更新、管理和整理，覆盖 public-equity、investing、earnings、company-comparison、market-signals 等关键词。",
+      "keywords": [
+        "public-equity",
+        "investing",
+        "earnings",
+        "company-comparison",
+        "market-signals",
+        "investment-thesis",
+        "Daloopa",
+        "FactSet",
+        "LSEG",
+        "PitchBook"
+      ],
+      "terms": [
+        "Codex"
+      ],
+      "homepage": "https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a",
+      "repository": "",
+      "brandColor": "#16A34A",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
     },
     {
       "id": "pylon",
@@ -3564,6 +3690,39 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "sales",
+      "name": "Sales",
+      "version": "2026.06.02",
+      "category": "Featured",
+      "categoryZh": "精选",
+      "developer": "OpenAI",
+      "description": "在 Codex 中使用 Sales，帮助处理日程、会议和参会人跟进、创建、更新、管理和整理、销售线索、销售管道和外联、数据库、Schema 和记录管理，覆盖 sales、accounts、customer-meetings、follow-ups、crm 等关键词。",
+      "keywords": [
+        "sales",
+        "accounts",
+        "customer-meetings",
+        "follow-ups",
+        "crm",
+        "close-plans",
+        "Salesforce",
+        "HubSpot",
+        "Outreach",
+        "Clay"
+      ],
+      "terms": [
+        "Schema",
+        "Codex"
+      ],
+      "homepage": "https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c",
+      "repository": "",
+      "brandColor": "#FB7185",
+      "logo": "",
+      "sourcePath": "",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-02T00:00:00.000Z",
+      "isNew": true
     },
     {
       "id": "scite",

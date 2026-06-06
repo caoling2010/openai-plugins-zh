@@ -129,13 +129,109 @@
       }
     },
     {
+      "name": "data-analytics",
+      "version": "2026.06.02",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
+      "description": "Answer questions with product and business data.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1",
+      "license": "Proprietary",
+      "keywords": [
+        "data-analytics",
+        "business-data",
+        "metrics",
+        "reports",
+        "dashboards",
+        "Snowflake",
+        "Databricks",
+        "Hex",
+        "Tableau"
+      ],
+      "interface": {
+        "displayName": "Data Analytics",
+        "shortDescription": "Turn data into clear decisions",
+        "longDescription": "Help analysts and business teams answer questions with data. Explore product and business data, explain why key metrics changed, and create reports and dashboards using tools such as Snowflake, Databricks Genie, Hex, and Tableau.",
+        "developerName": "OpenAI",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/32687761205248ae9b517f3d30ad8dd1",
+        "brandColor": "#60A5FA"
+      }
+    },
+    {
+      "name": "creative-production",
+      "version": "2026.06.02",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
+      "description": "Create marketing visuals from a brief.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49",
+      "license": "Proprietary",
+      "keywords": [
+        "creative-production",
+        "campaign-board",
+        "display-ads",
+        "lifestyle-shots",
+        "ecommerce",
+        "Figma",
+        "Canva",
+        "Shutterstock",
+        "Picsart",
+        "Fal"
+      ],
+      "interface": {
+        "displayName": "Creative Production",
+        "shortDescription": "Create marketing visuals from a brief",
+        "longDescription": "Help marketing and creative teams turn a brief into assets they can review. Create campaign boards, refine display ad variations, and produce product lifestyle shots or ecommerce-ready image sets with tools such as Figma, Canva, Shutterstock, Picsart, and Fal.",
+        "developerName": "OpenAI",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49",
+        "brandColor": "#A855F7"
+      }
+    },
+    {
+      "name": "sales",
+      "version": "2026.06.02",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
+      "description": "Prepare sales work faster with customer context.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c",
+      "license": "Proprietary",
+      "keywords": [
+        "sales",
+        "accounts",
+        "customer-meetings",
+        "follow-ups",
+        "crm",
+        "close-plans",
+        "Salesforce",
+        "HubSpot",
+        "Outreach",
+        "Clay"
+      ],
+      "interface": {
+        "displayName": "Sales",
+        "shortDescription": "Prepare sales work faster",
+        "longDescription": "Help sales teams bring customer context into work that moves deals forward. Find high-priority accounts and signals, prepare for customer meetings, complete follow-ups, update customer records, build close plans, and review deals at risk.",
+        "developerName": "OpenAI",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/22ec24462a4a410bba1c56c099f6101c",
+        "brandColor": "#FB7185"
+      }
+    },
+    {
       "name": "product-design",
       "version": "0.1.43",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
       "description": "Turn early ideas into prototypes teams can review.",
       "author": {
         "name": "OpenAI"
       },
-      "homepage": "https://openai.com/",
+      "homepage": "https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527",
       "license": "Proprietary",
       "keywords": [
         "prototype",
@@ -152,9 +248,70 @@
         "shortDescription": "Explore and prototype ideas",
         "longDescription": "Turn early ideas into prototypes teams can review. Explore product directions, audit user flows, research user friction, prototype from a live URL, and make static screenshots interactive. Start with a written brief, URL, screenshot, or existing design, then compare visual directions before building.",
         "developerName": "OpenAI",
-        "category": "Design",
-        "websiteURL": "https://openai.com/",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527",
         "brandColor": "#FF66AD"
+      }
+    },
+    {
+      "name": "public-equity-investing",
+      "version": "2026.06.02",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
+      "description": "Research public companies and investment theses.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a",
+      "license": "Proprietary",
+      "keywords": [
+        "public-equity",
+        "investing",
+        "earnings",
+        "company-comparison",
+        "market-signals",
+        "investment-thesis",
+        "Daloopa",
+        "FactSet",
+        "LSEG",
+        "PitchBook"
+      ],
+      "interface": {
+        "displayName": "Public Equity Investing",
+        "shortDescription": "Research public equity investments",
+        "longDescription": "Help investors make sense of market data and company information. Review earnings calls and company updates, compare companies, track portfolio signals, and assess whether an investment thesis is strengthening or weakening.",
+        "developerName": "OpenAI",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a",
+        "brandColor": "#16A34A"
+      }
+    },
+    {
+      "name": "investment-banking",
+      "version": "2026.06.02",
+      "releasedAt": "2026-06-02T00:00:00.000Z",
+      "description": "Turn research and diligence into client-ready materials.",
+      "author": {
+        "name": "OpenAI"
+      },
+      "homepage": "https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5",
+      "license": "Proprietary",
+      "keywords": [
+        "investment-banking",
+        "research",
+        "due-diligence",
+        "pitch-materials",
+        "comparable-companies",
+        "transactions",
+        "recommendations"
+      ],
+      "interface": {
+        "displayName": "Investment Banking",
+        "shortDescription": "Prepare client-ready banking materials",
+        "longDescription": "Help bankers turn research and diligence into customer-ready documents and reports. Prepare pitch materials and investment memos, analyze comparable companies and transactions, and turn diligence into recommendations using trusted data.",
+        "developerName": "OpenAI",
+        "category": "Featured",
+        "websiteURL": "https://chatgpt.com/plugins/share/479468a8d5224cb2976c0fe6c6e599b5",
+        "brandColor": "#22C55E"
       }
     },
     {

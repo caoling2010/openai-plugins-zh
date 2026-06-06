@@ -8,7 +8,7 @@ import {
   toSupplementalManifestItems,
 } from "../scripts/plugin-sources.mjs";
 
-test("official supplemental plugins include Product Design", async () => {
+test("official supplemental plugins include all six role-specific plugins", async () => {
   const supplemental = JSON.parse(
     await readFile(
       new URL("../data/official-supplemental-plugins.json", import.meta.url),
@@ -16,12 +16,21 @@ test("official supplemental plugins include Product Design", async () => {
     ),
   );
 
-  const productDesign = supplemental.plugins.find(
-    (manifest) => manifest.name === "product-design",
-  );
+  const expectedPlugins = new Map([
+    ["data-analytics", "Data Analytics"],
+    ["creative-production", "Creative Production"],
+    ["sales", "Sales"],
+    ["product-design", "Product Design"],
+    ["public-equity-investing", "Public Equity Investing"],
+    ["investment-banking", "Investment Banking"],
+  ]);
 
-  assert.equal(productDesign.interface.displayName, "Product Design");
-  assert.equal(productDesign.interface.category, "Design");
+  for (const [id, displayName] of expectedPlugins) {
+    const plugin = supplemental.plugins.find((manifest) => manifest.name === id);
+    assert.equal(plugin?.interface.displayName, displayName);
+    assert.match(plugin?.homepage ?? "", /^https:\/\/chatgpt\.com\/plugins\/share\//);
+    assert.equal(plugin?.releasedAt, "2026-06-02T00:00:00.000Z");
+  }
 });
 
 test("public manifests take precedence over supplemental snapshots", () => {
@@ -56,4 +65,18 @@ test("supplemental snapshots are treated as existing plugins", () => {
   });
 
   assert.equal(firstSeenAt, "2026-05-29T00:00:00.000Z");
+});
+
+test("official release date takes precedence for newly launched plugins", () => {
+  const firstSeenAt = resolveFirstSeenAt({
+    recordedFirstSeenAt: "2026-05-29T00:00:00.000Z",
+    officialReleasedAt: "2026-06-02T00:00:00.000Z",
+    bootstrapFirstSeenAt: "2026-05-29T00:00:00.000Z",
+    nowIso: "2026-06-06T12:00:00.000Z",
+    isBootstrapRun: false,
+    isSupplemental: true,
+    recentWindowMs: 7 * 24 * 60 * 60 * 1000,
+  });
+
+  assert.equal(firstSeenAt, "2026-06-02T00:00:00.000Z");
 });

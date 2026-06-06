@@ -182,7 +182,7 @@ function fallbackTranslate(manifest) {
     [/full-stack apps?|frontend|backend/i, "全栈、前端或后端应用开发"],
     [/prototypes?|prototype from|product directions?/i, "产品原型和方案探索"],
     [/ux|user flows?|user friction|accessibility audit/i, "UX、用户流程和可访问性审查"],
-    [/cli/i, "CLI 工作流"],
+    [/\bcli\b/i, "CLI 工作流"],
     [/sdk/i, "SDK 开发"],
     [/market data|quotes?|option chain|crypto/i, "市场数据、报价、期权链和 crypto 信息"],
     [/figures?|templates?|icons?/i, "科研图表、模板和图标"],
@@ -270,6 +270,7 @@ async function buildPlugins() {
       const cached = translations[manifest.name];
       const firstSeenAt = resolveFirstSeenAt({
         recordedFirstSeenAt: history[manifest.name]?.firstSeenAt,
+        officialReleasedAt: manifest.releasedAt,
         bootstrapFirstSeenAt,
         nowIso,
         isBootstrapRun,

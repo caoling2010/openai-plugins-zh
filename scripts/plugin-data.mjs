@@ -1,4 +1,5 @@
 export const CATEGORY_LABELS_ZH = {
+  Featured: "精选",
   Coding: "编码开发",
   Design: "设计创作",
   Engineering: "工程开发",

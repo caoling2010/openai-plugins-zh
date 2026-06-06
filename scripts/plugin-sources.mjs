@@ -24,12 +24,17 @@ export function toSupplementalManifestItems(data) {
 
 export function resolveFirstSeenAt({
   recordedFirstSeenAt,
+  officialReleasedAt,
   bootstrapFirstSeenAt,
   nowIso,
   isBootstrapRun,
   isSupplemental,
   recentWindowMs,
 }) {
+  if (officialReleasedAt) {
+    return officialReleasedAt;
+  }
+
   if (!isSupplemental) {
     return (
       recordedFirstSeenAt ??
