@@ -2,10 +2,10 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-06T14:23:32.177Z",
+    "generatedAt": "2026-06-07T06:44:58.139Z",
     "count": 184,
-    "translationProvider": "fallback",
-    "translationModel": "fallback",
+    "translationProvider": "deepseek",
+    "translationModel": "deepseek-chat",
     "newPluginWindowDays": 7
   },
   "plugins": [
@@ -3815,7 +3815,7 @@
     {
       "id": "s-p",
       "name": "S&P Global",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Research",
       "categoryZh": "研究",
       "developer": "S&P Global",
