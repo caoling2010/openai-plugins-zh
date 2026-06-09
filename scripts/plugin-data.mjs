@@ -6,6 +6,7 @@ export const CATEGORY_LABELS_ZH = {
   Productivity: "效率工具",
   Security: "安全",
   "Developer Tools": "开发者工具",
+  "Development Tools": "开发工具",
   Data: "数据分析",
   Communication: "沟通协作",
   Business: "商务",

@@ -51,6 +51,11 @@ export function validatePluginData({
     if (!plugin.name || !plugin.category || !plugin.description) {
       errors.push(`插件 ${plugin.id || "(unknown)"} 缺少名称、分类或中文说明。`);
     }
+    if (/^\s*[{[]/.test(plugin.description ?? "")) {
+      errors.push(
+        `插件 ${plugin.id || "(unknown)"} 的中文说明包含未解析的结构化模型输出。`,
+      );
+    }
   }
 
   for (const id of rolePluginIds) {

@@ -107,3 +107,27 @@ test("rejects duplicate generated plugin ids and an incorrect meta count", () =>
   assert.ok(errors.some((error) => error.includes("meta.count")));
   assert.ok(errors.some((error) => error.includes("重复")));
 });
+
+test("rejects structured model output used as a plugin description", () => {
+  const plugin = makeGeneratedPlugin();
+  plugin.description =
+    '{"pluginName":"Product Design","chineseDescription":"中文说明"}';
+  const errors = validatePluginData({
+    generated: {
+      meta: {
+        count: 1,
+        generatedAt: "2026-06-06T00:00:00.000Z",
+        newPluginWindowDays: 7,
+      },
+      plugins: [plugin],
+    },
+    supplemental: {
+      rolePluginAnnouncement: announcementUrl,
+      rolePluginIds: ["product-design"],
+      plugins: [makeRoleManifest()],
+    },
+    assetExists: () => true,
+  });
+
+  assert.ok(errors.some((error) => error.includes("结构化模型输出")));
+});

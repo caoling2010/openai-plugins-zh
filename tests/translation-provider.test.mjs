@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  normalizeTranslationText,
   selectTranslationProvider,
   translateWithProvider,
 } from "../scripts/translation-provider.mjs";
@@ -71,5 +72,34 @@ test("translates through DeepSeek chat completions response", async () => {
   assert.equal(
     JSON.parse(requests[0].init.body).model,
     "deepseek-chat",
+  );
+});
+
+test("extracts Chinese descriptions from structured model responses", () => {
+  assert.equal(
+    normalizeTranslationText(`{
+      "pluginName": "BrightHire",
+      "description": "在 Codex 中使用 BrightHire 获取面试上下文。"
+    }`),
+    "在 Codex 中使用 BrightHire 获取面试上下文。",
+  );
+  assert.equal(
+    normalizeTranslationText(`{
+      "pluginName": "Catalyst by Zoho",
+      "protectedTerms": ["MCP", "CLI"],
+      "chineseDescription": "通过 MCP 管理 Catalyst 项目。"
+    }`),
+    "通过 MCP 管理 Catalyst 项目。",
+  );
+});
+
+test("rejects echoed prompts without a Chinese translation", () => {
+  assert.equal(
+    normalizeTranslationText(`{
+      "pluginName": "Example",
+      "protectedTerms": ["MCP"],
+      "englishDescription": "Example plugin"
+    }`),
+    null,
   );
 });

@@ -62,6 +62,7 @@ test("normalizes plugin manifest into Chinese directory record", () => {
 
 test("maps unknown category to original category", () => {
   assert.equal(getCategoryLabel("Experimental"), "Experimental");
+  assert.equal(getCategoryLabel("Development Tools"), "开发工具");
 });
 
 test("extracts complete technical terms without substring false positives", () => {

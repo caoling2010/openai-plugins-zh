@@ -51,6 +51,37 @@ function getChatCompletionText(json) {
   return json.choices?.[0]?.message?.content;
 }
 
+export function normalizeTranslationText(value) {
+  if (typeof value !== "string") return null;
+  let text = value.trim();
+  if (!text) return null;
+
+  const fenced = text.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i);
+  if (fenced) text = fenced[1].trim();
+
+  if (text.startsWith("{") || text.startsWith("[")) {
+    try {
+      const parsed = JSON.parse(text);
+      const candidates = Array.isArray(parsed)
+        ? parsed
+        : [
+            parsed.chineseDescription,
+            parsed.zhDescription,
+            parsed.description,
+            parsed.translation,
+            parsed.translatedText,
+            parsed.text,
+          ];
+      text = candidates.find((item) => typeof item === "string")?.trim() ?? "";
+    } catch {
+      return null;
+    }
+  }
+
+  if (!text || !/[\u3400-\u9fff]/u.test(text)) return null;
+  return text;
+}
+
 export async function translateWithProvider({
   manifest,
   englishDescription,
@@ -61,7 +92,7 @@ export async function translateWithProvider({
   if (!provider) return null;
 
   const systemPrompt =
-    "Translate Codex plugin descriptions into concise Simplified Chinese for Chinese developers. Keep plugin names and technical terms in English. Do not add claims not present in the source.";
+    "Translate Codex plugin descriptions into one concise Simplified Chinese paragraph for Chinese developers. Keep plugin names and technical terms in English. Do not add claims not present in the source. Return only the translated paragraph as plain text. Do not return JSON, Markdown, labels, field names, or the input prompt.";
   const userPrompt = buildTranslationPrompt(manifest, englishDescription);
   const response = await fetchImpl(provider.endpoint, {
     method: "POST",
@@ -95,5 +126,5 @@ export async function translateWithProvider({
   const json = await response.json();
   const text =
     provider.id === "deepseek" ? getChatCompletionText(json) : getOpenAIText(json);
-  return text?.trim() || null;
+  return normalizeTranslationText(text);
 }

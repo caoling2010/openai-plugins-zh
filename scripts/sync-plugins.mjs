@@ -14,6 +14,7 @@ import {
   toSupplementalManifestItems,
 } from "./plugin-sources.mjs";
 import {
+  normalizeTranslationText,
   selectTranslationProvider,
   translateWithProvider,
 } from "./translation-provider.mjs";
@@ -279,7 +280,7 @@ async function buildPlugins() {
         recentWindowMs: newPluginWindowDays * dayMs,
       });
       const isNew = !isBootstrapRun && isWithinRecentWindow(firstSeenAt, now);
-      let zhDescription = cached?.zhDescription;
+      let zhDescription = normalizeTranslationText(cached?.zhDescription);
       let translationStatus = cached?.status ?? "cached";
 
       if (
