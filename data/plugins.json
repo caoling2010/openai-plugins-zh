@@ -2,8 +2,8 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-18T07:14:09.295Z",
-    "count": 187,
+    "generatedAt": "2026-06-19T07:33:40.331Z",
+    "count": 189,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
     "newPluginWindowDays": 7
@@ -273,7 +273,7 @@
     {
       "id": "base44",
       "name": "Base44",
-      "version": "1.0.2-beta.1",
+      "version": "1.0.3-beta.1",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "base44",
@@ -1074,7 +1074,7 @@
     {
       "id": "codex-security",
       "name": "Codex Security",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "category": "Security",
       "categoryZh": "安全",
       "developer": "OpenAI",
@@ -1469,7 +1469,7 @@
     {
       "id": "datasite",
       "name": "Datasite",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Datasite",
@@ -1792,7 +1792,7 @@
     {
       "id": "figma",
       "name": "Figma",
-      "version": "2.0.9",
+      "version": "2.0.10",
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Figma",
@@ -1942,7 +1942,7 @@
     {
       "id": "github",
       "name": "GitHub",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "OpenAI",
@@ -1969,6 +1969,34 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "glean",
+      "name": "Glean",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "categoryZh": "效率工具",
+      "developer": "Glean Technologies, Inc.",
+      "description": "将Glean的企业级知识库接入ChatGPT及AI工具，通过其远程MCP服务器（Model Context Protocol Server）实现组织内所有关联数据源（文档、Wiki、代码仓库等）的统一搜索，支持按姓名、角色或专长查找员工，读取指定文档，访问Gmail和Outlook邮件并查看会议详情，自定义Agent工作流可针对组织需求实现强大自动化，让Glean成为AI助手的企业记忆，确保ChatGPT及其他MCP兼容应用在您工作时始终拥有深入的公司上下文。",
+      "keywords": [
+        "glean",
+        "enterprise-search",
+        "knowledge-management",
+        "mcp"
+      ],
+      "terms": [
+        "MCP",
+        "Model Context Protocol"
+      ],
+      "homepage": "https://glean.com",
+      "officialInfo": "",
+      "repository": "https://github.com/openai/plugins",
+      "brandColor": "#1F6FEB",
+      "logo": "./assets/logo.png",
+      "sourcePath": "plugins/glean/.codex-plugin/plugin.json",
+      "translationStatus": "deepseek",
+      "firstSeenAt": "2026-06-19T07:33:12.491Z",
+      "isNew": true
     },
     {
       "id": "gmail",
@@ -2741,7 +2769,7 @@
     {
       "id": "midpage",
       "name": "Midpage",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "Education & Research",
       "categoryZh": "Education & Research",
       "developer": "Midpage",
@@ -3156,6 +3184,35 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "openai-ads-conversions",
+      "name": "OpenAI Ads Conversions",
+      "version": "0.1.0",
+      "category": "Developer Tools",
+      "categoryZh": "开发者工具",
+      "developer": "OpenAI",
+      "description": "使用OpenAI Ads Conversions插件，指导Codex在仓库中添加或扩展Measurement Pixel及可选的Conversions API检测工具，提供本地验证助手，并指导安全处理密钥、去重、归因上下文和设置报告。",
+      "keywords": [
+        "openai-ads",
+        "ads",
+        "conversions",
+        "measurement-pixel",
+        "capi"
+      ],
+      "terms": [
+        "Codex",
+        "OpenAI"
+      ],
+      "homepage": "https://developers.openai.com/ads/",
+      "officialInfo": "",
+      "repository": "https://github.com/openai/plugins/tree/main/plugins/openai-ads-conversions",
+      "brandColor": "#111827",
+      "logo": "",
+      "sourcePath": "plugins/openai-ads-conversions/.codex-plugin/plugin.json",
+      "translationStatus": "deepseek",
+      "firstSeenAt": "2026-06-19T07:33:12.491Z",
+      "isNew": true
     },
     {
       "id": "openai-developers",
@@ -3785,7 +3842,7 @@
     {
       "id": "render",
       "name": "Render",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Render",
@@ -4086,7 +4143,7 @@
     {
       "id": "shopify",
       "name": "Shopify",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Shopify",
@@ -4335,7 +4392,7 @@
     {
       "id": "supabase",
       "name": "Supabase",
-      "version": "0.1.7",
+      "version": "0.1.10",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Supabase",
@@ -4354,7 +4411,7 @@
       ],
       "homepage": "https://supabase.com",
       "officialInfo": "",
-      "repository": "https://github.com/supabase-community/codex-plugin",
+      "repository": "https://github.com/supabase-community/supabase-plugin",
       "brandColor": "#3ECF8E",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/supabase/.codex-plugin/plugin.json",
@@ -4721,7 +4778,7 @@
     {
       "id": "vercel",
       "name": "Vercel",
-      "version": "0.21.2",
+      "version": "0.21.3",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Vercel Labs",
