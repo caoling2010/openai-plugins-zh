@@ -2,8 +2,8 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-22T07:45:34.753Z",
-    "count": 189,
+    "generatedAt": "2026-06-23T06:31:34.711Z",
+    "count": 190,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
     "newPluginWindowDays": 7
@@ -16,18 +16,16 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Actively",
-      "description": "在 Codex 中使用 Actively，帮助处理账户和买家情报、潜客拓展。",
+      "description": "使用Actively插件赢得更多商机，可直接调用每个账户的常驻智能体，它们能分析内部上下文（如CRM数据、通话记录、邮件）和外部信号，驱动最佳下一步行动。专为SDR、AE、AM和营收负责人设计，帮助从会议准备、交易策略到区域优先级调整获取深度账户洞察。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.actively.ai",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/actively/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -38,18 +36,16 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "Aiera",
-      "description": "在 Codex 中使用 Aiera，帮助处理财报电话会、文字记录、金融事件和市场评论。",
+      "description": "Aiera 插件可访问来自 Aiera 的机构级金融数据，包括实时企业活动、文件、公司出版物、券商研究等。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.aiera.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#180830",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/aiera/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -114,18 +110,16 @@
       "category": "Data & Analytics",
       "categoryZh": "Data & Analytics",
       "developer": "Alation",
-      "description": "在 Codex 中使用 Alation，帮助处理文档、文件、合同和报告、搜索、检索和查询。",
+      "description": "Alation将可信的企业数据上下文引入ChatGPT，通过连接Alation的企业数据目录、治理体系及可信业务上下文，帮助用户自信地发现、理解和使用数据。Alation Intelligence Operating System (AIOS) 使AI能够基于可信的企业上下文（包括目录元数据、治理策略、语义定义、数据血缘、数据质量及文档）生成回答，专为需要在保持信任、上下文和治理的前提下进行AI驱动数据发现的企业团队设计。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.alation.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FF7A1A",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/alation/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -180,10 +174,10 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Apollo",
-      "description": "在 Codex 中使用 Apollo，帮助处理潜客拓展、搜索、检索和查询、销售线索、销售管道和外联。",
+      "description": "Apollo的MCP连接器让ChatGPT安全地在你的Apollo工作区内操作，加速潜客挖掘与对外执行。利用Apollo数据搜索和筛选账户与联系人，丰富记录，总结关键上下文，并在团队规则与权限下采取行动（例如创建列表、记录笔记、生成任务、用序列起草或组装对外沟通）。专为速度和控制设计：ChatGPT仅拉取你要求的内容，遵守工作区访问权限，生成的输出可直接用于审核、个性化与发送。",
       "keywords": [],
       "terms": [
-        "Codex"
+        "MCP"
       ],
       "homepage": "https://www.apollo.io",
       "officialInfo": "",
@@ -191,7 +185,7 @@
       "brandColor": "#E8F028",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/apollo/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -227,7 +221,7 @@
     {
       "id": "atlassian-rovo",
       "name": "Atlassian Rovo",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Atlassian",
@@ -242,7 +236,7 @@
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0052CC",
-      "logo": "./assets/app-icon.png",
+      "logo": "./assets/logo.png",
       "sourcePath": "plugins/atlassian-rovo/.codex-plugin/plugin.json",
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
@@ -348,6 +342,42 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "boltz-api-cli",
+      "name": "Boltz",
+      "version": "0.1.1",
+      "category": "Education & Research",
+      "categoryZh": "Education & Research",
+      "developer": "Boltz",
+      "description": "在 Codex 中使用 Boltz，帮助处理开发者工作流和任务自动化，覆盖 boltz、boltz-api、go-cli、computational-biology、protein-design 等关键词。",
+      "keywords": [
+        "boltz",
+        "boltz-api",
+        "go-cli",
+        "computational-biology",
+        "protein-design",
+        "protein-screening",
+        "small-molecule-design",
+        "virtual-screening",
+        "structure-prediction",
+        "molecular-modeling",
+        "drug-discovery",
+        "biotech"
+      ],
+      "terms": [
+        "CLI",
+        "Codex"
+      ],
+      "homepage": "https://boltz.bio",
+      "officialInfo": "",
+      "repository": "https://github.com/boltz-bio/boltz-api-skills",
+      "brandColor": "#4e6d53",
+      "logo": "./assets/app-icon.png",
+      "sourcePath": "plugins/boltz-api-cli/.codex-plugin/plugin.json",
+      "translationStatus": "fallback",
+      "firstSeenAt": "2026-06-23T06:30:13.361Z",
+      "isNew": true
     },
     {
       "id": "box",
@@ -655,7 +685,7 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Calendly",
-      "description": "在 Codex 中使用 Calendly，帮助处理日程、会议和参会人跟进、总结和摘要，覆盖 calendly、calendar、scheduling、meetings、availability 等关键词。",
+      "description": "将Calendly集成到ChatGPT中，开发者可通过简单提示完成日程管理操作：创建和更新事件类型、生成预约链接、调整可用时间、预订或取消会议等——全部在ChatGPT内直接执行。",
       "keywords": [
         "calendly",
         "calendar",
@@ -664,16 +694,14 @@
         "availability",
         "events"
       ],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://calendly.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#006BFF",
       "logo": "./assets/app-icon.png",
       "sourcePath": "plugins/calendly/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -918,7 +946,7 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Clay",
-      "description": "在 Codex 中使用 Clay，帮助处理潜客拓展、总结和摘要、创建、更新、管理和整理、销售线索、销售管道和外联，覆盖 clay、gtm、sales、prospecting、lead-enrichment 等关键词。",
+      "description": "Clay是一个专注于商业与运营场景的插件，其核心功能是帮助用户发现并联系潜在客户。",
       "keywords": [
         "clay",
         "gtm",
@@ -928,16 +956,14 @@
         "contacts",
         "accounts"
       ],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.clay.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#38D8F8",
       "logo": "./assets/app-icon.png",
       "sourcePath": "plugins/clay/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -971,18 +997,16 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Close",
-      "description": "在 Codex 中使用 Close，帮助处理 CRM 和客户关系管理、销售线索、销售管道和外联。",
+      "description": "通过Close的ChatGPT应用，ChatGPT能够引用和更新Close中的数据，支持你设想的任何任务，无论是生成自定义报告、调研并创建新的潜客列表、获取与客户近期互动的摘要，还是创建新的Workflows——你只需让ChatGPT帮你处理即可。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.close.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#50C078",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/close/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -1356,7 +1380,7 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "Dun & Bradstreet",
-      "description": "在 Codex 中使用 D&B Finance Analytics，帮助处理投资组合、基金指标和公司动态、创建、更新、管理和整理、分析、洞察和报表，覆盖 dnb、dun-bradstreet、finance-analytics、business-identity、company-data 等关键词。",
+      "description": "D&B Finance Analytics插件通过嵌入的AI决策层，赋能商业信贷发起与投资组合管理工作流程。邓白氏将D&B商业图谱与专有客户数据及信贷政策相结合，助力评估申请、设定信贷额度、揭示投资组合风险与机遇。",
       "keywords": [
         "dnb",
         "dun-bradstreet",
@@ -1369,16 +1393,14 @@
         "portfolio-management",
         "credit-origination"
       ],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.dnb.com/",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#004B8D",
       "logo": "./assets/app-icon.png",
       "sourcePath": "plugins/dnb-finance-analytics/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -1473,18 +1495,16 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Datasite",
-      "description": "在 Codex 中使用 Datasite，帮助处理文档、文件、合同和报告。",
+      "description": "Datasite是一款生产力工具，它将ChatGPT连接到Datasite虚拟数据室——一个每年支撑数千笔并购交易的保密工作空间。你可以通过自然语言设置文件夹结构、邀请用户、搜索文档、追踪买方问答以及审计数据室准备状态，无需中断工作流程或牺牲安全。该工具专为顾问、银行家和公司发展团队设计，并基于每笔交易所需的企业级安全与权限管理。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.datasite.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F89820",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/datasite/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -1601,18 +1621,16 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Docusign",
-      "description": "在 Codex 中使用 Docusign，帮助处理文档、文件、合同和报告。",
+      "description": "使用 Docusign 的智能自动化简化合同管理，不仅支持简单签署，还能让复杂的协议工作流变得毫不费力。通过自然语言创建和发送合同，即时获取续约日期和关键义务等洞察，并自动化工作流，让业务运行更快、摩擦更少。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.docusign.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FFCC00",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/docusign/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -1752,10 +1770,11 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "FactSet",
-      "description": "在 Codex 中使用 FactSet，帮助处理搜索、检索和查询、分析、洞察和报表。",
+      "description": "FactSet Model Context Protocol (MCP) 是一个基于 API 的开放标准，旨在无缝连接不同平台上的金融数据、分析模型和应用。它支持投资团队跨工具和技术栈轻松共享洞察、简化工作流程并加强协作，从而高效集成新方案、推动创新并最大化金融运营价值，确保在投资过程中实现一致且富有上下文的决策。",
       "keywords": [],
       "terms": [
-        "Codex"
+        "MCP",
+        "Model Context Protocol"
       ],
       "homepage": "https://www.factset.com",
       "officialInfo": "",
@@ -1763,7 +1782,7 @@
       "brandColor": "#182850",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/factset/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -1774,10 +1793,12 @@
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Fal",
-      "description": "在 Codex 中使用 Fal，帮助处理媒体库、图片、视频和素材管理。",
+      "description": "Fal通过OpenAI应用连接器将图像、视频、音频、3D、训练和编辑工作流带入Codex，并提供针对模型推荐、Schema检查、定价、异步任务、文件上传和媒体生成的专业生产技能。",
       "keywords": [],
       "terms": [
-        "Codex"
+        "Schema",
+        "Codex",
+        "OpenAI"
       ],
       "homepage": "https://fal.ai",
       "officialInfo": "",
@@ -1785,14 +1806,14 @@
       "brandColor": "#D60045",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/fal/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
     {
       "id": "figma",
       "name": "Figma",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Figma",
@@ -1869,18 +1890,16 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "Fiscal AI",
-      "description": "在 Codex 中使用 Fiscal AI，帮助处理搜索、检索和查询、分析、洞察和报表。",
+      "description": "在ChatGPT中直接访问机构级财务数据，Fiscal AI在财报发布后几分钟内提供基础指标与比率，每项数据均可通过直接链接溯源至原始文件。除核心财务数据外，Fiscal AI还提供公司特定KPI、收入细分及调整后指标，结合历史与当前市场报价，能够以极快速度开展有据可查的股权研究。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://fiscal.ai",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1A1B26",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/fiscal-ai/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2159,9 +2178,10 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Hebbia",
-      "description": "在 Codex 中使用 Hebbia，帮助处理文档、文件、合同和报告、搜索、检索和查询。",
+      "description": "Hebbia MCP服务器让你在ChatGPT和Codex中直接调用机构的内部知识与高质量公开信息，从而在交易与投资决策中做出更优判断，并执行从研究、报告、幻灯片到财务模型的全套金融工作流。",
       "keywords": [],
       "terms": [
+        "MCP",
         "Codex"
       ],
       "homepage": "https://www.hebbia.ai",
@@ -2170,7 +2190,7 @@
       "brandColor": "#4657F5",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/hebbia/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2263,7 +2283,7 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "HG Insights",
-      "description": "在 Codex 中使用 HG Insights，帮助处理企业支出、报销、差旅和财务分析、分析、洞察和报表，覆盖 hg-insights、revenue-growth-intelligence、gtm、technographics、buyer-intent 等关键词。",
+      "description": "HG Insights - Revenue Growth Intelligence 可为销售团队即时提供全面的潜在客户数据，包括技术栈、公司企业画像、决策者联系方式、IT 支出洞察以及合同情报。只需通过公司名称或域名进行询问，即可获取由 HG Insights 数据驱动的可执行销售情报。需拥有 HG Insights 的 RGI Developers 或 RGI Agents 账户。",
       "keywords": [
         "hg-insights",
         "revenue-growth-intelligence",
@@ -2272,16 +2292,14 @@
         "buyer-intent",
         "account-intelligence"
       ],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://hginsights.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#015AA0",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/hg-insights/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2604,7 +2622,7 @@
     {
       "id": "linear",
       "name": "Linear",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "OpenAI",
@@ -2630,18 +2648,16 @@
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Lovable",
-      "description": "在 Codex 中使用 Lovable，帮助处理开发者工作流和任务自动化。",
+      "description": "Lovable是一个开发者工具插件，能够根据自然语言提示创建全栈Web应用和网站，自动处理构建、后端、数据库和身份验证设置，并返回构建状态、URL和截图，用于启动或检查网站构建，以及为用户提供可在外部Web界面中进一步修改或扩展网站的链接。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://lovable.dev",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FC5A28",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/lovable/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2652,18 +2668,16 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "LSEG",
-      "description": "在 Codex 中使用 LSEG，帮助处理市场数据、报价、期权链和 crypto 信息。",
+      "description": "LSEG 连接器提供对 LSEG 全面金融市场数据生态系统的实时访问，涵盖多种资产类别和领域，支持将机构级市场数据、分析及估值工具无缝集成到对话式 AI 工作流中，使用户能够通过自然语言交互获取深度市场洞察、执行复杂计算并分析金融工具。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.lseg.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#0018F8",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/lseg/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2751,18 +2765,16 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Meticulate",
-      "description": "在 Codex 中使用 Meticulate，帮助处理账户和买家情报。",
+      "description": "Meticulate帮助销售和上市团队直接在ChatGPT中研究公司：上传公司列表或描述你关注的账户，即可识别公司、寻找相似目标、提取关键业务信息，并跨账户回答结构化研究问题。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#7000D8",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/meticulate/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -2773,18 +2785,16 @@
       "category": "Education & Research",
       "categoryZh": "Education & Research",
       "developer": "Midpage",
-      "description": "在 Codex 中使用 Midpage，帮助处理搜索、检索和查询。",
+      "description": "使用 Midpage 插件，ChatGPT 可连接判例法数据库，进行复杂法律研究、审阅意见并生成高质量工作成果，所有内容均超链接至真实来源以便验证。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.midpage.ai",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/midpage/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3101,7 +3111,7 @@
     {
       "id": "notion",
       "name": "Notion",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "OpenAI",
@@ -3342,18 +3352,16 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Outreach",
-      "description": "在 Codex 中使用 Outreach，帮助处理潜客拓展、销售线索、销售管道和外联。",
+      "description": "将Outreach的知识与操作接入ChatGPT，让团队无需切换工具即可更快行动、跨系统整合洞察并完成高级营收任务。Outreach是一个面向所有市场推广团队的全链路AI营收平台，通过在每项营收工作流中嵌入自主AI代理，提升销售效率、加速商机转化，并为管理者提供规模化增长所需的可见性与可预测性。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.outreach.io",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#5951FF",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/outreach/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3386,18 +3394,16 @@
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Picsart",
-      "description": "在 Codex 中使用 Picsart，帮助处理媒体库、图片、视频和素材管理。",
+      "description": "Picsart（扩展名：Picsart）是一款创意类插件，可让用户通过单个Picsart账户使用140多个人工智能模型，高质量生成视频、图像和音频。例如，可输入指令：@Picsart，为产品发布创建一段10秒电影感视频广告；将这张产品照片转为6秒竖版视频，@Picsart；@Picsart为新发布产品生成三张超写实主打图片；@Picsart为产品演示创建一段15秒纯音乐背景。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://picsart.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#C209C8",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/picsart/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3505,7 +3511,7 @@
       "category": "Data & Analytics",
       "categoryZh": "Data & Analytics",
       "developer": "PostHog",
-      "description": "在 Codex 中使用 PostHog，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化、创建、更新、管理和整理、分析、洞察和报表，覆盖 posthog、analytics、product-analytics、feature-flags、experiments 等关键词。",
+      "description": "PostHog为你的AI Agent直接提供产品分析、功能开关、实验、错误追踪、调查、日志和LLM分析能力。你可以通过对话询问数据问题、创建洞察、切换Feature Flags、分析错误、搜索文档等操作。",
       "keywords": [
         "posthog",
         "analytics",
@@ -3519,16 +3525,14 @@
         "hogql",
         "developer-tools"
       ],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://posthog.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#1D4AFF",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/posthog/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3678,18 +3682,16 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "QuickBooks",
-      "description": "在 Codex 中使用 QuickBooks，帮助处理开发者工作流和任务自动化。",
+      "description": "QuickBooks插件可将原始财务数据转化为清晰的财务分析，支持盈利能力、现金流、应收账款/应付账款分析，并与同行业、同地区企业进行绩效对比。可快速生成符合会计准则的损益表、现金流量表、资产负债表及账龄报告。直接通过对话管理发票、报价、付款、客户、产品和工资单。通过QuickBooks ChatGPT应用上传或粘贴交易记录以分析个性化结果，并随着业务发展查看同行业贷款基准数据。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://quickbooks.intuit.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#2CA01C",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/quickbooks/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3875,18 +3877,16 @@
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "Replit",
-      "description": "在 Codex 中使用 Replit，帮助处理 CI、测试和部署。",
+      "description": "Replit 插件允许开发者通过自然语言描述在用户的 Replit 账户中创建全新的 Web 应用程序，同时避免在聊天中直接暴露代码；它还支持检查并解释当前应用的行为，并在迭代开发过程中通过自然语言变更请求对同一应用进行修改。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://replit.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FD5402",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/replit/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3919,7 +3919,7 @@
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Rox Data Corp",
-      "description": "在 Codex 中使用 Rox，帮助处理账户和买家情报、潜客拓展、CRM 和客户关系管理、销售线索、销售管道和外联，覆盖 rox、sales、revenue、gtm、crm 等关键词。",
+      "description": "Rox 帮助用户从自己的 Rox 工作区中查找和分析经过认证的销售数据，涵盖客户、交易、联系人、备注、邮件、会议、文档、组织架构和 Slack 活动。该插件提供一个引导式数据界面：用户可以浏览可用的数据函数，查看每个函数的 Schema（数据模式）和工作流程指引，然后调用只读函数来回答有关销售和客户情报的问题。",
       "keywords": [
         "rox",
         "sales",
@@ -3930,7 +3930,7 @@
         "prospecting"
       ],
       "terms": [
-        "Codex"
+        "Schema"
       ],
       "homepage": "https://www.rox.com",
       "officialInfo": "",
@@ -3938,7 +3938,7 @@
       "brandColor": "#101010",
       "logo": "./assets/app-icon.png",
       "sourcePath": "plugins/rox/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -3949,18 +3949,16 @@
       "category": "Finance",
       "categoryZh": "金融",
       "developer": "S&P Global",
-      "description": "在 Codex 中使用 S&P Global，帮助处理搜索、检索和查询。",
+      "description": "使用自然语言查询S&P Global数据集，包括S&P Capital IQ Financials、Transcripts等。该服务器专为金融行业的工程、产品和业务团队设计，可节省时间和资源，简化对公司信息、财务报表、历史市场数据和全球证券的访问。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.spglobal.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#D80028",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/s-p/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -4178,18 +4176,16 @@
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Shutterstock",
-      "description": "在 Codex 中使用 Shutterstock，帮助处理媒体库、图片、视频和素材管理、搜索、检索和查询。",
+      "description": "Shutterstock插件可搜索素材库，根据用户指定的主题、风格、情绪或场景匹配候选图片、视频、音乐和音效，返回带水印的预览URL及基础元数据供选择。适用于用户浏览或挑选现有素材（含多组图片关联搜索），不涉及生成、编辑、授权或下载文件。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.shutterstock.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#FF6F4A",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/shutterstock/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -4225,18 +4221,16 @@
       "category": "Data & Analytics",
       "categoryZh": "Data & Analytics",
       "developer": "Similarweb",
-      "description": "在 Codex 中使用 Similarweb，帮助处理分析、洞察和报表。",
+      "description": "在ChatGPT中使用Similarweb的市场情报数据研究任何网站或应用，通过简单提示即可分析竞争对手流量、发现热门关键词、探索受众人口统计及跨行业表现基准，例如询问“展示Nike的流量来源分布”或“Adidas有哪些关键词排名”，无需切换工具即可获取实时洞察，适合营销人员、分析师、投资者及战略人员快速将竞争问题转化为答案。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.similarweb.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#F07028",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/similarweb/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -4651,18 +4645,16 @@
       "category": "Data & Analytics",
       "categoryZh": "Data & Analytics",
       "developer": "ThoughtSpot",
-      "description": "在 Codex 中使用 ThoughtSpot，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化。",
+      "description": "ThoughtSpot 的 Spotter 工具面向业务与数据团队，能处理从日常数据查询到高层战略分析的各种问题，提供可信任、可验证、可执行的答案与洞察，帮助团队利用数据驱动业务。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.thoughtspot.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#000000",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/thoughtspot/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -4943,10 +4935,9 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "Zoho",
-      "description": "在 Codex 中使用 Zoho，帮助处理 CRM 和客户关系管理、数据库、Schema 和记录管理。",
+      "description": "Zoho CRM是一款AI驱动的销售软件，帮助各种规模的企业更好地管理销售流程；它具备SFA功能、高级自动化、易用的界面、深度分析和强大的自定义能力，能够真正理解您的业务。通过Codex，您只需通过提示即可扩展Zoho CRM的功能——您的业务，您的Zoho CRM，由Codex赋能。",
       "keywords": [],
       "terms": [
-        "Schema",
         "Codex"
       ],
       "homepage": "https://www.zoho.com",
@@ -4955,7 +4946,7 @@
       "brandColor": "#0068B8",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/zoho/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
@@ -5002,18 +4993,16 @@
       "category": "Business & Operations",
       "categoryZh": "Business & Operations",
       "developer": "ZoomInfo",
-      "description": "在 Codex 中使用 ZoomInfo，帮助处理日常办公、知识整理和流程自动化。",
+      "description": "在 ChatGPT 中访问 ZoomInfo 的数据和 AI 上下文，直接在对话中获取客户挖掘、账户调研、验证联系人、购买信号等功能。",
       "keywords": [],
-      "terms": [
-        "Codex"
-      ],
+      "terms": [],
       "homepage": "https://www.zoominfo.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#E81818",
       "logo": "./assets/logo.png",
       "sourcePath": "plugins/zoominfo/.codex-plugin/plugin.json",
-      "translationStatus": "fallback",
+      "translationStatus": "deepseek",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
     },
