@@ -2,8 +2,8 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-23T06:31:34.711Z",
-    "count": 190,
+    "generatedAt": "2026-06-24T06:27:17.422Z",
+    "count": 191,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
     "newPluginWindowDays": 7
@@ -192,7 +192,7 @@
     {
       "id": "asana",
       "name": "Asana",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "category": "Productivity",
       "categoryZh": "效率工具",
       "developer": "Asana, Inc.",
@@ -1098,7 +1098,7 @@
     {
       "id": "codex-security",
       "name": "Codex Security",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "category": "Security",
       "categoryZh": "安全",
       "developer": "OpenAI",
@@ -1961,7 +1961,7 @@
     {
       "id": "github",
       "name": "GitHub",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "category": "Developer Tools",
       "categoryZh": "开发者工具",
       "developer": "OpenAI",
@@ -3869,6 +3869,38 @@
       "translationStatus": "fallback",
       "firstSeenAt": "2026-05-21T13:23:06.577Z",
       "isNew": false
+    },
+    {
+      "id": "replayio",
+      "name": "Replay.io",
+      "version": "0.1.0",
+      "category": "Developer Tools",
+      "categoryZh": "开发者工具",
+      "developer": "Replay",
+      "description": "Replay.io利用环境变量AGENT_BROWSER_EXECUTABLE_PATH指定的Replay Chromium驱动宿主代理浏览器，捕获支持时光旅行的可调试录制文件，在运行结束后上传待处理的录制内容，通过Replay MCP工具分析已上传的录制记录，并创建Replay QA项目以进行录制分析或实时应用探索。在支持MCP App感知的宿主中，Replay工具结果可渲染丰富的调试小部件，涵盖日志断点、控制台输出、React树、Redux状态、网络请求、截图、源代码、性能剖析及异常堆栈。",
+      "keywords": [
+        "replay",
+        "agent-browser",
+        "playwright",
+        "browser-automation",
+        "time-travel-debugging",
+        "recording",
+        "replay-qa",
+        "chatgpt-app"
+      ],
+      "terms": [
+        "MCP",
+        "React"
+      ],
+      "homepage": "https://replay.io",
+      "officialInfo": "",
+      "repository": "https://github.com/replayio/plugins",
+      "brandColor": "#F02D5E",
+      "logo": "./assets/replayio.svg",
+      "sourcePath": "plugins/replayio/.codex-plugin/plugin.json",
+      "translationStatus": "deepseek",
+      "firstSeenAt": "2026-06-24T06:26:42.647Z",
+      "isNew": true
     },
     {
       "id": "replit",
