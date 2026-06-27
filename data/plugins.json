@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-06-26T06:32:21.243Z",
+    "generatedAt": "2026-06-27T06:05:18.006Z",
     "count": 192,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
@@ -2042,7 +2042,7 @@
       "sourcePath": "plugins/glean/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-06-19T07:33:12.491Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "gmail",
@@ -3249,7 +3249,7 @@
       "sourcePath": "plugins/openai-ads-conversions/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-06-19T07:33:12.491Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "openai-developers",
