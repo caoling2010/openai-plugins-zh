@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-07-03T06:06:16.931Z",
+    "generatedAt": "2026-07-04T05:57:03.964Z",
     "count": 192,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
@@ -1587,7 +1587,7 @@
       "sourcePath": "plugins/digitalocean/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-06-26T06:31:48.700Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "docket",
