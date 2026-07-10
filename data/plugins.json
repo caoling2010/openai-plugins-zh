@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-07-08T05:33:14.836Z",
+    "generatedAt": "2026-07-10T06:17:10.735Z",
     "count": 192,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
@@ -1098,7 +1098,7 @@
     {
       "id": "codex-security",
       "name": "Codex Security",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "category": "Security",
       "categoryZh": "安全",
       "developer": "OpenAI",
@@ -1840,7 +1840,7 @@
     {
       "id": "figma",
       "name": "Figma",
-      "version": "2.0.12",
+      "version": "2.0.13",
       "category": "Creativity",
       "categoryZh": "Creativity",
       "developer": "Figma",
