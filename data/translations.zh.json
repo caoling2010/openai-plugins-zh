@@ -3,1304 +3,1304 @@
     "sourceHash": "6e8b9399484b0f60",
     "zhDescription": "使用Actively插件赢得更多商机，可直接调用每个账户的常驻智能体，它们能分析内部上下文（如CRM数据、通话记录、邮件）和外部信号，驱动最佳下一步行动。专为SDR、AE、AM和营收负责人设计，帮助从会议准备、交易策略到区域优先级调整获取深度账户洞察。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:03.445Z"
+    "updatedAt": "2026-07-13T05:49:55.973Z"
   },
   "aiera": {
     "sourceHash": "1d6df556a8d14a31",
     "zhDescription": "Aiera 插件可访问来自 Aiera 的机构级金融数据，包括实时企业活动、文件、公司出版物、券商研究等。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:03.564Z"
+    "updatedAt": "2026-07-13T05:49:56.081Z"
   },
   "airtable": {
     "sourceHash": "5d4bb2b305511b67",
     "zhDescription": "在 Codex 中使用 Airtable，帮助处理 Jira 和 Confluence 工作流、销售线索、销售管道和外联、营销活动、归因和渠道分析、数据库、Schema 和记录管理、日历和 email 上下文，覆盖 airtable、database、relational-database、application-database、data-store 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:03.694Z"
+    "updatedAt": "2026-07-13T05:49:56.187Z"
   },
   "alation": {
     "sourceHash": "3c138e10647add4f",
     "zhDescription": "Alation将可信的企业数据上下文引入ChatGPT，通过连接Alation的企业数据目录、治理体系及可信业务上下文，帮助用户自信地发现、理解和使用数据。Alation Intelligence Operating System (AIOS) 使AI能够基于可信的企业上下文（包括目录元数据、治理策略、语义定义、数据血缘、数据质量及文档）生成回答，专为需要在保持信任、上下文和治理的前提下进行AI驱动数据发现的企业团队设计。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:03.846Z"
+    "updatedAt": "2026-07-13T05:49:56.297Z"
   },
   "alpaca": {
     "sourceHash": "5bc7c64a5e2b53c3",
     "zhDescription": "在 Codex 中使用 Alpaca，帮助处理市场数据、报价、期权链和 crypto 信息、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:03.963Z"
+    "updatedAt": "2026-07-13T05:49:56.388Z"
   },
   "amplitude": {
     "sourceHash": "6ef87fdef26ca910",
     "zhDescription": "在 Codex 中使用 Amplitude，帮助处理产品分析和转化漏斗、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.075Z"
+    "updatedAt": "2026-07-13T05:49:56.510Z"
   },
   "apollo": {
     "sourceHash": "e9c7ec9047246b93",
     "zhDescription": "Apollo的MCP连接器让ChatGPT安全地在你的Apollo工作区内操作，加速潜客挖掘与对外执行。利用Apollo数据搜索和筛选账户与联系人，丰富记录，总结关键上下文，并在团队规则与权限下采取行动（例如创建列表、记录笔记、生成任务、用序列起草或组装对外沟通）。专为速度和控制设计：ChatGPT仅拉取你要求的内容，遵守工作区访问权限，生成的输出可直接用于审核、个性化与发送。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:04.190Z"
+    "updatedAt": "2026-07-13T05:49:56.605Z"
   },
   "asana": {
     "sourceHash": "8617979e6a19394e",
     "zhDescription": "在 Codex 中使用 Asana，帮助处理任务、子任务和项目详情、总结和摘要、创建、更新、管理和整理，覆盖 asana、tasks、project-management、productivity、collaboration 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.310Z"
+    "updatedAt": "2026-07-13T05:49:56.749Z"
   },
   "atlassian-rovo": {
     "sourceHash": "61f22486782963c5",
     "zhDescription": "在 Codex 中使用 Atlassian Rovo，帮助处理 Jira 和 Confluence 工作流、创建、更新、管理和整理，覆盖 atlassian 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.441Z"
+    "updatedAt": "2026-07-13T05:49:56.862Z"
   },
   "attio": {
     "sourceHash": "24b9ef8ed25e54f9",
     "zhDescription": "在 Codex 中使用 Attio，帮助处理潜客拓展、任务、子任务和项目详情、CRM 和客户关系管理、日程、会议和参会人跟进、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.568Z"
+    "updatedAt": "2026-07-13T05:49:56.972Z"
   },
   "base44": {
     "sourceHash": "d8371f5934ae296f",
     "zhDescription": "在 Codex 中使用 Base44，帮助处理全栈、前端或后端应用开发、CLI 工作流、SDK 开发、创建、更新、管理和整理，覆盖 base44、full-stack、sdk、cli、deployment 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.684Z"
+    "updatedAt": "2026-07-13T05:49:57.094Z"
   },
   "binance": {
     "sourceHash": "4fd1e0dd43df1632",
     "zhDescription": "在 Codex 中使用 Binance，帮助处理市场数据、报价、期权链和 crypto 信息、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.793Z"
+    "updatedAt": "2026-07-13T05:49:57.235Z"
   },
   "biorender": {
     "sourceHash": "82354b3637615a5b",
     "zhDescription": "在 Codex 中使用 BioRender，帮助处理科研图表、模板和图标、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:04.919Z"
+    "updatedAt": "2026-07-13T05:49:57.335Z"
   },
   "boltz-api-cli": {
     "sourceHash": "8bb91841cf3b29d5",
     "zhDescription": "在 Codex 中使用 Boltz，帮助处理开发者工作流和任务自动化，覆盖 boltz、boltz-api、go-cli、computational-biology、protein-design 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.029Z"
+    "updatedAt": "2026-07-13T05:49:57.457Z"
   },
   "box": {
     "sourceHash": "c514f2247c2cb0a9",
     "zhDescription": "在 Codex 中使用 Box，帮助处理文档、文件、合同和报告、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.145Z"
+    "updatedAt": "2026-07-13T05:49:57.559Z"
   },
   "brand24": {
     "sourceHash": "dec667782e80e10e",
     "zhDescription": "在 Codex 中使用 Brand24，帮助处理品牌提及、情绪和媒体覆盖、总结和摘要、分析、洞察和报表、营销活动、归因和渠道分析。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.277Z"
+    "updatedAt": "2026-07-13T05:49:57.645Z"
   },
   "brex": {
     "sourceHash": "a9a6c649015a2672",
     "zhDescription": "在 Codex 中使用 Brex，帮助处理文档、文件、合同和报告、企业支出、报销、差旅和财务分析、创建、更新、管理和整理、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.419Z"
+    "updatedAt": "2026-07-13T05:49:57.762Z"
   },
   "brighthire": {
     "sourceHash": "fd3e7042e740dd8e",
     "zhDescription": "在 Codex 中调用 BrightHire 获取面试情报上下文、查看通话记录与候选人信息，通过受控的数据访问支持招聘工作流。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:05.533Z"
+    "updatedAt": "2026-07-13T05:49:57.855Z"
   },
   "browser": {
     "sourceHash": "095cf7198b553b1a",
     "zhDescription": "在 Codex 中使用 Browser，帮助处理 CLI 工作流、文档、文件、合同和报告、CI、测试和部署、Cloudflare、Workers、Pages、存储和网络服务，覆盖 browser、automation、localhost、testing 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.534Z"
+    "updatedAt": "2026-07-13T05:49:57.855Z"
   },
   "build-ios-apps": {
     "sourceHash": "b9e3ea48863701fe",
     "zhDescription": "在 Codex 中使用 Build iOS Apps，帮助处理文档、文件、合同和报告、SwiftUI、AppKit、iOS 和 macOS 开发、MCP (Model Context Protocol) 连接，覆盖 ios、swift、swiftui、app-intents、shortcuts 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.642Z"
+    "updatedAt": "2026-07-13T05:49:57.949Z"
   },
   "build-macos-apps": {
     "sourceHash": "e17191db7839a762",
     "zhDescription": "在 Codex 中使用 Build macOS Apps，帮助处理 SwiftUI、AppKit、iOS 和 macOS 开发，覆盖 macos、swift、swiftui、appkit、xcode 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.764Z"
+    "updatedAt": "2026-07-13T05:49:58.063Z"
   },
   "build-web-apps": {
     "sourceHash": "9d8f6b7e2a674a98",
     "zhDescription": "在 Codex 中使用 Build Web Apps，帮助处理全栈、前端或后端应用开发、媒体库、图片、视频和素材管理、创建、更新、管理和整理，覆盖 build-web-apps、build、product-apps、frontend、image-generation 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.879Z"
+    "updatedAt": "2026-07-13T05:49:58.175Z"
   },
   "build-web-data-visualization": {
     "sourceHash": "83a4496055262c49",
     "zhDescription": "在 Codex 中使用 Build Web Data Visualization，帮助处理文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、分析、洞察和报表，覆盖 build-web-data-visualization、web-data-visualization、data-visualization、charts、dashboards 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:05.999Z"
+    "updatedAt": "2026-07-13T05:49:58.275Z"
   },
   "calendly": {
     "sourceHash": "e6e7673629f0d479",
     "zhDescription": "将Calendly集成到ChatGPT中，开发者可通过简单提示完成日程管理操作：创建和更新事件类型、生成预约链接、调整可用时间、预订或取消会议等——全部在ChatGPT内直接执行。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:06.169Z"
+    "updatedAt": "2026-07-13T05:49:58.390Z"
   },
   "canva": {
     "sourceHash": "a24faa4b872fb8b9",
     "zhDescription": "在 Codex 中使用 Canva，帮助处理搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:06.284Z"
+    "updatedAt": "2026-07-13T05:49:58.518Z"
   },
   "carta-crm": {
     "sourceHash": "20338a88c9893643",
     "zhDescription": "在 Codex 中使用 Carta CRM，帮助处理 CRM 和客户关系管理、日程、会议和参会人跟进、交易流、投资备忘录和私募市场研究。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:06.404Z"
+    "updatedAt": "2026-07-13T05:49:58.641Z"
   },
   "catalyst-by-zoho": {
     "sourceHash": "f029c3fab9fdd66f",
     "zhDescription": "Catalyst by Zoho 插件为 Codex 扩展了基于 MCP 的工作流和技能，用于构建、管理和运维 Catalyst 项目。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:06.518Z"
+    "updatedAt": "2026-07-13T05:49:58.769Z"
   },
   "cb-insights": {
     "sourceHash": "9f3a70bcae71c539",
     "zhDescription": "在 Codex 中使用 CB Insights，帮助处理文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、交易流、投资备忘录和私募市场研究、搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:06.636Z"
+    "updatedAt": "2026-07-13T05:49:58.872Z"
   },
   "channel99": {
     "sourceHash": "71a13118e9b53d96",
     "zhDescription": "在 Codex 中使用 Channel99，帮助处理企业支出、报销、差旅和财务分析、图表、仪表盘、地图和 WebGL/Three.js 可视化、分析、洞察和报表、销售线索、销售管道和外联、营销活动、归因和渠道分析。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:06.757Z"
+    "updatedAt": "2026-07-13T05:49:58.978Z"
   },
   "chrome": {
     "sourceHash": "eb4dd0a808dd9eb4",
     "zhDescription": "在 Codex 中使用 Chrome，帮助处理任务、子任务和项目详情、CLI 工作流，覆盖 browser、chrome、automation 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:06.757Z"
+    "updatedAt": "2026-07-13T05:49:58.978Z"
   },
   "chronograph-gp": {
     "sourceHash": "4bb711899d54974c",
     "zhDescription": "Chronograph GP为私募资本普通合伙人用户提供投资组合监控、估值与分析功能，支持通过自然语言查询可信投资组合数据、分析投资、揭示公司级指标并获取私募市场投资组合数据。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:06.916Z"
+    "updatedAt": "2026-07-13T05:49:59.066Z"
   },
   "chronograph-lp": {
     "sourceHash": "a4fbfe8bdae278a9",
     "zhDescription": "Chronograph LP 为私募资本的有限合伙人（LP）用户提供投资组合监控与分析服务，支持访问包括底层投资组合公司及资产、基金、投资工具、承诺出资等在内的可信私募市场 portfolio 数据。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:07.034Z"
+    "updatedAt": "2026-07-13T05:49:59.181Z"
   },
   "circleback": {
     "sourceHash": "9acf16a94df47b94",
     "zhDescription": "在 Codex 中使用 Circleback，帮助处理文字记录、日程、会议和参会人跟进、搜索、检索和查询、数据库、Schema 和记录管理、日历和 email 上下文。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:07.202Z"
+    "updatedAt": "2026-07-13T05:49:59.296Z"
   },
   "circleci": {
     "sourceHash": "34e60ef000188710",
     "zhDescription": "在 Codex 中使用 CircleCI，帮助处理 CI、测试和部署，覆盖 circleci、ci/cd、ci 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:07.320Z"
+    "updatedAt": "2026-07-13T05:49:59.393Z"
   },
   "clay": {
     "sourceHash": "e073af3a838d93fa",
     "zhDescription": "Clay是一个专注于商业与运营场景的插件，其核心功能是帮助用户发现并联系潜在客户。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:07.461Z"
+    "updatedAt": "2026-07-13T05:49:59.499Z"
   },
   "clickup": {
     "sourceHash": "9c015ee45f2f7df7",
     "zhDescription": "在 Codex 中使用 ClickUp，帮助处理 CLI 工作流、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:07.618Z"
+    "updatedAt": "2026-07-13T05:49:59.593Z"
   },
   "close": {
     "sourceHash": "31e0fa2d0729960d",
     "zhDescription": "通过Close的ChatGPT应用，ChatGPT能够引用和更新Close中的数据，支持你设想的任何任务，无论是生成自定义报告、调研并创建新的潜客列表、获取与客户近期互动的摘要，还是创建新的Workflows——你只需让ChatGPT帮你处理即可。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:07.746Z"
+    "updatedAt": "2026-07-13T05:49:59.683Z"
   },
   "cloudflare": {
     "sourceHash": "d9436c38027f9522",
     "zhDescription": "在 Codex 中使用 Cloudflare，帮助处理 CLI 工作流、SDK 开发、Cloudflare、Workers、Pages、存储和网络服务、MCP (Model Context Protocol) 连接、分析、洞察和报表，覆盖 cloudflare、workflow、deployment、edge-functions、edge 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:07.865Z"
+    "updatedAt": "2026-07-13T05:49:59.796Z"
   },
   "cloudinary": {
     "sourceHash": "aa5de194598ee38c",
     "zhDescription": "在 Codex 中使用 Cloudinary，帮助处理文档、文件、合同和报告、Cloudflare、Workers、Pages、存储和网络服务、媒体库、图片、视频和素材管理、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:07.977Z"
+    "updatedAt": "2026-07-13T05:49:59.900Z"
   },
   "coderabbit": {
     "sourceHash": "62ed98a6ff71163f",
     "zhDescription": "在 Codex 中使用 CodeRabbit，帮助处理代码审查、diff 和问题修复，覆盖 code-review、ai、coderabbit、codex 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.111Z"
+    "updatedAt": "2026-07-13T05:50:00.027Z"
   },
   "codex-security": {
     "sourceHash": "39ccbeab24336350",
     "zhDescription": "在 Codex 中使用 Codex Security，帮助处理代码审查、diff 和问题修复、安全扫描、威胁建模和漏洞验证，覆盖 security、code-review、diff-review、appsec、threat-modeling 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.239Z"
+    "updatedAt": "2026-07-13T05:50:00.118Z"
   },
   "cogedim": {
     "sourceHash": "304711d369bfdc83",
     "zhDescription": "在 Codex 中使用 Cogedim，帮助处理销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.367Z"
+    "updatedAt": "2026-07-13T05:50:00.228Z"
   },
   "common-room": {
     "sourceHash": "32036ca2b5f24d24",
     "zhDescription": "在 Codex 中使用 Common Room，帮助处理账户和买家情报、潜客拓展、CRM 和客户关系管理、MCP (Model Context Protocol) 连接、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.507Z"
+    "updatedAt": "2026-07-13T05:50:00.327Z"
   },
   "computer-use": {
     "sourceHash": "00520da63304d66a",
     "zhDescription": "在 Codex 中使用 Computer Use，帮助处理文档、文件、合同和报告，覆盖 computer-use、desktop-control、macos、automation、accessibility 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.507Z"
+    "updatedAt": "2026-07-13T05:50:00.327Z"
   },
   "conductor": {
     "sourceHash": "4c997ecd519c0d63",
     "zhDescription": "在 Codex 中使用 Conductor，帮助处理品牌提及、情绪和媒体覆盖、代码审查、diff 和问题修复、MCP (Model Context Protocol) 连接、搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.612Z"
+    "updatedAt": "2026-07-13T05:50:00.442Z"
   },
   "convex": {
     "sourceHash": "61476862c571db30",
     "zhDescription": "在 Codex 中使用 Convex，帮助处理全栈、前端或后端应用开发、文档、文件、合同和报告、Cloudflare、Workers、Pages、存储和网络服务、数据库、Schema 和记录管理，覆盖 convex、backend、database、realtime、reactive 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.733Z"
+    "updatedAt": "2026-07-13T05:50:00.536Z"
   },
   "coupler-io": {
     "sourceHash": "2604acc4cd133f0e",
     "zhDescription": "在 Codex 中使用 Coupler.io，帮助处理文档、文件、合同和报告、日程、会议和参会人跟进、分析、洞察和报表、销售线索、销售管道和外联、营销活动、归因和渠道分析。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.836Z"
+    "updatedAt": "2026-07-13T05:50:00.670Z"
   },
   "coveo": {
     "sourceHash": "72aa864ddb182cb0",
     "zhDescription": "在 Codex 中使用 Coveo，帮助处理搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.949Z"
+    "updatedAt": "2026-07-13T05:50:00.767Z"
   },
   "creative-production": {
     "sourceHash": "3d1e54465fb89a0b",
     "zhDescription": "在 Codex 中使用 Creative Production，帮助处理媒体库、图片、视频和素材管理、创建、更新、管理和整理、营销活动、归因和渠道分析，覆盖 creative-production、campaign-board、display-ads、lifestyle-shots、ecommerce 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:08.949Z"
+    "updatedAt": "2026-07-13T05:50:00.767Z"
   },
   "cube": {
     "sourceHash": "7488f96af83bccc7",
     "zhDescription": "在 Codex 中使用 Cube，帮助处理 MCP (Model Context Protocol) 连接、搜索、检索和查询、总结和摘要。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.093Z"
+    "updatedAt": "2026-07-13T05:50:00.859Z"
   },
   "daloopa": {
     "sourceHash": "4c3b04ae3cc755b5",
     "zhDescription": "在 Codex 中使用 Daloopa，帮助处理 MCP (Model Context Protocol) 连接、搜索、检索和查询、创建、更新、管理和整理，覆盖 finance、equity-research、earnings、valuation、daloopa 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.231Z"
+    "updatedAt": "2026-07-13T05:50:00.957Z"
   },
   "data-analytics": {
     "sourceHash": "d0589faca7847280",
     "zhDescription": "在 Codex 中使用 Data Analytics，帮助处理文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、创建、更新、管理和整理、分析、洞察和报表，覆盖 data-analytics、business-data、metrics、reports、dashboards 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.231Z"
+    "updatedAt": "2026-07-13T05:50:00.957Z"
   },
   "datadog": {
     "sourceHash": "21f3ef5c07a67f5d",
     "zhDescription": "在 Codex 中使用 Datadog (Preview)，帮助处理创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.340Z"
+    "updatedAt": "2026-07-13T05:50:01.089Z"
   },
   "datasite": {
     "sourceHash": "fb4957f0f996801e",
     "zhDescription": "Datasite是一款生产力工具，它将ChatGPT连接到Datasite虚拟数据室——一个每年支撑数千笔并购交易的保密工作空间。你可以通过自然语言设置文件夹结构、邀请用户、搜索文档、追踪买方问答以及审计数据室准备状态，无需中断工作流程或牺牲安全。该工具专为顾问、银行家和公司发展团队设计，并基于每笔交易所需的企业级安全与权限管理。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:09.452Z"
+    "updatedAt": "2026-07-13T05:50:01.201Z"
   },
   "deepnote": {
     "sourceHash": "7b359c6d46f26409",
     "zhDescription": "在 Codex 中使用 Deepnote，帮助处理 notebook、SQL 和数据工作流，覆盖 deepnote、chatgpt-app、openai、notebooks、data 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.560Z"
+    "updatedAt": "2026-07-13T05:50:01.497Z"
   },
   "demandbase": {
     "sourceHash": "fff0d52b3710a294",
     "zhDescription": "在 Codex 中使用 Demandbase，帮助处理 CRM 和客户关系管理、文档、文件、合同和报告、MCP (Model Context Protocol) 连接、搜索、检索和查询、销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:09.702Z"
+    "updatedAt": "2026-07-13T05:50:01.601Z"
   },
   "digitalocean": {
     "sourceHash": "f17648e8cc5fd83d",
     "zhDescription": "通过关联的DigitalOcean应用，快速配置并创建一个DigitalOcean Droplet作为远程Codex SSH工作空间。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:09.819Z"
+    "updatedAt": "2026-07-13T05:50:01.710Z"
   },
   "dnb-finance-analytics": {
     "sourceHash": "51e18b7d14503c14",
     "zhDescription": "D&B Finance Analytics插件通过嵌入的AI决策层，赋能商业信贷发起与投资组合管理工作流程。邓白氏将D&B商业图谱与专有客户数据及信贷政策相结合，助力评估申请、设定信贷额度、揭示投资组合风险与机遇。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:09.932Z"
+    "updatedAt": "2026-07-13T05:50:01.832Z"
   },
   "docket": {
     "sourceHash": "00193f60b0e5b9b5",
     "zhDescription": "在 Codex 中使用 Docket，帮助处理潜客拓展、销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.036Z"
+    "updatedAt": "2026-07-13T05:50:01.927Z"
   },
   "documents": {
     "sourceHash": "ace229dd2cf70e6a",
     "zhDescription": "在 Codex 中使用 Documents，帮助处理文档、文件、合同和报告、创建、更新、管理和整理、分析、洞察和报表，覆盖 documents、word、google docs、docx、writing 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.036Z"
+    "updatedAt": "2026-07-13T05:50:01.927Z"
   },
   "docusign": {
     "sourceHash": "26bd6f2480754d7a",
     "zhDescription": "使用 Docusign 的智能自动化简化合同管理，不仅支持简单签署，还能让复杂的协议工作流变得毫不费力。通过自然语言创建和发送合同，即时获取续约日期和关键义务等洞察，并自动化工作流，让业务运行更快、摩擦更少。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:10.162Z"
+    "updatedAt": "2026-07-13T05:50:02.034Z"
   },
   "domotz-preview": {
     "sourceHash": "9a7d08c65f4ad42c",
     "zhDescription": "在 Codex 中使用 Domotz (Preview)，帮助处理 MCP (Model Context Protocol) 连接、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.275Z"
+    "updatedAt": "2026-07-13T05:50:02.195Z"
   },
   "dovetail": {
     "sourceHash": "5ab2029d1bc06b3f",
     "zhDescription": "在 Codex 中使用 Dovetail ，帮助处理搜索、检索和查询、总结和摘要。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.389Z"
+    "updatedAt": "2026-07-13T05:50:02.303Z"
   },
   "dow-jones-factiva": {
     "sourceHash": "a2d7aa774004652f",
     "zhDescription": "在 Codex 中使用 Dow Jones Factiva，帮助处理搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.532Z"
+    "updatedAt": "2026-07-13T05:50:02.394Z"
   },
   "egnyte": {
     "sourceHash": "d1bac37564a64843",
     "zhDescription": "在 Codex 中使用 Egnyte，帮助处理文档、文件、合同和报告、搜索、检索和查询、总结和摘要、创建、更新、管理和整理、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.644Z"
+    "updatedAt": "2026-07-13T05:50:02.550Z"
   },
   "expo": {
     "sourceHash": "166d65a6194c968a",
     "zhDescription": "在 Codex 中使用 Expo，帮助处理 CLI 工作流、SDK 开发，覆盖 expo、react-native、expo-router、codex-run-actions、eas 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:10.770Z"
+    "updatedAt": "2026-07-13T05:50:02.641Z"
   },
   "factset": {
     "sourceHash": "645fed86b28c3e04",
     "zhDescription": "FactSet Model Context Protocol (MCP) 是一个基于 API 的开放标准，旨在无缝连接不同平台上的金融数据、分析模型和应用。它支持投资团队跨工具和技术栈轻松共享洞察、简化工作流程并加强协作，从而高效集成新方案、推动创新并最大化金融运营价值，确保在投资过程中实现一致且富有上下文的决策。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:10.898Z"
+    "updatedAt": "2026-07-13T05:50:02.736Z"
   },
   "fal": {
     "sourceHash": "bf8e9a33a0cf48b9",
     "zhDescription": "Fal通过OpenAI应用连接器将图像、视频、音频、3D、训练和编辑工作流带入Codex，并提供针对模型推荐、Schema检查、定价、异步任务、文件上传和媒体生成的专业生产技能。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:11.017Z"
+    "updatedAt": "2026-07-13T05:50:02.819Z"
   },
   "figma": {
     "sourceHash": "6f0993b49689fa79",
     "zhDescription": "在 Codex 中使用 Figma，帮助处理科研图表、模板和图标，覆盖 figma、design-to-code、ui-implementation、code-connect、design-system 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.127Z"
+    "updatedAt": "2026-07-13T05:50:02.946Z"
   },
   "finn": {
     "sourceHash": "0722b6bbd89c5d20",
     "zhDescription": "在 Codex 中使用 FINN，帮助处理开发者工作流和任务自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.267Z"
+    "updatedAt": "2026-07-13T05:50:03.062Z"
   },
   "fireflies": {
     "sourceHash": "defdc70670285ae1",
     "zhDescription": "在 Codex 中使用 Fireflies，帮助处理 CRM 和客户关系管理、品牌提及、情绪和媒体覆盖、日程、会议和参会人跟进、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.381Z"
+    "updatedAt": "2026-07-13T05:50:03.160Z"
   },
   "fiscal-ai": {
     "sourceHash": "900b905133b0ffa0",
     "zhDescription": "在ChatGPT中直接访问机构级财务数据，Fiscal AI在财报发布后几分钟内提供基础指标与比率，每项数据均可通过直接链接溯源至原始文件。除核心财务数据外，Fiscal AI还提供公司特定KPI、收入细分及调整后指标，结合历史与当前市场报价，能够以极快速度开展有据可查的股权研究。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:11.490Z"
+    "updatedAt": "2026-07-13T05:50:03.256Z"
   },
   "fyxer": {
     "sourceHash": "4adec2bac012bb84",
     "zhDescription": "在 Codex 中使用 Fyxer，帮助处理日程、会议和参会人跟进、创建、更新、管理和整理、日历和 email 上下文。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.601Z"
+    "updatedAt": "2026-07-13T05:50:03.352Z"
   },
   "game-studio": {
     "sourceHash": "44d074d85d04cf33",
     "zhDescription": "在 Codex 中使用 Game Studio，帮助处理 CI、测试和部署、媒体库、图片、视频和素材管理、销售线索、销售管道和外联，覆盖 games、phaser、threejs、react-three-fiber、gltf 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.719Z"
+    "updatedAt": "2026-07-13T05:50:03.452Z"
   },
   "github": {
     "sourceHash": "b036ecdc2cd7c280",
     "zhDescription": "在 Codex 中使用 GitHub，帮助处理 CLI 工作流，覆盖 github、pull-request、code-review、issues、ci 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:11.837Z"
+    "updatedAt": "2026-07-13T05:50:03.589Z"
   },
   "glean": {
     "sourceHash": "1813c4ce29b18dae",
     "zhDescription": "将Glean的企业级知识库接入ChatGPT及AI工具，通过其远程MCP服务器（Model Context Protocol Server）实现组织内所有关联数据源（文档、Wiki、代码仓库等）的统一搜索，支持按姓名、角色或专长查找员工，读取指定文档，访问Gmail和Outlook邮件并查看会议详情，自定义Agent工作流可针对组织需求实现强大自动化，让Glean成为AI助手的企业记忆，确保ChatGPT及其他MCP兼容应用在您工作时始终拥有深入的公司上下文。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:11.954Z"
+    "updatedAt": "2026-07-13T05:50:03.678Z"
   },
   "gmail": {
     "sourceHash": "83c943b19b1f6a60",
     "zhDescription": "在 Codex 中使用 Gmail，帮助处理总结和摘要、创建、更新、管理和整理、日历和 email 上下文，覆盖 gmail、email、google 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.097Z"
+    "updatedAt": "2026-07-13T05:50:03.809Z"
   },
   "google-calendar": {
     "sourceHash": "b78bdd11e57b54c0",
     "zhDescription": "在 Codex 中使用 Google Calendar，帮助处理任务、子任务和项目详情、日程、会议和参会人跟进、总结和摘要、创建、更新、管理和整理、日历和 email 上下文，覆盖 google-calendar、calendar、agenda、daily-brief、scheduling 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.226Z"
+    "updatedAt": "2026-07-13T05:50:03.933Z"
   },
   "google-drive": {
     "sourceHash": "3ce9e3a0dc336e79",
     "zhDescription": "在 Codex 中使用 Google Drive，帮助处理文档、文件、合同和报告、搜索、检索和查询，覆盖 google-drive、google-docs、google-sheets、google-slides、productivity 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.344Z"
+    "updatedAt": "2026-07-13T05:50:04.019Z"
   },
   "govtribe": {
     "sourceHash": "256e8b20931d578c",
     "zhDescription": "在 Codex 中使用 GovTribe，帮助处理文档、文件、合同和报告、企业支出、报销、差旅和财务分析、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.463Z"
+    "updatedAt": "2026-07-13T05:50:04.143Z"
   },
   "granola": {
     "sourceHash": "10b8305acf68e8c6",
     "zhDescription": "在 Codex 中使用 Granola，帮助处理文档、文件、合同和报告、日程、会议和参会人跟进、代码审查、diff 和问题修复、MCP (Model Context Protocol) 连接、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.564Z"
+    "updatedAt": "2026-07-13T05:50:04.266Z"
   },
   "happenstance": {
     "sourceHash": "8696afcb3302c349",
     "zhDescription": "在 Codex 中使用 Happenstance，帮助处理文档、文件、合同和报告、搜索、检索和查询、销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:12.715Z"
+    "updatedAt": "2026-07-13T05:50:04.372Z"
   },
   "hebbia": {
     "sourceHash": "6b4dbfcd47fe05ec",
     "zhDescription": "Hebbia MCP服务器让你在ChatGPT和Codex中直接调用机构的内部知识与高质量公开信息，从而在交易与投资决策中做出更优判断，并执行从研究、报告、幻灯片到财务模型的全套金融工作流。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:12.863Z"
+    "updatedAt": "2026-07-13T05:50:04.459Z"
   },
   "help-scout": {
     "sourceHash": "d44be3911968a62c",
     "zhDescription": "在 Codex 中使用 Help Scout，帮助处理日常办公、知识整理和流程自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.013Z"
+    "updatedAt": "2026-07-13T05:50:04.594Z"
   },
   "hex": {
     "sourceHash": "82bed5531755ee4b",
     "zhDescription": "Hex插件协助用户查找现有的Hex项目、仪表盘及数据应用，并在用户明确希望在Hex中操作时，向Hex Threads提出问题。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:13.153Z"
+    "updatedAt": "2026-07-13T05:50:04.694Z"
   },
   "heygen": {
     "sourceHash": "de00899874d87dd7",
     "zhDescription": "在 Codex 中使用 HeyGen，帮助处理媒体库、图片、视频和素材管理、销售线索、销售管道和外联，覆盖 heygen、avatar、identity、video、digital-twin 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.278Z"
+    "updatedAt": "2026-07-13T05:50:04.795Z"
   },
   "hg-insights": {
     "sourceHash": "fa35d52b1aa8b8fe",
     "zhDescription": "HG Insights - Revenue Growth Intelligence 可为销售团队即时提供全面的潜在客户数据，包括技术栈、公司企业画像、决策者联系方式、IT 支出洞察以及合同情报。只需通过公司名称或域名进行询问，即可获取由 HG Insights 数据驱动的可执行销售情报。需拥有 HG Insights 的 RGI Developers 或 RGI Agents 账户。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:13.415Z"
+    "updatedAt": "2026-07-13T05:50:04.892Z"
   },
   "highlevel": {
     "sourceHash": "0689d6a18e4cfb0d",
     "zhDescription": "在 Codex 中使用 HighLevel，帮助处理 CRM 和客户关系管理、CLI 工作流、总结和摘要、销售线索、销售管道和外联、数据库、Schema 和记录管理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.529Z"
+    "updatedAt": "2026-07-13T05:50:04.990Z"
   },
   "hostinger": {
     "sourceHash": "c5ec52900de25546",
     "zhDescription": "在 Codex 中使用 Hostinger，帮助处理 CLI 工作流。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.652Z"
+    "updatedAt": "2026-07-13T05:50:05.086Z"
   },
   "hubspot": {
     "sourceHash": "7ce7b4c3ed7a8cf6",
     "zhDescription": "在 Codex 中使用 HubSpot，帮助处理任务、子任务和项目详情、CRM 和客户关系管理、文档、文件、合同和报告、日程、会议和参会人跟进、创建、更新、管理和整理，覆盖 hubspot、crm、sales、pipeline、customer-support 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.773Z"
+    "updatedAt": "2026-07-13T05:50:05.190Z"
   },
   "hugging-face": {
     "sourceHash": "b5c9b74296d51e6e",
     "zhDescription": "在 Codex 中使用 Hugging Face，帮助处理 SDK 开发、文档、文件、合同和报告、创建、更新、管理和整理，覆盖 hugging-face、models、datasets、spaces、machine-learning 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:13.921Z"
+    "updatedAt": "2026-07-13T05:50:05.290Z"
   },
   "hyperframes": {
     "sourceHash": "8007d07f405eea51",
     "zhDescription": "在 Codex 中使用 HyperFrames by HeyGen，帮助处理 CLI 工作流、媒体库、图片、视频和素材管理、销售线索、销售管道和外联，覆盖 hyperframes、video、html、gsap、animation 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.041Z"
+    "updatedAt": "2026-07-13T05:50:05.374Z"
   },
   "intercom": {
     "sourceHash": "d9d0cc5f1913df89",
     "zhDescription": "在 Codex 中使用 Intercom，帮助处理开发者工作流和任务自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.168Z"
+    "updatedAt": "2026-07-13T05:50:05.507Z"
   },
   "investment-banking": {
     "sourceHash": "8881f6c6a6ffd970",
     "zhDescription": "在 Codex 中使用 Investment Banking，帮助处理文档、文件、合同和报告、交易流、投资备忘录和私募市场研究、搜索、检索和查询、分析、洞察和报表，覆盖 investment-banking、research、due-diligence、pitch-materials、comparable-companies 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.168Z"
+    "updatedAt": "2026-07-13T05:50:05.507Z"
   },
   "jam": {
     "sourceHash": "147947445a3b011a",
     "zhDescription": "在 Codex 中使用 Jam，帮助处理数据库、Schema 和记录管理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.320Z"
+    "updatedAt": "2026-07-13T05:50:05.622Z"
   },
   "keybid-puls": {
     "sourceHash": "63deb63a2e5fda6f",
     "zhDescription": "在 Codex 中使用 KeyBid Puls，帮助处理文档、文件、合同和报告、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.433Z"
+    "updatedAt": "2026-07-13T05:50:05.747Z"
   },
   "life-science-research": {
     "sourceHash": "d9f7fb6679aee3b0",
     "zhDescription": "在 Codex 中使用 Life Science Research，帮助处理任务、子任务和项目详情、CLI 工作流、搜索、检索和查询，覆盖 life-science、research、bioinformatics、human-genetics、functional-genomics 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.542Z"
+    "updatedAt": "2026-07-13T05:50:05.853Z"
   },
   "linear": {
     "sourceHash": "5a6d2f920d266cdf",
     "zhDescription": "在 Codex 中使用 Linear，帮助处理创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:14.663Z"
+    "updatedAt": "2026-07-13T05:50:05.972Z"
   },
   "lovable": {
     "sourceHash": "a247b12057c9ba0e",
     "zhDescription": "Lovable是一个开发者工具插件，能够根据自然语言提示创建全栈Web应用和网站，自动处理构建、后端、数据库和身份验证设置，并返回构建状态、URL和截图，用于启动或检查网站构建，以及为用户提供可在外部Web界面中进一步修改或扩展网站的链接。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:14.784Z"
+    "updatedAt": "2026-07-13T05:50:06.063Z"
   },
   "lseg": {
     "sourceHash": "7517b1d8031082fd",
     "zhDescription": "LSEG 连接器提供对 LSEG 全面金融市场数据生态系统的实时访问，涵盖多种资产类别和领域，支持将机构级市场数据、分析及估值工具无缝集成到对话式 AI 工作流中，使用户能够通过自然语言交互获取深度市场洞察、执行复杂计算并分析金融工具。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:14.917Z"
+    "updatedAt": "2026-07-13T05:50:06.193Z"
   },
   "magicpath": {
     "sourceHash": "69804d3667dab1fe",
     "zhDescription": "在 Codex 中使用 MagicPath，帮助处理 CLI 工作流、图表、仪表盘、地图和 WebGL/Three.js 可视化、搜索、检索和查询、创建、更新、管理和整理，覆盖 magicpath、codex、ui-components、design、react 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.063Z"
+    "updatedAt": "2026-07-13T05:50:06.298Z"
   },
   "marcopolo": {
     "sourceHash": "410015771246e46d",
     "zhDescription": "在 Codex 中使用 MarcoPolo，帮助处理 Jira 和 Confluence 工作流、CRM 和客户关系管理、文档、文件、合同和报告、搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.185Z"
+    "updatedAt": "2026-07-13T05:50:06.402Z"
   },
   "mem": {
     "sourceHash": "cd2de5c2e1229b25",
     "zhDescription": "在 Codex 中使用 Mem，帮助处理任务、子任务和项目详情、日程、会议和参会人跟进、搜索、检索和查询、创建、更新、管理和整理、notebook、SQL 和数据工作流。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.301Z"
+    "updatedAt": "2026-07-13T05:50:06.500Z"
   },
   "meticulate": {
     "sourceHash": "56f526131ee6e23d",
     "zhDescription": "Meticulate帮助销售和上市团队直接在ChatGPT中研究公司：上传公司列表或描述你关注的账户，即可识别公司、寻找相似目标、提取关键业务信息，并跨账户回答结构化研究问题。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:15.430Z"
+    "updatedAt": "2026-07-13T05:50:06.606Z"
   },
   "midpage": {
     "sourceHash": "408aee427e84e774",
     "zhDescription": "使用 Midpage 插件，ChatGPT 可连接判例法数据库，进行复杂法律研究、审阅意见并生成高质量工作成果，所有内容均超链接至真实来源以便验证。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:15.539Z"
+    "updatedAt": "2026-07-13T05:50:06.712Z"
   },
   "mixpanel": {
     "sourceHash": "de4ae6e4d393ca1f",
     "zhDescription": "在 Codex 中使用 Mixpanel，帮助处理产品分析和转化漏斗、科研图表、模板和图标、文档、文件、合同和报告、MCP (Model Context Protocol) 连接、搜索、检索和查询，覆盖 mixpanel、analytics、segmentation、funnels、retention 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.656Z"
+    "updatedAt": "2026-07-13T05:50:06.813Z"
   },
   "mixpanel-headless": {
     "sourceHash": "2b19e47e89b9fdd1",
     "zhDescription": "在 Codex 中使用 Mixpanel Headless，帮助处理产品分析和转化漏斗、SDK 开发、文档、文件、合同和报告、图表、仪表盘、地图和 WebGL/Three.js 可视化、数据库、Schema 和记录管理，覆盖 mixpanel、analytics、product-analytics、python、data-science 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.767Z"
+    "updatedAt": "2026-07-13T05:50:06.917Z"
   },
   "monday-com": {
     "sourceHash": "eb127e9128924dd6",
     "zhDescription": "在 Codex 中使用 Monday.com，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化、MCP (Model Context Protocol) 连接、创建、更新、管理和整理、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:15.925Z"
+    "updatedAt": "2026-07-13T05:50:07.018Z"
   },
   "moody-s": {
     "sourceHash": "1d8a5842076cc4c9",
     "zhDescription": "在 Codex 中使用 Moody's，帮助处理文字记录、文档、文件、合同和报告、MCP (Model Context Protocol) 连接、搜索、检索和查询，覆盖 moodys、credit、ratings、research、risk 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.042Z"
+    "updatedAt": "2026-07-13T05:50:07.106Z"
   },
   "morningstar": {
     "sourceHash": "e69ca0d5f8669314",
     "zhDescription": "在 Codex 中使用 Morningstar，帮助处理日程、会议和参会人跟进、总结和摘要，覆盖 morningstar、funds、etf、research、screening 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.157Z"
+    "updatedAt": "2026-07-13T05:50:07.204Z"
   },
   "motherduck": {
     "sourceHash": "8d0616b7c0ae9106",
     "zhDescription": "在 Codex 中使用 MotherDuck，帮助处理创建、更新、管理和整理、notebook、SQL 和数据工作流。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.266Z"
+    "updatedAt": "2026-07-13T05:50:07.352Z"
   },
   "mt-newswires": {
     "sourceHash": "6518d98efd4c98f4",
     "zhDescription": "在 Codex 中使用 MT Newswires，帮助处理媒体库、图片、视频和素材管理、搜索、检索和查询、总结和摘要、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.372Z"
+    "updatedAt": "2026-07-13T05:50:07.443Z"
   },
   "myregistry-com": {
     "sourceHash": "fc32c83e00136d01",
     "zhDescription": "在 Codex 中使用 MyRegistry.com，帮助处理创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.504Z"
+    "updatedAt": "2026-07-13T05:50:07.545Z"
   },
   "neon-postgres": {
     "sourceHash": "d118e24168622d11",
     "zhDescription": "在 Codex 中使用 Neon Postgres，帮助处理 MCP (Model Context Protocol) 连接、创建、更新、管理和整理、数据库、Schema 和记录管理，覆盖 neon、postgres、serverless、database、mcp 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.648Z"
+    "updatedAt": "2026-07-13T05:50:07.649Z"
   },
   "netlify": {
     "sourceHash": "a823667c58219c41",
     "zhDescription": "在 Codex 中使用 Netlify，帮助处理 CI、测试和部署、创建、更新、管理和整理，覆盖 netlify、deployment、hosting、preview、static-sites 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.780Z"
+    "updatedAt": "2026-07-13T05:50:07.759Z"
   },
   "network-solutions": {
     "sourceHash": "5fe4e5c736c17e1b",
     "zhDescription": "在 Codex 中使用 Network Solutions，帮助处理日程、会议和参会人跟进、代码审查、diff 和问题修复、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:16.909Z"
+    "updatedAt": "2026-07-13T05:50:07.860Z"
   },
   "ngs-analysis": {
     "sourceHash": "8b1925f99e41cf5b",
     "zhDescription": "在 Codex 中使用 Life Sciences NGS Analysis，帮助处理文档、文件、合同和报告、日程、会议和参会人跟进、代码审查、diff 和问题修复、分析、洞察和报表，覆盖 ngs、sequencing、bioinformatics、fastq、bcl 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.016Z"
+    "updatedAt": "2026-07-13T05:50:07.963Z"
   },
   "notion": {
     "sourceHash": "a2c593406d08d824",
     "zhDescription": "在 Codex 中使用 Notion，帮助处理文档、文件、合同和报告、日程、会议和参会人跟进、Cloudflare、Workers、Pages、存储和网络服务、搜索、检索和查询，覆盖 notion、documentation、research、meeting-prep、knowledge-management 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.144Z"
+    "updatedAt": "2026-07-13T05:50:08.053Z"
   },
   "nvidia": {
     "sourceHash": "bd446f5e7eac9efb",
     "zhDescription": "在 Codex 中使用 NVIDIA，帮助处理开发者工作流和任务自动化，覆盖 nvidia、gpu、cuda、ai-agents、inference 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.274Z"
+    "updatedAt": "2026-07-13T05:50:08.171Z"
   },
   "omni-analytics": {
     "sourceHash": "9547ea521022c2c3",
     "zhDescription": "在 Codex 中使用 Omni Analytics，帮助处理搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.409Z"
+    "updatedAt": "2026-07-13T05:50:08.256Z"
   },
   "openai-ads-conversions": {
     "sourceHash": "15296d8a2567cad3",
     "zhDescription": "使用OpenAI Ads Conversions插件，指导Codex在仓库中添加或扩展Measurement Pixel及可选的Conversions API检测工具，提供本地验证助手，并指导安全处理密钥、去重、归因上下文和设置报告。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:17.543Z"
+    "updatedAt": "2026-07-13T05:50:08.357Z"
   },
   "openai-developers": {
     "sourceHash": "4a010693bf2a1a8a",
     "zhDescription": "在 Codex 中使用 OpenAI Developers，帮助处理 SDK 开发、CI、测试和部署、创建、更新、管理和整理，覆盖 openai-platform、api-key、agents-sdk、agents、chatgpt-apps 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.691Z"
+    "updatedAt": "2026-07-13T05:50:08.446Z"
   },
   "otter-ai": {
     "sourceHash": "a019b7c091023514",
     "zhDescription": "在 Codex 中使用 Otter.ai，帮助处理文字记录、日程、会议和参会人跟进、MCP (Model Context Protocol) 连接、搜索、检索和查询、总结和摘要，覆盖 otter、meetings、transcripts、summaries、action-items 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.832Z"
+    "updatedAt": "2026-07-13T05:50:08.578Z"
   },
   "outlook-calendar": {
     "sourceHash": "b140538b5ffd81e0",
     "zhDescription": "在 Codex 中使用 Outlook Calendar，帮助处理日程、会议和参会人跟进、总结和摘要、日历和 email 上下文，覆盖 outlook-calendar、calendar、microsoft、scheduling、teams 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:17.995Z"
+    "updatedAt": "2026-07-13T05:50:08.706Z"
   },
   "outlook-email": {
     "sourceHash": "a4691e3dc97e9215",
     "zhDescription": "在 Codex 中使用 Outlook Email，帮助处理总结和摘要、日历和 email 上下文，覆盖 outlook-email、email、microsoft 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:18.145Z"
+    "updatedAt": "2026-07-13T05:50:08.810Z"
   },
   "outreach": {
     "sourceHash": "ecdecab1f947a793",
     "zhDescription": "将Outreach的知识与操作接入ChatGPT，让团队无需切换工具即可更快行动、跨系统整合洞察并完成高级营收任务。Outreach是一个面向所有市场推广团队的全链路AI营收平台，通过在每项营收工作流中嵌入自主AI代理，提升销售效率、加速商机转化，并为管理者提供规模化增长所需的可见性与可预测性。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:18.278Z"
+    "updatedAt": "2026-07-13T05:50:08.958Z"
   },
   "particl-market-research": {
     "sourceHash": "7e7dbd88803b6924",
     "zhDescription": "在 Codex 中使用 Particl Market Research，帮助处理媒体库、图片、视频和素材管理、搜索、检索和查询、销售线索、销售管道和外联、营销活动、归因和渠道分析。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:18.383Z"
+    "updatedAt": "2026-07-13T05:50:09.077Z"
   },
   "picsart": {
     "sourceHash": "adba85c075163ae8",
     "zhDescription": "Picsart（扩展名：Picsart）是一款创意类插件，可让用户通过单个Picsart账户使用140多个人工智能模型，高质量生成视频、图像和音频。例如，可输入指令：@Picsart，为产品发布创建一段10秒电影感视频广告；将这张产品照片转为6秒竖版视频，@Picsart；@Picsart为新发布产品生成三张超写实主打图片；@Picsart为产品演示创建一段15秒纯音乐背景。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:18.527Z"
+    "updatedAt": "2026-07-13T05:50:09.176Z"
   },
   "pipedrive": {
     "sourceHash": "dfccc6ec64761abf",
     "zhDescription": "在 Codex 中使用 Pipedrive，帮助处理日常办公、知识整理和流程自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:18.648Z"
+    "updatedAt": "2026-07-13T05:50:09.296Z"
   },
   "pitchbook": {
     "sourceHash": "10ce6c8609d55d2d",
     "zhDescription": "在 Codex 中使用 PitchBook，帮助处理市场数据、报价、期权链和 crypto 信息、SwiftUI、AppKit、iOS 和 macOS 开发、投资组合、基金指标和公司动态、搜索、检索和查询、总结和摘要。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:18.782Z"
+    "updatedAt": "2026-07-13T05:50:09.390Z"
   },
   "plugin-eval": {
     "sourceHash": "07480a0ebf7e4fa6",
     "zhDescription": "在 Codex 中使用 Plugin Eval，帮助处理开发者工作流和任务自动化，覆盖 codex、plugin、skill、evaluation、quality 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:18.924Z"
+    "updatedAt": "2026-07-13T05:50:09.493Z"
   },
   "policynote": {
     "sourceHash": "3748cc364ff36eee",
     "zhDescription": "在 Codex 中使用 PolicyNote，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化、搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.031Z"
+    "updatedAt": "2026-07-13T05:50:09.590Z"
   },
   "posthog": {
     "sourceHash": "0202c12358c761e5",
     "zhDescription": "PostHog为你的AI Agent直接提供产品分析、功能开关、实验、错误追踪、调查、日志和LLM分析能力。你可以通过对话询问数据问题、创建洞察、切换Feature Flags、分析错误、搜索文档等操作。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:19.152Z"
+    "updatedAt": "2026-07-13T05:50:09.701Z"
   },
   "presentations": {
     "sourceHash": "f49f0a77d6935cac",
     "zhDescription": "在 Codex 中使用 Presentations，帮助处理创建、更新、管理和整理，覆盖 slides、presentation、google slides、powerpoint、pptx 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.152Z"
+    "updatedAt": "2026-07-13T05:50:09.701Z"
   },
   "product-design": {
     "sourceHash": "6f3ecd9868cb604c",
     "zhDescription": "在 Codex 中使用 Product Design，帮助处理产品原型和方案探索、UX、用户流程和可访问性审查、搜索、检索和查询，覆盖 prototype、frontend、ux-research、ux-audit、accessibility-audit 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.152Z"
+    "updatedAt": "2026-07-13T05:50:09.701Z"
   },
   "public-equity-investing": {
     "sourceHash": "f4663129e00fae31",
     "zhDescription": "在 Codex 中使用 Public Equity Investing，帮助处理财报电话会、市场数据、报价、期权链和 crypto 信息、投资组合、基金指标和公司动态、创建、更新、管理和整理，覆盖 public-equity、investing、earnings、company-comparison、market-signals 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.152Z"
+    "updatedAt": "2026-07-13T05:50:09.701Z"
   },
   "pylon": {
     "sourceHash": "02589e03b232187f",
     "zhDescription": "在 Codex 中使用 Pylon，帮助处理搜索、检索和查询、总结和摘要、创建、更新、管理和整理、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.256Z"
+    "updatedAt": "2026-07-13T05:50:09.795Z"
   },
   "quartr": {
     "sourceHash": "5bc0a738587f5ce5",
     "zhDescription": "在 Codex 中使用 Quartr，帮助处理财报电话会、文字记录、科研图表、模板和图标、文档、文件、合同和报告、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.390Z"
+    "updatedAt": "2026-07-13T05:50:09.941Z"
   },
   "quickbooks": {
     "sourceHash": "451c2d0441ca0877",
     "zhDescription": "QuickBooks插件可将原始财务数据转化为清晰的财务分析，支持盈利能力、现金流、应收账款/应付账款分析，并与同行业、同地区企业进行绩效对比。可快速生成符合会计准则的损益表、现金流量表、资产负债表及账龄报告。直接通过对话管理发票、报价、付款、客户、产品和工资单。通过QuickBooks ChatGPT应用上传或粘贴交易记录以分析个性化结果，并随着业务发展查看同行业贷款基准数据。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:19.542Z"
+    "updatedAt": "2026-07-13T05:50:10.046Z"
   },
   "quicknode": {
     "sourceHash": "fe1467b9664b1658",
     "zhDescription": "在 Codex 中使用 Quicknode，帮助处理科研图表、模板和图标、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.656Z"
+    "updatedAt": "2026-07-13T05:50:10.158Z"
   },
   "ranked-ai": {
     "sourceHash": "556504edb1455a5e",
     "zhDescription": "在 Codex 中使用 Ranked AI，帮助处理文档、文件、合同和报告、搜索、检索和查询、创建、更新、管理和整理、分析、洞察和报表、销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.774Z"
+    "updatedAt": "2026-07-13T05:50:10.279Z"
   },
   "razorpay": {
     "sourceHash": "b7c9938dc877c0e2",
     "zhDescription": "在 Codex 中使用 Razorpay，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化、搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:19.901Z"
+    "updatedAt": "2026-07-13T05:50:10.372Z"
   },
   "read-ai": {
     "sourceHash": "74d64527996d3f9e",
     "zhDescription": "在 Codex 中使用 Read AI，帮助处理文字记录、日程、会议和参会人跟进、MCP (Model Context Protocol) 连接、搜索、检索和查询、总结和摘要。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:20.017Z"
+    "updatedAt": "2026-07-13T05:50:10.482Z"
   },
   "readwise": {
     "sourceHash": "0e3f7f291b5e55ce",
     "zhDescription": "在 Codex 中使用 Readwise，帮助处理搜索、检索和查询、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:20.136Z"
+    "updatedAt": "2026-07-13T05:50:10.584Z"
   },
   "remotion": {
     "sourceHash": "2ccc7ee9406eefd8",
     "zhDescription": "在 Codex 中使用 Remotion，帮助处理图表、仪表盘、地图和 WebGL/Three.js 可视化、媒体库、图片、视频和素材管理，覆盖 remotion、video、react、animation、composition 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:20.305Z"
+    "updatedAt": "2026-07-13T05:50:10.683Z"
   },
   "render": {
     "sourceHash": "1e1de3b0c5da73e3",
     "zhDescription": "在 Codex 中使用 Render，帮助处理开发者工作流和任务自动化，覆盖 render、deploy、cloud、blueprint、monitoring 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:20.446Z"
+    "updatedAt": "2026-07-13T05:50:10.794Z"
   },
   "replayio": {
     "sourceHash": "06cc3a2f8d99a8ca",
     "zhDescription": "Replay.io利用环境变量AGENT_BROWSER_EXECUTABLE_PATH指定的Replay Chromium驱动宿主代理浏览器，捕获支持时光旅行的可调试录制文件，在运行结束后上传待处理的录制内容，通过Replay MCP工具分析已上传的录制记录，并创建Replay QA项目以进行录制分析或实时应用探索。在支持MCP App感知的宿主中，Replay工具结果可渲染丰富的调试小部件，涵盖日志断点、控制台输出、React树、Redux状态、网络请求、截图、源代码、性能剖析及异常堆栈。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:20.558Z"
+    "updatedAt": "2026-07-13T05:50:10.910Z"
   },
   "replit": {
     "sourceHash": "021aca0a3341d205",
     "zhDescription": "Replit 插件允许开发者通过自然语言描述在用户的 Replit 账户中创建全新的 Web 应用程序，同时避免在聊天中直接暴露代码；它还支持检查并解释当前应用的行为，并在迭代开发过程中通过自然语言变更请求对同一应用进行修改。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:20.673Z"
+    "updatedAt": "2026-07-13T05:50:11.017Z"
   },
   "responsive": {
     "sourceHash": "15f64e23042bcfc5",
     "zhDescription": "在 Codex 中使用 Responsive，帮助处理搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:20.814Z"
+    "updatedAt": "2026-07-13T05:50:11.104Z"
   },
   "rox": {
     "sourceHash": "af0a4109c244456f",
     "zhDescription": "Rox 帮助用户从自己的 Rox 工作区中查找和分析经过认证的销售数据，涵盖客户、交易、联系人、备注、邮件、会议、文档、组织架构和 Slack 活动。该插件提供一个引导式数据界面：用户可以浏览可用的数据函数，查看每个函数的 Schema（数据模式）和工作流程指引，然后调用只读函数来回答有关销售和客户情报的问题。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:20.952Z"
+    "updatedAt": "2026-07-13T05:50:11.239Z"
   },
   "s-p": {
     "sourceHash": "8426f406956031d1",
     "zhDescription": "使用自然语言查询S&P Global数据集，包括S&P Capital IQ Financials、Transcripts等。该服务器专为金融行业的工程、产品和业务团队设计，可节省时间和资源，简化对公司信息、财务报表、历史市场数据和全球证券的访问。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:21.133Z"
+    "updatedAt": "2026-07-13T05:50:11.356Z"
   },
   "sales": {
     "sourceHash": "5d2641518162886d",
     "zhDescription": "在 Codex 中使用 Sales，帮助处理日程、会议和参会人跟进、创建、更新、管理和整理、销售线索、销售管道和外联、数据库、Schema 和记录管理，覆盖 sales、accounts、customer-meetings、follow-ups、crm 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.133Z"
+    "updatedAt": "2026-07-13T05:50:11.356Z"
   },
   "scite": {
     "sourceHash": "befda6daa8946fb6",
     "zhDescription": "在 Codex 中使用 Scite，帮助处理搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.295Z"
+    "updatedAt": "2026-07-13T05:50:11.479Z"
   },
   "semrush": {
     "sourceHash": "edeec5df5fc7b7db",
     "zhDescription": "在 Codex 中使用 Semrush，帮助处理文档、文件、合同和报告、MCP (Model Context Protocol) 连接、搜索、检索和查询、分析、洞察和报表。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.433Z"
+    "updatedAt": "2026-07-13T05:50:11.585Z"
   },
   "sendgrid": {
     "sourceHash": "51d663c002a6282e",
     "zhDescription": "在 Codex 中使用 SendGrid，帮助处理日历和 email 上下文。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.549Z"
+    "updatedAt": "2026-07-13T05:50:11.680Z"
   },
   "sentry": {
     "sourceHash": "ac023328b2a06b94",
     "zhDescription": "在 Codex 中使用 Sentry，帮助处理总结和摘要，覆盖 sentry、observability、triage 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.682Z"
+    "updatedAt": "2026-07-13T05:50:11.852Z"
   },
   "setu-bharat-connect-billpay": {
     "sourceHash": "166ea560446eb739",
     "zhDescription": "在 Codex 中使用 Setu Bharat Connect BillPay ，帮助处理总结和摘要。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.816Z"
+    "updatedAt": "2026-07-13T05:50:11.945Z"
   },
   "sharepoint": {
     "sourceHash": "29c72186d9bc6225",
     "zhDescription": "在 Codex 中使用 SharePoint，帮助处理文档、文件、合同和报告、Cloudflare、Workers、Pages、存储和网络服务、总结和摘要、创建、更新、管理和整理，覆盖 sharepoint、documents、microsoft 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:21.939Z"
+    "updatedAt": "2026-07-13T05:50:12.041Z"
   },
   "shopify": {
     "sourceHash": "fb9034e6dace9754",
     "zhDescription": "在 Codex 中使用 Shopify，帮助处理 CLI 工作流、文档、文件、合同和报告、搜索、检索和查询，覆盖 shopify、mcp、graphql、liquid、storefront 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.046Z"
+    "updatedAt": "2026-07-13T05:50:12.155Z"
   },
   "shutterstock": {
     "sourceHash": "dea59394ad16cac2",
     "zhDescription": "Shutterstock插件可搜索素材库，根据用户指定的主题、风格、情绪或场景匹配候选图片、视频、音乐和音效，返回带水印的预览URL及基础元数据供选择。适用于用户浏览或挑选现有素材（含多组图片关联搜索），不涉及生成、编辑、授权或下载文件。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:22.154Z"
+    "updatedAt": "2026-07-13T05:50:12.266Z"
   },
   "signnow": {
     "sourceHash": "dc275c03332987c7",
     "zhDescription": "在 Codex 中使用 SignNow，帮助处理 CLI 工作流、科研图表、模板和图标、文档、文件、合同和报告、MCP (Model Context Protocol) 连接、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.268Z"
+    "updatedAt": "2026-07-13T05:50:12.365Z"
   },
   "similarweb": {
     "sourceHash": "ccdb1145ae3da0ca",
     "zhDescription": "在ChatGPT中使用Similarweb的市场情报数据研究任何网站或应用，通过简单提示即可分析竞争对手流量、发现热门关键词、探索受众人口统计及跨行业表现基准，例如询问“展示Nike的流量来源分布”或“Adidas有哪些关键词排名”，无需切换工具即可获取实时洞察，适合营销人员、分析师、投资者及战略人员快速将竞争问题转化为答案。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:22.590Z"
+    "updatedAt": "2026-07-13T05:50:12.451Z"
   },
   "skywatch": {
     "sourceHash": "778fb9858ca190ed",
     "zhDescription": "在 Codex 中使用 SkyWatch，帮助处理媒体库、图片、视频和素材管理、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.705Z"
+    "updatedAt": "2026-07-13T05:50:12.578Z"
   },
   "slack": {
     "sourceHash": "bc7e42611337ad51",
     "zhDescription": "在 Codex 中使用 Slack，帮助处理总结和摘要、创建、更新、管理和整理，覆盖 slack、chat、collaboration 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.850Z"
+    "updatedAt": "2026-07-13T05:50:12.701Z"
   },
   "spreadsheets": {
     "sourceHash": "009fc7d72e123efd",
     "zhDescription": "在 Codex 中使用 Spreadsheets，帮助处理创建、更新、管理和整理，覆盖 spreadsheet、google sheets、excel、csv、xlsx 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.850Z"
+    "updatedAt": "2026-07-13T05:50:12.701Z"
   },
   "statsig": {
     "sourceHash": "c82480deba057f20",
     "zhDescription": "在 Codex 中使用 Statsig，帮助处理 MCP (Model Context Protocol) 连接、创建、更新、管理和整理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:22.969Z"
+    "updatedAt": "2026-07-13T05:50:12.803Z"
   },
   "streak": {
     "sourceHash": "d3fd73e1350e2f75",
     "zhDescription": "在 Codex 中使用 Streak，帮助处理任务、子任务和项目详情、CRM 和客户关系管理、创建、更新、管理和整理、销售线索、销售管道和外联、日历和 email 上下文。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.071Z"
+    "updatedAt": "2026-07-13T05:50:12.910Z"
   },
   "stripe": {
     "sourceHash": "b0da7ac95b48315c",
     "zhDescription": "在 Codex 中使用 Stripe，帮助处理日常办公、知识整理和流程自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.177Z"
+    "updatedAt": "2026-07-13T05:50:12.999Z"
   },
   "supabase": {
     "sourceHash": "3ed6bf9bce2307e5",
     "zhDescription": "在 Codex 中使用 Supabase，帮助处理 MCP (Model Context Protocol) 连接，覆盖 supabase、postgres、database、backend、mcp 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.292Z"
+    "updatedAt": "2026-07-13T05:50:13.135Z"
   },
   "superhuman": {
     "sourceHash": "d3a6d32a8fbaf1d2",
     "zhDescription": "在 Codex 中使用 Superhuman Mail，帮助处理日程、会议和参会人跟进、日历和 email 上下文，覆盖 superhuman、mail、email、calendar、mcp 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.412Z"
+    "updatedAt": "2026-07-13T05:50:13.264Z"
   },
   "superpowers": {
     "sourceHash": "6dd2b50c46a5b8a3",
     "zhDescription": "在 Codex 中使用 Superpowers，帮助处理代码审查、diff 和问题修复，覆盖 brainstorming、subagent-driven-development、skills、planning、tdd 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.517Z"
+    "updatedAt": "2026-07-13T05:50:13.379Z"
   },
   "taxdown": {
     "sourceHash": "ea85290de32410a2",
     "zhDescription": "在 Codex 中使用 Taxdown，帮助处理开发者工作流和任务自动化。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.631Z"
+    "updatedAt": "2026-07-13T05:50:13.490Z"
   },
   "teams": {
     "sourceHash": "2d954962e4876d71",
     "zhDescription": "在 Codex 中使用 Teams，帮助处理日程、会议和参会人跟进、总结和摘要，覆盖 teams、chat、microsoft 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.752Z"
+    "updatedAt": "2026-07-13T05:50:13.599Z"
   },
   "teamwork-com": {
     "sourceHash": "ca3f1570dfe09691",
     "zhDescription": "在 Codex 中使用 Teamwork.com，帮助处理任务、子任务和项目详情。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.869Z"
+    "updatedAt": "2026-07-13T05:50:13.704Z"
   },
   "temporal": {
     "sourceHash": "e8435f9c48a8b8e5",
     "zhDescription": "在 Codex 中使用 Temporal，帮助处理 CLI 工作流、SDK 开发、CI、测试和部署、Cloudflare、Workers、Pages、存储和网络服务，覆盖 temporal、workflow、durable-execution、python、typescript 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:23.974Z"
+    "updatedAt": "2026-07-13T05:50:13.863Z"
   },
   "test-android-apps": {
     "sourceHash": "083cb357be69fa80",
     "zhDescription": "在 Codex 中使用 Test Android Apps，帮助处理开发者工作流和任务自动化，覆盖 android、adb、emulator、qa、logcat 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.107Z"
+    "updatedAt": "2026-07-13T05:50:13.958Z"
   },
   "third-bridge": {
     "sourceHash": "771c2698bc7860e8",
     "zhDescription": "在 Codex 中使用 Third Bridge，帮助处理 MCP (Model Context Protocol) 连接、搜索、检索和查询、分析、洞察和报表、数据库、Schema 和记录管理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.228Z"
+    "updatedAt": "2026-07-13T05:50:14.057Z"
   },
   "thoughtspot": {
     "sourceHash": "8c915448ad9aa98c",
     "zhDescription": "ThoughtSpot 的 Spotter 工具面向业务与数据团队，能处理从日常数据查询到高层战略分析的各种问题，提供可信任、可验证、可执行的答案与洞察，帮助团队利用数据驱动业务。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:24.343Z"
+    "updatedAt": "2026-07-13T05:50:14.183Z"
   },
   "tinman-ai": {
     "sourceHash": "e8a65a110e920094",
     "zhDescription": "在 Codex 中使用 Tinman AI，帮助处理 SwiftUI、AppKit、iOS 和 macOS 开发。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.466Z"
+    "updatedAt": "2026-07-13T05:50:14.306Z"
   },
   "twilio-developer-kit": {
     "sourceHash": "5341f98552fd6665",
     "zhDescription": "在 Codex 中使用 Twilio Developer Kit，帮助处理任务、子任务和项目详情，覆盖 twilio、sms、voice、whatsapp、rcs 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.580Z"
+    "updatedAt": "2026-07-13T05:50:14.414Z"
   },
   "united-rentals": {
     "sourceHash": "a30ac910a6563142",
     "zhDescription": "在 Codex 中使用 United Rentals，帮助处理任务、子任务和项目详情。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.703Z"
+    "updatedAt": "2026-07-13T05:50:14.509Z"
   },
   "vantage": {
     "sourceHash": "45cfd5f97a989356",
     "zhDescription": "在 Codex 中使用 Vantage，帮助处理企业支出、报销、差旅和财务分析。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.837Z"
+    "updatedAt": "2026-07-13T05:50:14.623Z"
   },
   "vercel": {
     "sourceHash": "4074d17a5093edf6",
     "zhDescription": "在 Codex 中使用 Vercel，帮助处理开发者工作流和任务自动化，覆盖 vercel、nextjs、ai-sdk、turborepo、turbopack 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:24.957Z"
+    "updatedAt": "2026-07-13T05:50:14.731Z"
   },
   "waldo": {
     "sourceHash": "c618fd4ceb678466",
     "zhDescription": "在 Codex 中使用 Waldo，帮助处理品牌提及、情绪和媒体覆盖、搜索、检索和查询。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.100Z"
+    "updatedAt": "2026-07-13T05:50:14.846Z"
   },
   "weatherpromise": {
     "sourceHash": "5da711e7c9de18eb",
     "zhDescription": "在 Codex 中使用 WeatherPromise，帮助处理企业支出、报销、差旅和财务分析、图表、仪表盘、地图和 WebGL/Three.js 可视化、日历和 email 上下文。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.233Z"
+    "updatedAt": "2026-07-13T05:50:14.937Z"
   },
   "windsor-ai": {
     "sourceHash": "ca57ba55f02a5797",
     "zhDescription": "在 Codex 中使用 Windsor.ai，帮助处理文档、文件、合同和报告、Cloudflare、Workers、Pages、存储和网络服务、搜索、检索和查询、分析、洞察和报表、销售线索、销售管道和外联。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.361Z"
+    "updatedAt": "2026-07-13T05:50:15.076Z"
   },
   "wix": {
     "sourceHash": "499e0b89415525de",
     "zhDescription": "在 Codex 中使用 Wix，帮助处理全栈、前端或后端应用开发、CLI 工作流、图表、仪表盘、地图和 WebGL/Three.js 可视化、创建、更新、管理和整理，覆盖 wix、wix-cli、wix-mcp、ecommerce、cms 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.491Z"
+    "updatedAt": "2026-07-13T05:50:15.184Z"
   },
   "yepcode": {
     "sourceHash": "06220b1d80049872",
     "zhDescription": "在 Codex 中使用 YepCode，帮助处理数据库、Schema 和记录管理。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.606Z"
+    "updatedAt": "2026-07-13T05:50:15.311Z"
   },
   "zoho": {
     "sourceHash": "93ed7281fc406cbd",
     "zhDescription": "Zoho CRM是一款AI驱动的销售软件，帮助各种规模的企业更好地管理销售流程；它具备SFA功能、高级自动化、易用的界面、深度分析和强大的自定义能力，能够真正理解您的业务。通过Codex，您只需通过提示即可扩展Zoho CRM的功能——您的业务，您的Zoho CRM，由Codex赋能。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:25.742Z"
+    "updatedAt": "2026-07-13T05:50:15.429Z"
   },
   "zoom": {
     "sourceHash": "53cd2d5032bb7927",
     "zhDescription": "在 Codex 中使用 Zoom，帮助处理 SDK 开发、日程、会议和参会人跟进，覆盖 zoom、codex-plugin、connector、meetings、transcripts 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:25.856Z"
+    "updatedAt": "2026-07-13T05:50:15.520Z"
   },
   "zoominfo": {
     "sourceHash": "d79c3fa8440efae6",
     "zhDescription": "在 ChatGPT 中访问 ZoomInfo 的数据和 AI 上下文，直接在对话中获取客户挖掘、账户调研、验证联系人、购买信号等功能。",
     "status": "deepseek",
-    "updatedAt": "2026-07-12T05:40:25.977Z"
+    "updatedAt": "2026-07-13T05:50:15.648Z"
   },
   "zotero": {
     "sourceHash": "023b0a2e7007a508",
     "zhDescription": "在 Codex 中使用 Zotero，帮助处理数据库、Schema 和记录管理，覆盖 zotero、citations、bibliography、bibtex、references 等关键词。",
     "status": "fallback",
     "fallbackVersion": 4,
-    "updatedAt": "2026-07-12T05:40:26.104Z"
+    "updatedAt": "2026-07-13T05:50:15.744Z"
   }
 }
