@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-07-13T05:50:15.744Z",
+    "generatedAt": "2026-07-14T05:11:50.841Z",
     "count": 192,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
@@ -980,7 +980,7 @@
         "CLI",
         "Codex"
       ],
-      "homepage": "",
+      "homepage": "https://clickup.com",
       "officialInfo": "",
       "repository": "https://github.com/openai/plugins",
       "brandColor": "#111827",
