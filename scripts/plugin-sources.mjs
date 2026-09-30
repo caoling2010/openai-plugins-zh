@@ -25,9 +25,9 @@ export function toSupplementalManifestItems(data) {
 export function assertPluginCountNotDropped(
   previousCount,
   nextCount,
-  { allowedDropRatio = 0.1, allowDrop = false } = {},
+  { allowedDropRatio = 0.1, allowDrop = false, sourceIsComplete = false } = {},
 ) {
-  if (allowDrop || !previousCount) return;
+  if (allowDrop || sourceIsComplete || !previousCount) return;
   const minimumExpected = Math.floor(previousCount * (1 - allowedDropRatio));
   if (nextCount < minimumExpected) {
     throw new Error(

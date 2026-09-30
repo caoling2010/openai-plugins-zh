@@ -76,6 +76,9 @@ async function fetchJson(url) {
 
 async function listManifestItemsFromApi() {
   const tree = await fetchJson(githubTreeUrl);
+  if (tree.truncated) {
+    throw new Error("GitHub API returned a truncated plugin tree");
+  }
   return tree.tree
     .filter((item) => item.type === "blob")
     .map((item) => item.path)
@@ -139,6 +142,7 @@ async function findManifestItemsFromClone() {
     await walk(pluginsDir);
     return {
       items: paths.sort((a, b) => a.path.localeCompare(b.path)),
+      isComplete: true,
       cleanup: () => rm(cloneDir, { recursive: true, force: true }),
     };
   } catch (error) {
@@ -151,6 +155,7 @@ async function listManifestItems() {
   try {
     return {
       items: await listManifestItemsFromApi(),
+      isComplete: true,
       cleanup: async () => {},
     };
   } catch (error) {
@@ -351,7 +356,10 @@ const previousPluginData = await readJson(pluginsPath, { plugins: [] });
 assertPluginCountNotDropped(
   previousPluginData.plugins?.length ?? 0,
   result.plugins.length,
-  { allowDrop: process.env.ALLOW_PLUGIN_COUNT_DROP === "1" },
+  {
+    allowDrop: process.env.ALLOW_PLUGIN_COUNT_DROP === "1",
+    sourceIsComplete: manifestSource.isComplete,
+  },
 );
 await writeJson(pluginsPath, {
   meta: result.meta,

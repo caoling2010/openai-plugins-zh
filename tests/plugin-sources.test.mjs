@@ -89,3 +89,9 @@ test("rejects an unexpected plugin count drop", () => {
     assertPluginCountNotDropped(184, 100, { allowDrop: true }),
   );
 });
+
+test("accepts a large count drop from a complete official source", () => {
+  assert.doesNotThrow(() =>
+    assertPluginCountNotDropped(192, 70, { sourceIsComplete: true }),
+  );
+});
