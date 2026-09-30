@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 
 import { normalizeManifest } from "./plugin-data.mjs";
 import {
+  applySupplementalPresentation,
   assertPluginCountNotDropped,
   mergeManifestItems,
   resolveFirstSeenAt,
@@ -101,7 +102,10 @@ async function fetchManifest(item) {
   }
   const blob = await fetchJson(item.url);
   const raw = Buffer.from(blob.content, blob.encoding).toString("utf8");
-  return JSON.parse(raw);
+  return applySupplementalPresentation(
+    JSON.parse(raw),
+    item.supplementalManifest,
+  );
 }
 
 async function findManifestItemsFromClone() {

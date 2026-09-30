@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 
 import {
   assertPluginCountNotDropped,
+  applySupplementalPresentation,
   mergeManifestItems,
   resolveFirstSeenAt,
   toSupplementalManifestItems,
@@ -47,6 +48,44 @@ test("public manifests take precedence over supplemental snapshots", () => {
 
   assert.equal(merged.length, 1);
   assert.equal(merged[0].url, "https://api.github.test/product-design");
+  assert.equal(merged[0].supplementalManifest, supplementalItem.manifest);
+});
+
+test("uses supplemental role-plugin presentation metadata with current public content", () => {
+  const merged = applySupplementalPresentation(
+    {
+      name: "product-design",
+      description: "Current public description",
+      interface: {
+        category: "Creativity",
+        websiteURL: "https://openai.com/",
+        logo: "./assets/logo.png",
+      },
+    },
+    {
+      name: "product-design",
+      homepage: "https://chatgpt.com/plugins/share/example",
+      releasedAt: "2026-06-02T00:00:00.000Z",
+      interface: {
+        category: "Featured",
+        websiteURL: "https://chatgpt.com/plugins/share/example",
+        officialInfoURL: "https://openai.com/index/codex-for-every-role-tool-workflow/",
+        logo: "assets/logos/product-design.png",
+        brandColor: "#FF66AD",
+      },
+    },
+  );
+
+  assert.equal(merged.description, "Current public description");
+  assert.equal(merged.homepage, "https://chatgpt.com/plugins/share/example");
+  assert.equal(merged.releasedAt, "2026-06-02T00:00:00.000Z");
+  assert.deepEqual(merged.interface, {
+    category: "Featured",
+    websiteURL: "https://chatgpt.com/plugins/share/example",
+    officialInfoURL: "https://openai.com/index/codex-for-every-role-tool-workflow/",
+    logo: "assets/logos/product-design.png",
+    brandColor: "#FF66AD",
+  });
 });
 
 test("supplemental snapshots are treated as existing plugins", () => {

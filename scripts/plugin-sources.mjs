@@ -5,12 +5,37 @@ export function mergeManifestItems(primaryItems, supplementalItems) {
     merged.set(item.name ?? item.manifest.name, item);
   }
   for (const item of primaryItems) {
-    merged.set(item.name ?? item.manifest.name, item);
+    const name = item.name ?? item.manifest.name;
+    const supplementalItem = merged.get(name);
+    merged.set(name, {
+      ...item,
+      supplementalManifest: supplementalItem?.manifest,
+    });
   }
 
   return [...merged.values()].sort((a, b) =>
     (a.name ?? a.manifest.name).localeCompare(b.name ?? b.manifest.name),
   );
+}
+
+export function applySupplementalPresentation(manifest, supplementalManifest) {
+  if (!supplementalManifest) return manifest;
+
+  const interfaceMetadata = supplementalManifest.interface ?? {};
+  return {
+    ...manifest,
+    homepage: supplementalManifest.homepage ?? manifest.homepage,
+    releasedAt: supplementalManifest.releasedAt ?? manifest.releasedAt,
+    interface: {
+      ...(manifest.interface ?? {}),
+      category: interfaceMetadata.category ?? manifest.interface?.category,
+      websiteURL: interfaceMetadata.websiteURL ?? manifest.interface?.websiteURL,
+      officialInfoURL:
+        interfaceMetadata.officialInfoURL ?? manifest.interface?.officialInfoURL,
+      logo: interfaceMetadata.logo ?? manifest.interface?.logo,
+      brandColor: interfaceMetadata.brandColor ?? manifest.interface?.brandColor,
+    },
+  };
 }
 
 export function toSupplementalManifestItems(data) {
