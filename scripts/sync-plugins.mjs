@@ -332,6 +332,7 @@ async function buildPlugins() {
   plugins.sort((a, b) => a.name.localeCompare(b.name));
 
   return {
+    sourceIsComplete: manifestSource.isComplete,
     meta: {
       source: "https://github.com/openai/plugins",
       supplementalSource: "Official Codex system plugin metadata snapshots",
@@ -358,7 +359,7 @@ assertPluginCountNotDropped(
   result.plugins.length,
   {
     allowDrop: process.env.ALLOW_PLUGIN_COUNT_DROP === "1",
-    sourceIsComplete: manifestSource.isComplete,
+    sourceIsComplete: result.sourceIsComplete,
   },
 );
 await writeJson(pluginsPath, {
