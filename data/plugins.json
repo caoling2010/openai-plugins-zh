@@ -2,7 +2,7 @@
   "meta": {
     "source": "https://github.com/openai/plugins",
     "supplementalSource": "Official Codex system plugin metadata snapshots",
-    "generatedAt": "2026-10-06T09:06:42.479Z",
+    "generatedAt": "2026-10-07T08:51:53.041Z",
     "count": 70,
     "translationProvider": "deepseek",
     "translationModel": "deepseek-chat",
@@ -27,7 +27,7 @@
       "sourcePath": "plugins/adobe/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-09-30T02:30:41.284Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "airtable",
@@ -374,7 +374,7 @@
       "sourcePath": "plugins/chatcut/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-09-30T02:30:41.284Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "chrome",
@@ -591,7 +591,7 @@
       "sourcePath": "plugins/consensus/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-09-30T02:30:41.284Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "creative-production",
@@ -747,7 +747,7 @@
       "sourcePath": "plugins/dropbox/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-09-30T02:30:41.284Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "expo",
@@ -1039,7 +1039,7 @@
       "sourcePath": "plugins/higgsfield/.codex-plugin/plugin.json",
       "translationStatus": "deepseek",
       "firstSeenAt": "2026-09-30T02:30:41.284Z",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "hyperframes",
