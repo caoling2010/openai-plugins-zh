@@ -1,282 +1,282 @@
 {
   "adobe": {
     "firstSeenAt": "2026-09-30T02:30:41.284Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "airtable": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "atlassian-rovo": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "boltz-api-cli": {
     "firstSeenAt": "2026-06-23T06:30:13.361Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "browser": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "build-ios-apps": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "build-macos-apps": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "build-web-apps": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "build-web-data-visualization": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "canva": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "chatcut": {
     "firstSeenAt": "2026-09-30T02:30:41.284Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "chrome": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "circleci": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "clickup": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "cloudflare": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "coderabbit": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "codex-security": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "computer-use": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "consensus": {
     "firstSeenAt": "2026-09-30T02:30:41.284Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "creative-production": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "data-analytics": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "datadog": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "documents": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "dropbox": {
     "firstSeenAt": "2026-09-30T02:30:41.284Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "expo": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "figma": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "game-studio": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "github": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "gmail": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "google-calendar": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "google-drive": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "granola": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "higgsfield": {
     "firstSeenAt": "2026-09-30T02:30:41.284Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "hyperframes": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "investment-banking": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "life-science-research": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "linear": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "lovable": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "magicpath": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "mixpanel-headless": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "monday-com": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "ngs-analysis": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "notion": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "nvidia": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "openai-ads-conversions": {
     "firstSeenAt": "2026-06-19T07:33:12.491Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "openai-developers": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "outlook-calendar": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "outlook-email": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "plugin-eval": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "posthog": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "presentations": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "product-design": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "public-equity-investing": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "remotion": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "sales": {
     "firstSeenAt": "2026-06-02T00:00:00.000Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "sentry": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "sharepoint": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "shopify": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "slack": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "spreadsheets": {
     "firstSeenAt": "2026-05-29T13:28:45.447Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "stripe": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "supabase": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "superpowers": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "teams": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "temporal": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "test-android-apps": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "twilio-developer-kit": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "vercel": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "zoom": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   },
   "zotero": {
     "firstSeenAt": "2026-05-21T13:23:06.577Z",
-    "lastSeenAt": "2026-10-26T07:54:45.134Z"
+    "lastSeenAt": "2026-10-27T08:01:19.423Z"
   }
 }
